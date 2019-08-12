@@ -1,2 +1,4 @@
-# TEND-SECURE
-TEND SECURE 產品中文書
+# LYNX INDOOR 2
+
+LYNX INDOOR 2 歡迎中文書
+
