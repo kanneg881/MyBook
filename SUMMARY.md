@@ -17,4 +17,6 @@
 ## Vim
 
 * [普通模式指令](vim/pu-tong-mo-shi-zhi-ling.md)
+* [插入模式指令](vim/cha-ru-mo-shi-zhi-ling.md)
+* [Ex命令模式指令](vim/ex-ming-ling-mo-shi-zhi-ling.md)
 
