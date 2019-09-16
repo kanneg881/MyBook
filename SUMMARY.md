@@ -1,6 +1,7 @@
 # Table of contents
 
-* [目錄](README.md)
+* [請先讀我](README.md)
+* [目錄](mu-lu.md)
 
 ## LYNX INDOOR2 <a id="lynx-indoor2-1"></a>
 
