@@ -43,11 +43,11 @@
 ## 替代
 
 指令  
-`:%s/from/to/sign`
+`:%s/from/to/flags`
 
 `from` 和 `to` 都適用正規表達式
 
-### sign
+### flags
 
 全域搜尋  
 `global`
