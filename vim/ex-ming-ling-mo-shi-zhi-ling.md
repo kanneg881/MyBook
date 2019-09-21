@@ -40,3 +40,15 @@
 貼上暫存器內容到游標下方  
 `:put {register}` 
 
+## 替代
+
+指令  
+`:%s/from/to/sign`
+
+`from` 和 `to` 都適用正規表達式
+
+### sign
+
+全域搜尋  
+`global`
+
