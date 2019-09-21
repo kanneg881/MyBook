@@ -25,4 +25,5 @@
 * [設定 help 文件中文版](vim/she-ding-help-wen-jian-zhong-wen-ban.md)
 * [設定環境指令](vim/she-ding-huan-jing-zhi-ling.md)
 * [函數庫](vim/han-shu-ku.md)
+* [外掛推薦](vim/wai-gua-tui-jian.md)
 
