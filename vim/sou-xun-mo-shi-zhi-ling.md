@@ -89,5 +89,14 @@ very nomagic 搜尋模式，消除特殊字元含義例如 `.?*`
 
 ## vimgrep
 
+把找到的匹配放到 quickfix 列表  
+`:vimgrep /{pattern}/[g][j] {files}`
+
+ 正向遍歷 quickfix 列表  
+`:cnext`
+
+反向遍歷 quickfix 列表  
+`:cprev`
+
 
 
