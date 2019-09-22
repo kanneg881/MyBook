@@ -75,9 +75,9 @@ very nomagic 搜尋模式，消除特殊字元含義例如 `.?*`
 ## 替代
 
 指令  
-`:%s/from/to/flags`
+`:[range]s[ubstitute]/{pattern}/{string}/[flags]`
 
-`from` 和 `to` 都適用正規表達式
+`{pattern}` 和 `{string}` 都適用正規表達式
 
 ### flags
 
