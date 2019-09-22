@@ -74,7 +74,7 @@ very nomagic 搜尋模式，消除特殊字元含義例如 `.?*`
 
 ## 替代
 
-指令  
+搜尋一段文字，再用另一段文字將其替換  
 `:[range]s[ubstitute]/{pattern}/{string}/[flags]`
 
 `{pattern}` 和 `{string}` 都適用正規表達式
