@@ -41,6 +41,10 @@ very nomagic 搜尋模式，消除特殊字元含義例如 `.?*`
 搜尋一段文字，再用另一段文字將其替換  
 `:[range]s[ubstitute]/{pattern}/{string}/[flags]`
 
+使用最後一次 `:substitute` 相同的模式和替代字串  
+第二個 & 為使用最後一次的旗標  
+`:[range]&[&][flags] [count]`
+
 `{pattern}` 和 `{string}` 都適用正規表達式
 
 執行 `{Vim Script}` 表達式，並將返回的結果作為替換 `{string}`  
