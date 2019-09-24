@@ -41,6 +41,13 @@
 `:q[uit]`  
 退出當前視窗。如果是最後的一個，退出 Vim。
 
+`:[range]sor[t][!] [b][f][i][n][o][r][u][x] [/{pattern}/]`  
+給 `[range]` 裡的行排序。如果沒有指定行範圍，給所有行排序。
+
+`:[range]> [flags]`  
+將 `[range]` 指定的行右移 'shiftwidth' 列  
+多個 '&gt;' 右移 多個 'shiftwidth' 列
+
 ## 設定變數
 
 設定變數 i 等於 0  
@@ -87,14 +94,15 @@
 
 ## :global
 
+`:[range]g[lobal]/{pattern}/[cmd]`  
 在 `[range]` （缺省是 `%` 作用整個文件）界定的匹配模式  
 `{pattern}` 的文本行上執行 Ex 命令 `[cmd]` \(缺省是 `:p` \)  
-`:[range]g[lobal]/{pattern}/[cmd]`
+`[cmd]` 前面可以接受 `[range]`
 
+`:[range]g[lobal]!/{pattern}/[cmd]`  
 在 `[range]` （缺省是 `%` 作用整個文件）界定的不匹配模式  
-`{pattern}` 的文本行上執行 Ex 命令 `[cmd]` \(缺省是 `:p` \)  
-`:[range]g[lobal]!/{pattern}/[cmd]`
+`{pattern}` 的文本行上執行 Ex 命令 `[cmd]` \(缺省是 `:p` \)
 
-等同於 `:g!`  
-`:[range]v[global]/{pattern}/[cmd]`
+`:[range]v[global]/{pattern}/[cmd]`  
+等同於 `:g!`
 

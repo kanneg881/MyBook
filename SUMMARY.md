@@ -22,6 +22,7 @@
 * [插入模式指令](vim/cha-ru-mo-shi-zhi-ling.md)
 * [Ex命令模式指令](vim/ex-ming-ling-mo-shi-zhi-ling/README.md)
   * [\[range\] {address}](vim/ex-ming-ling-mo-shi-zhi-ling/range.md)
+  * [ex-flags](vim/ex-ming-ling-mo-shi-zhi-ling/ex-flags.md)
   * [設定環境指令](vim/ex-ming-ling-mo-shi-zhi-ling/she-ding-huan-jing-zhi-ling.md)
 * [搜尋模式指令](vim/sou-xun-mo-shi-zhi-ling/README.md)
   * [{pattern}](vim/sou-xun-mo-shi-zhi-ling/pattern.md)
