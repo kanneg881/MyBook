@@ -50,3 +50,16 @@
 貼上暫存器內容到游標下方  
 `:put {register}` 
 
+## :cfdo
+
+在 quickfix 列表的每個文件上執行 `{cmd}`  
+`:cfdo[!] {cmd}`
+
+工作方式相當於：  
+`:cfirst  
+:{cmd}  
+:cnfile  
+:{cmd}`  
+等等  
+此外，和`:cdo` 相同。
+
