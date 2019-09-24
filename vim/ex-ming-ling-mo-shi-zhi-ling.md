@@ -73,3 +73,16 @@
 等等  
 此外，和`:cdo` 相同。
 
+## :global
+
+在 `[range]` （缺省是 `%` 作用整個文件）界定的匹配模式  
+`{pattern}` 的文本行上執行 Ex 命令 `[cmd]` \(缺省是 `:p` \)  
+`:[range]g[lobal]/{pattern}/[cmd]`
+
+在 `[range]` （缺省是 `%` 作用整個文件）界定的不匹配模式  
+`{pattern}` 的文本行上執行 Ex 命令 `[cmd]` \(缺省是 `:p` \)  
+`:[range]g[lobal]!/{pattern}/[cmd]`
+
+等同於 `:g!`  
+`:[range]v[global]/{pattern}/[cmd]`
+
