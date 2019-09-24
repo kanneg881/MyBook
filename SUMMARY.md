@@ -22,10 +22,10 @@
 * [插入模式指令](vim/cha-ru-mo-shi-zhi-ling.md)
 * [Ex命令模式指令](vim/ex-ming-ling-mo-shi-zhi-ling/README.md)
   * [\[range\] {address}](vim/ex-ming-ling-mo-shi-zhi-ling/range.md)
+  * [設定環境指令](vim/ex-ming-ling-mo-shi-zhi-ling/she-ding-huan-jing-zhi-ling.md)
 * [搜尋模式指令](vim/sou-xun-mo-shi-zhi-ling/README.md)
   * [{pattern}](vim/sou-xun-mo-shi-zhi-ling/pattern.md)
 * [設定 help 文件中文版](vim/she-ding-help-wen-jian-zhong-wen-ban.md)
-* [設定環境指令](vim/she-ding-huan-jing-zhi-ling.md)
 * [函數庫](vim/han-shu-ku.md)
 * [外掛推薦](vim/wai-gua-tui-jian.md)
 
