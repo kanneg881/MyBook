@@ -21,7 +21,7 @@
 * [普通模式指令](vim/pu-tong-mo-shi-zhi-ling.md)
 * [插入模式指令](vim/cha-ru-mo-shi-zhi-ling.md)
 * [Ex命令模式指令](vim/ex-ming-ling-mo-shi-zhi-ling/README.md)
-  * [\[range\]](vim/ex-ming-ling-mo-shi-zhi-ling/range.md)
+  * [\[range\] {address}](vim/ex-ming-ling-mo-shi-zhi-ling/range.md)
 * [搜尋模式指令](vim/sou-xun-mo-shi-zhi-ling/README.md)
   * [{pattern}](vim/sou-xun-mo-shi-zhi-ling/pattern.md)
 * [設定 help 文件中文版](vim/she-ding-help-wen-jian-zhong-wen-ban.md)
