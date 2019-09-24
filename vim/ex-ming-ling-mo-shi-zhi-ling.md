@@ -16,6 +16,12 @@
 
 ## 編輯文件
 
+`:[range]co[py] {address}`  
+把 `[range]` 指定的行複製到 `{address}` 表示的行之下
+
+`:t`  
+和 `:copy` 等價
+
 抽出 `[range]` 所指定的行到暫存器 `[x]`  
 `:[range]y[ank] [x]`
 
