@@ -1,5 +1,8 @@
 # 設定環境指令
 
+如果想保留修改了的緩衝區但不寫回，打開 'hidden' 選項  
+`:set hidden`
+
 高亮顯示搜尋匹配  
 `:set hlsearch`
 
