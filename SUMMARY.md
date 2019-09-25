@@ -28,5 +28,6 @@
   * [{pattern}](vim/sou-xun-mo-shi-zhi-ling/pattern.md)
 * [設定 help 文件中文版](vim/she-ding-help-wen-jian-zhong-wen-ban.md)
 * [函數庫](vim/han-shu-ku.md)
-* [外掛推薦](vim/wai-gua-tui-jian.md)
+* [外掛推薦](vim/wai-gua-tui-jian/README.md)
+  * [ctags 簡易說明](vim/wai-gua-tui-jian/ctags-jian-yi-shui-ming.md)
 
