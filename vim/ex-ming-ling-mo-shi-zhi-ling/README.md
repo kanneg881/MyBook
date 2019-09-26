@@ -79,18 +79,48 @@
 貼上暫存器內容到游標下方  
 `:put {register}` 
 
-## :cfdo
+## Quickfix
 
+`:cnext`  
+跳轉到下一項
+
+`:cprev`  
+跳轉到上一項
+
+`:cfirst`  
+跳轉到第一項
+
+`:clast`  
+跳轉到最後一項
+
+`:cnfile`  
+跳轉到下一個文件中的第一項
+
+`:cpfile`  
+跳轉到上一個文件中的最後一項
+
+`:cc N`  
+跳轉到第 N 項
+
+`:copen`  
+打開 quickfix 視窗
+
+`:cclose`  
+關閉 quickfix 視窗
+
+`:cdo {cmd}`  
+在 quickfix 列表中的每一行執行 `{cmd}`
+
+`:cfdo[!] {cmd}`  
 在 quickfix 列表的每個文件上執行 `{cmd}`  
-`:cfdo[!] {cmd}`
+工作方式相當於：
 
-工作方式相當於：  
-`:cfirst  
-:{cmd}  
-:cnfile  
-:{cmd}`  
-等等  
-此外，和`:cdo` 相同。
+```text
+:cfirst
+:{cmd}
+:cnfile
+:{cmd}
+```
 
 ## :global
 
