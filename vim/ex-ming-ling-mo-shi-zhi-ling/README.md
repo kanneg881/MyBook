@@ -108,6 +108,14 @@
 `:cclose`  
 關閉 quickfix 視窗
 
+`:col[der] [count]`  
+到前一個舊的錯誤列表。如果指定 `[count]`  
+則執行 `[count]` 次。如果已經到達最舊的列表，則報錯。
+
+`:cnew[er] [count]`  
+到下一個新的錯誤列表。如果指定 `[count]`  
+則執行 `[count]` 次。如果已經到達最新的列表，則報錯。
+
 `:cdo {cmd}`  
 在 quickfix 列表中的每一行執行 `{cmd}`
 
