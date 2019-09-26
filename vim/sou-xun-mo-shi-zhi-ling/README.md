@@ -82,17 +82,27 @@ very nomagic 搜尋模式，消除特殊字元含義例如 `.?*`
 
 ## vimgrep
 
-把找到的匹配放到 quickfix 列表  
-`:vimgrep /{pattern}/[g][j] {files}`
+vim 內部的 grep
 
-打開 quickfix 視窗  
-`:copen`
+`:vimgrep /{pattern}/[g][j] {files}`  
+把找到的匹配放到 quickfix 列表
 
-正向遍歷 quickfix 列表  
-`:cnext`
+`:copen`  
+打開 quickfix 視窗
 
-反向遍歷 quickfix 列表  
-`:cprev`
+`:cnext`  
+正向遍歷 quickfix 列表
 
+`:cprev`  
+反向遍歷 quickfix 列表
 
+## grep
+
+外部的 grep，就像系統的 grep 指令
+
+`:gr[ep][!] [arguments]`
+
+### 參數
+
+-i 不區分大小寫
 
