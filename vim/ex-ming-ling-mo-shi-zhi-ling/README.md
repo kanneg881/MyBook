@@ -48,6 +48,16 @@
 將 `[range]` 指定的行右移 'shiftwidth' 列  
 多個 '&gt;' 右移 多個 'shiftwidth' 列
 
+## 查看
+
+`:files[!] [flags]  
+:buffers[!] [flags]  
+:ls[!] [flags]`  
+顯示所有緩衝區
+
+`[!]`   
+包括列表外緩衝區
+
 ## 設定變數
 
 設定變數 i 等於 0  
