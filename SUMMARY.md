@@ -19,6 +19,7 @@
 
 * [序](vim/xu.md)
 * [普通模式指令](vim/pu-tong-mo-shi-zhi-ling/README.md)
+  * [拼寫檢查器](vim/pu-tong-mo-shi-zhi-ling/pin-xie-jian-cha-qi.md)
   * [{motion}](vim/pu-tong-mo-shi-zhi-ling/motion.md)
 * [插入模式指令](vim/cha-ru-mo-shi-zhi-ling.md)
 * [Ex命令模式指令](vim/ex-ming-ling-mo-shi-zhi-ling/README.md)
