@@ -16,6 +16,12 @@
 
 ## 編輯文件
 
+`:pw[d]`  
+顯示當前目錄
+
+`:cd[!] {path}`  
+切換當前目錄為 `{path}`
+
 `:[range]co[py] {address}`  
 把 `[range]` 指定的行複製到 `{address}` 表示的行之下
 

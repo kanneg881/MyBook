@@ -12,6 +12,9 @@
 `:set nohlsearch`  
 禁用高亮顯示搜尋匹配
 
+:set spell  
+開啟拼寫檢查
+
 `:set smartcase`  
 智能的大小寫敏感
 
