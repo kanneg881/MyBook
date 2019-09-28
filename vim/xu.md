@@ -13,8 +13,6 @@
 $ vimtutor
 ```
 
-
-
 如果想看中文版的可以到這裡看安裝
 
 {% page-ref page="she-ding-help-wen-jian-zhong-wen-ban.md" %}
