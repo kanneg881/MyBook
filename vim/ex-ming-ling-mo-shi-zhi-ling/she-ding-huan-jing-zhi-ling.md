@@ -15,6 +15,19 @@
 `:set spell`  
 開啟拼寫檢查
 
+`:set spellfile`  
+可以指定拼寫文件的路徑  
+`zg` 和 `zw` 保存和刪除的位子  
+也可以指定多個
+
+```text
+setlocal spelling=~/.vim/spell/en.utf-8.add
+setlocal spelling=~/mySpell/myWord.utf-8.add
+```
+
+`1zg` 代表存在 en.utf-8.add  
+`2zg` 代表存在 myWord.utf-8.add
+
 `:set spelllang`  
 設定拼寫語言  
 例如  
