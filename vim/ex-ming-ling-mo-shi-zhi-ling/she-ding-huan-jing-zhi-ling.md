@@ -9,8 +9,8 @@
 `:set ignorecase`  
 是否不區分大小寫
 
-`:set nohlsearch`  
-禁用高亮顯示搜尋匹配
+`:set number`  
+顯示行號
 
 `:set spell`  
 開啟拼寫檢查
