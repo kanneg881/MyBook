@@ -44,3 +44,30 @@ sts softtabstop 為符合 ts 空格是就變成 tab
 sw shiftwidth 為縮排所需的 Space 個數  
 et exandtab 為插入空白
 
+## :setlocal 跟 :set
+
+`:setlocal`  
+只會影響當前視窗或緩衝區
+
+`;set`  
+全局影響
+
+## 特殊符號
+
+有些設定在前面加 no 就會關閉此功能  
+例如
+
+```text
+:set spell
+:set nospell
+```
+
+`:set spell!`  
+加 ! 就會反轉該設定，開變關，關變開
+
+`:set spell?`  
+加 ? 就可以獲得該設定的狀態
+
+`:set spell?`  
+將該設定設定成預設值
+
