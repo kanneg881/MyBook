@@ -19,6 +19,12 @@
 `:[range]co[py] {address}`  
 把 `[range]` 指定的行複製到 `{address}` 表示的行之下
 
+`:[range]m[ove] {address}`  
+把 `[range]` 指定的行移動到 `{address}` 表示的行之下
+
+`[range]j[oin][!] [flags]`  
+連接 `[range]` 範圍的行
+
 `:t`  
 和 `:copy` 等價
 
@@ -80,14 +86,14 @@
 
 ## 暫存器
 
-顯示暫存器清單  
 `:reg`  
-  
+顯示暫存器清單
+
+`:reg {register}`  
 顯示指定暫存器  
-`:reg {register}`   
   
-貼上暫存器內容到游標下方  
-`:put {register}` 
+`:[line]pu[t] [x]`  
+放置文本 \[從寄存器 x\] 在行號 \[line\] \(缺省為當前行\) 之後
 
 ## :global
 
@@ -102,6 +108,11 @@
 
 `:[range]v[global]/{pattern}/[cmd]`  
 等同於 `:g!`
+
+## :normal
+
+`:{range}norm[al][!] {commands}`   
+在 `{range}` 指定的範圍中的每行執行若干普通模式命令 `{commands}`
 
 ## :source
 
