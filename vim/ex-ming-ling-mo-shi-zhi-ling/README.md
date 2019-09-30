@@ -95,57 +95,6 @@
 貼上暫存器內容到游標下方  
 `:put {register}` 
 
-## Quickfix
-
-`:cnext`  
-跳轉到下一項
-
-`:cprev`  
-跳轉到上一項
-
-`:cfirst`  
-跳轉到第一項
-
-`:clast`  
-跳轉到最後一項
-
-`:cnfile`  
-跳轉到下一個文件中的第一項
-
-`:cpfile`  
-跳轉到上一個文件中的最後一項
-
-`:cc N`  
-跳轉到第 N 項
-
-`:copen`  
-打開 quickfix 視窗
-
-`:cclose`  
-關閉 quickfix 視窗
-
-`:col[der] [count]`  
-到前一個舊的錯誤列表。如果指定 `[count]`  
-則執行 `[count]` 次。如果已經到達最舊的列表，則報錯。
-
-`:cnew[er] [count]`  
-到下一個新的錯誤列表。如果指定 `[count]`  
-則執行 `[count]` 次。如果已經到達最新的列表，則報錯。
-
-`:cdo {cmd}`  
-在 quickfix 列表中的每一行執行 `{cmd}`
-
-`:cfdo[!] {cmd}`  
-在 quickfix 列表的每個文件上執行 `{cmd}`  
-工作方式相當於：
-
-```text
-:cfirst
-:{cmd}
-:cnfile
-:{cmd}
-```
-
 ## :global
 
 `:[range]g[lobal]/{pattern}/[cmd]`  
@@ -159,34 +108,4 @@
 
 `:[range]v[global]/{pattern}/[cmd]`  
 等同於 `:g!`
-
-## tags
-
-`:tags {keyword}`  
-跳到第一個匹配 `{keyword}` 的標籤處
-
-`:tjump {keyword}`  
-如果標籤匹配到多處，則跳到指定匹配 {keyword} 標籤處  
-如果只有一處，直接跳到那處
-
-`:tag`  
-正向遍歷標籤歷史
-
-`:pop`  
-反向遍歷標籤歷史
-
-`:tselect`  
-調用標籤匹配列表
-
-`:tnext`  
-跳到下一個匹配的標籤
-
-`:tprev`  
-跳到上一個匹配的標籤
-
-`:tfirst`  
-跳到第一個匹配的標籤
-
-`:tlast`  
-跳到最後一個匹配的標籤
 

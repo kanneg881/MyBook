@@ -26,6 +26,8 @@
 * [Ex命令模式指令](vim/ex-ming-ling-mo-shi-zhi-ling/README.md)
   * [\[range\] {address}](vim/ex-ming-ling-mo-shi-zhi-ling/range.md)
   * [ex-flags](vim/ex-ming-ling-mo-shi-zhi-ling/ex-flags.md)
+  * [Quickfix](vim/ex-ming-ling-mo-shi-zhi-ling/quickfix.md)
+  * [tags](vim/ex-ming-ling-mo-shi-zhi-ling/tags.md)
   * [設定環境指令](vim/ex-ming-ling-mo-shi-zhi-ling/she-ding-huan-jing-zhi-ling.md)
 * [搜尋模式指令](vim/sou-xun-mo-shi-zhi-ling/README.md)
   * [{pattern}](vim/sou-xun-mo-shi-zhi-ling/pattern.md)
@@ -33,4 +35,5 @@
 * [函數庫](vim/han-shu-ku.md)
 * [外掛推薦](vim/wai-gua-tui-jian/README.md)
   * [ctags 簡易說明](vim/wai-gua-tui-jian/ctags-jian-yi-shui-ming.md)
+* [什麼是 vimrc](vim/shen-me-shi-vimrc.md)
 
