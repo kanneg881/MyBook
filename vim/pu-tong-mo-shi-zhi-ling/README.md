@@ -58,8 +58,14 @@
 `y{motion}`  
 複製
 
+`gu{motion}`  
+使 `{motion}` 跨越的文本成為小寫
+
 `gU{motion}`  
-將文字轉換成大寫
+使 `{motion}` 跨越的文本成為大寫
+
+`g~{motion}`  
+切換 `{motion}` 跨越的文本的大小寫
 
 `>{motion}`  
 將 `{motion}` 跨越的行右移 shiftwidth 列。
