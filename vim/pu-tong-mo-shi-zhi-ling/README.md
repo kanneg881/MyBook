@@ -46,23 +46,26 @@
 
 ## 修改文字
 
-切換大小寫  
-`~`
+`~`  
+切換大小寫
 
-刪除  
-`d{motion}`
+`x`  
+刪除游標下的字元
 
-複製  
-`y{motion}`
+`d{motion}`  
+刪除
 
-將文字轉換成大寫  
-`gU{motion}`
+`y{motion}`  
+複製
 
-從游標開始往後找的第一個數字加 count  
-`[count]<Ctrl-a>`
+`gU{motion}`  
+將文字轉換成大寫
 
-從游標開始往後找的第一個數字減 count  
-`[count]<Ctrl-x>`
+`[count]<Ctrl-a>`  
+從游標開始往後找的第一個數字加 count
+
+`[count]<Ctrl-x>`  
+從游標開始往後找的第一個數字減 count
 
 ## 重複指令
 
