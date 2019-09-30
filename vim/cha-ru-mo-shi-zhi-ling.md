@@ -27,6 +27,15 @@
 詳細的編碼可以查看幫助文件  
 `:h i_CTRL-V_dight`
 
+&lt;Ctrl-k&gt;{char1}{char2}  
+二合字母，由兩個字元組成的字元  
+可以輸入以下指令查看列表，兩者皆可
+
+```text
+:digraphs
+:h digraph-table
+```
+
 ## 暫存器
 
 `<Ctrl-r>{register}` 插入暫存器的內容
