@@ -12,6 +12,18 @@
 `:set number`  
 顯示行號
 
+`:set smartcase`  
+智能的大小寫敏感
+
+`:set ts=number sts=number sw=number et`  
+number 為數字  
+ts tabstop 為 tab 空格數  
+sts softtabstop 為符合 ts 空格是就變成 tab  
+sw shiftwidth 為縮排所需的 Space 個數  
+et exandtab 為插入空白
+
+## 拼寫
+
 `:set spell`  
 開啟拼寫檢查
 
@@ -33,16 +45,6 @@ setlocal spelling=~/mySpell/myWord.utf-8.add
 例如  
 `:set spelllang=en_us,nl`  
 設定為美式英語、荷蘭語
-
-`:set smartcase`  
-智能的大小寫敏感
-
-`:set ts=number sts=number sw=number et`  
-number 為數字  
-ts tabstop 為 tab 空格數  
-sts softtabstop 為符合 ts 空格是就變成 tab  
-sw shiftwidth 為縮排所需的 Space 個數  
-et exandtab 為插入空白
 
 ## :setlocal 跟 :set
 
