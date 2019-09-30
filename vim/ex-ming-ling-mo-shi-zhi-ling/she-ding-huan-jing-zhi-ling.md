@@ -37,3 +37,10 @@ setlocal spelling=~/mySpell/myWord.utf-8.add
 `:set smartcase`  
 智能的大小寫敏感
 
+`:set ts=number sts=number sw=number et`  
+number 為數字  
+ts tabstop 為 tab 空格數  
+sts softtabstop 為符合 ts 空格是就變成 tab  
+sw shiftwidth 為縮排所需的 Space 個數  
+et exandtab 為插入空白
+
