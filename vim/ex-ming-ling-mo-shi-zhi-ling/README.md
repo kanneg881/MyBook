@@ -109,3 +109,8 @@
 `:[range]v[global]/{pattern}/[cmd]`  
 等同於 `:g!`
 
+## :source
+
+`:so[urce] {file}`  
+從{file}裡讀取Ex命令，即“：”開頭的命令，並執行。
+
