@@ -5,7 +5,7 @@
 [https://github.com/nelstrom/vim-visual-star-search](https://github.com/nelstrom/vim-visual-star-search)
 
 ctags  
-掃描程式馬庫，生成關鍵字索引  
+掃描程式碼庫，生成關鍵字索引  
 可以快速跳到函數和類別定義之處  
 作者是安裝 Exuberant Ctags 版，不過好像很久沒更新了  
 還有一個 universal-ctags 持續更新，不過作者沒有研究  
