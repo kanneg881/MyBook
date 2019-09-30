@@ -61,6 +61,12 @@
 `gU{motion}`  
 將文字轉換成大寫
 
+`>{motion}`  
+將 `{motion}` 跨越的行右移 shiftwidth 列。
+
+`<{motion}`  
+將 `{motion}` 跨越的行左移 shiftwidth 列。
+
 `[count]<Ctrl-a>`  
 從游標開始往後找的第一個數字加 count
 
