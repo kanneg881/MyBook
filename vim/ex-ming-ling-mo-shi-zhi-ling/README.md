@@ -91,14 +91,7 @@
 `:let i = 0`  
   
 設定變數 i 等於 i + 1  
-`:let i += 1`  
-
-
-## 設定功能
-
-暫時禁用高亮顯示搜尋匹配  
-直到執行新的或重複搜尋命令為止  
-`:nohlsearch`
+`:let i += 1`
 
 ## 特殊符號
 
@@ -115,6 +108,15 @@
   
 `:[line]pu[t] [x]`  
 放置文本 \[從寄存器 x\] 在行號 \[line\] \(缺省為當前行\) 之後
+
+## shell
+
+`:!{cmd}`  
+在 vim 執行 shell 命令
+
+`:shell`  
+開啟 shell 互動式窗  
+`exit` 命令離開 shell 返回 vim
 
 ## :global
 
@@ -140,4 +142,21 @@
 `:so[urce] {file}`  
 從 {file} 裡讀取Ex命令，即“：”開頭的命令，並執行。  
 {file} 通常是 \*.vim 檔
+
+## 參數列表
+
+`:args`  
+顯示參數列表
+
+`:rew[ind] [++opt] [+cmd]`  
+開始編輯參數列表的第一個文件
+
+`:first`  
+:rewind 的別名
+
+`:[count]n[ext] [++opt] [+cmd]`  
+編輯向後第 `[count]` 個文件
+
+`:[range]argdo[!] {cmd}`  
+對參數列表裡的每個文件執行 `{cmd}`
 
