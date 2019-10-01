@@ -3,6 +3,9 @@
 `:set hidden`  
 如果想保留修改了的緩衝區但不寫回，打開 'hidden' 選項
 
+`:set history=[number]`  
+歷史命令數量為 `[number]`
+
 `:set hlsearch`  
 高亮顯示搜尋匹配
 
