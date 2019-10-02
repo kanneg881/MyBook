@@ -25,6 +25,7 @@
   * [拼寫檢查器](vim/pu-tong-mo-shi-zhi-ling/pin-xie-jian-cha-qi.md)
 * [插入模式指令](vim/cha-ru-mo-shi-zhi-ling.md)
 * [Ex命令模式指令](vim/ex-ming-ling-mo-shi-zhi-ling/README.md)
+  * [自動補齊](vim/ex-ming-ling-mo-shi-zhi-ling/zi-dong-bu-qi.md)
   * [\[range\] {address}](vim/ex-ming-ling-mo-shi-zhi-ling/range.md)
   * [視窗](vim/ex-ming-ling-mo-shi-zhi-ling/shi-chuang.md)
   * [ex-flags](vim/ex-ming-ling-mo-shi-zhi-ling/ex-flags.md)
