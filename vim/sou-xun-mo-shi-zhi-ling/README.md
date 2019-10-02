@@ -100,3 +100,11 @@ vim 內部的 grep
 
 -i 不區分大小寫
 
+## 尋找檔案
+
+`:fin[d][!] [++opt] [+cmd] {file}`  
+在 path 裡找到 `{file}` ，然後編輯 `:edit` 它  
+  
+`:set path+=path/**`  
+增加 path
+
