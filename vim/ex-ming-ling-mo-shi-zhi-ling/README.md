@@ -44,14 +44,17 @@
 `:[range]co[py] {address}`  
 把 `[range]` 指定的行複製到 `{address}` 表示的行之下
 
+`:t`  
+和 `:copy` 等價
+
 `:[range]m[ove] {address}`  
 把 `[range]` 指定的行移動到 `{address}` 表示的行之下
 
 `[range]j[oin][!] [flags]`  
 連接 `[range]` 範圍的行
 
-`:t`  
-和 `:copy` 等價
+`:e[dit] [++opt] [+cmd] {file}`  
+編輯文件 `{file}`
 
 `:[range]y[ank] [x]`  
 抽出 `[range]` 所指定的行到暫存器 `[x]`
@@ -59,8 +62,8 @@
 `:[range]d[elete] [x]`  
 刪除 `[range]` 範圍的行 \(缺省: 當前行\) \[到暫存器 x 裡\]
 
-`:w [path/file]`  
-存檔，可以加路徑和檔案名稱，沒加就是覆蓋當前檔案
+`:w[rite] [++opt]`  
+將整個緩衝區寫入當前文件
 
 `:wa[ll]`  
 保存所有已修改的緩衝區。沒有文件名的緩衝區會報錯。  
