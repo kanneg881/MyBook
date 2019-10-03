@@ -17,3 +17,9 @@ ctags
 universal-ctags github：  
 [https://github.com/universal-ctags/ctags](https://github.com/universal-ctags/ctags)
 
+外掛管理器，更方便安裝管理外掛  
+[https://github.com/VundleVim/Vundle.vim](https://github.com/VundleVim/Vundle.vim)
+
+自動補齊程式碼，使用外掛管理器輕鬆安裝  
+[https://tabnine.com](https://tabnine.com)
+
