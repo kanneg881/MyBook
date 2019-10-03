@@ -87,7 +87,7 @@ vim 內部的 grep
 `:vimgrep /{pattern}/[g][j] {files}`  
 把找到的匹配放到 quickfix 列表
 
-`g`  
+`[g]`  
 全域搜尋
 
 ## grep
