@@ -62,6 +62,12 @@
 `y{motion}`  
 複製
 
+`[count]u`  
+撤銷 `[count]` 次更改
+
+`[count]<Ctrl-r>`  
+重做 `[count]` 次被撤銷的更改
+
 `gu{motion}`  
 使 `{motion}` 跨越的文本成為小寫
 
