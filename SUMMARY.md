@@ -37,6 +37,7 @@
 * [設定 help 文件中文版](vim/she-ding-help-wen-jian-zhong-wen-ban.md)
 * [函數庫](vim/han-shu-ku.md)
 * [外掛推薦](vim/wai-gua-tui-jian/README.md)
+  * [vim-plug](vim/wai-gua-tui-jian/vim-plug.md)
   * [Vundle](vim/wai-gua-tui-jian/vundle.md)
   * [visual-star-search](vim/wai-gua-tui-jian/visual-star-search.md)
   * [ctags](vim/wai-gua-tui-jian/ctags-jian-yi-shui-ming.md)
