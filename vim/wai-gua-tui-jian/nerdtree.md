@@ -84,3 +84,14 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 | F | 檔案 |
 | B | 書籤 |
 
+### 其他
+
+| 指令 | 動作 |
+| :--- | :--- |
+| q | 關閉 NERDTree 視窗 |
+| A | 最大化或最小化視窗 |
+| ? | 切換幫助 |
+
+`:NERDTree [<start-directory> | <bookmark>]`  
+打開一個新的NERDTree
+
