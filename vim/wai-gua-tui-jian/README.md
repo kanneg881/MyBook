@@ -1,5 +1,7 @@
 # 插件推薦
 
-php 遵循 psr2 規範  
-[https://github.com/stephpy/vim-php-cs-fixer](https://github.com/stephpy/vim-php-cs-fixer)
+推薦幾個比較好用的插件  
+如果要安裝插件，建議先選擇插件管理器  
+再安裝其他插件比較方便  
+插件非必需安裝，覺得好用適合您在安裝即可
 
