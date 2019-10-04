@@ -28,3 +28,9 @@ $ vimtutor
 官網各種語言版本下載的網址（如果打不開請到官網自行尋找）  
 [https://www.vim.org/translations.php](https://www.vim.org/translations.php)
 
+## 勘誤
+
+如果作者有寫錯的地方，您可以上 GitHub 協助修改  
+或者寄信告知  
+信箱 : enjoygamecompany@gmail.com
+

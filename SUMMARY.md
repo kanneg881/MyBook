@@ -18,6 +18,7 @@
 ## Vim
 
 * [序](vim/xu.md)
+* [安裝](vim/an-zhuang.md)
 * [普通模式指令](vim/pu-tong-mo-shi-zhi-ling/README.md)
   * [移動](vim/pu-tong-mo-shi-zhi-ling/yi-dong.md)
   * [{motion}](vim/pu-tong-mo-shi-zhi-ling/motion.md)
