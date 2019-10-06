@@ -62,7 +62,8 @@
         <br />&#x9996;&#x500B;&#x6A19;&#x7C64;&#x9801;&#x5247;&#x8FF4;&#x7E5E;&#x5230;&#x6700;&#x5F8C;&#x4E00;&#x500B;</td>
     </tr>
     <tr>
-      <td style="text-align:left">:tabm[ove] [N]</td>
+      <td style="text-align:left"><code>:tabm[ove] [N]</code>
+      </td>
       <td style="text-align:left">
         <p>&#x628A;&#x7576;&#x524D;&#x6A19;&#x7C64;&#x9801;&#x79FB;&#x5230;
           <br />&#x7B2C; N &#x500B;&#x6A19;&#x7C64;&#x9801;&#x4E4B;&#x5F8C;</p>
