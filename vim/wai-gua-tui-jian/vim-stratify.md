@@ -11,6 +11,12 @@
 
 ## 簡易說明
 
+`:Startify`  
+打開 Startify 緩衝區
+
+`q`  
+關閉 Startify
+
 可以把 .vimrc 加入到書籤  
 把設定程式碼寫到 .vimrc
 
