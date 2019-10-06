@@ -38,6 +38,7 @@
 * [設定 help 文件中文版](vim/she-ding-help-wen-jian-zhong-wen-ban.md)
 * [函數庫](vim/han-shu-ku.md)
 * [插件推薦](vim/wai-gua-tui-jian/README.md)
+  * [ale](vim/wai-gua-tui-jian/ale.md)
   * [NERDTree](vim/wai-gua-tui-jian/nerdtree.md)
   * [php-cs-fixer](vim/wai-gua-tui-jian/php-cs-fixer.md)
   * [tabnine](vim/wai-gua-tui-jian/tabnine.md)
