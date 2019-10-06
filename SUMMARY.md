@@ -38,6 +38,7 @@
 * [設定 help 文件中文版](vim/she-ding-help-wen-jian-zhong-wen-ban.md)
 * [函數庫](vim/han-shu-ku.md)
 * [插件推薦](vim/wai-gua-tui-jian/README.md)
+  * [surround](vim/wai-gua-tui-jian/surround.md)
   * [NERD Comment](vim/wai-gua-tui-jian/untitled.md)
   * [Auto Pairs](vim/wai-gua-tui-jian/auto-pairs.md)
   * [vim stratify](vim/wai-gua-tui-jian/vim-stratify.md)
