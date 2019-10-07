@@ -31,6 +31,9 @@
 `<leader>ca`  
 切換註解符號
 
+`[count]<leader>cl`  
+對齊左側註解
+
 `[count]<leader>cu`  
 關閉註解
 
