@@ -1,4 +1,4 @@
-# vim stratify
+# stratify
 
 ## 介紹
 

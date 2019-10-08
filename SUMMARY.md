@@ -41,7 +41,7 @@
   * [surround](vim/wai-gua-tui-jian/surround.md)
   * [NERD Comment](vim/wai-gua-tui-jian/untitled.md)
   * [Auto Pairs](vim/wai-gua-tui-jian/auto-pairs.md)
-  * [vim stratify](vim/wai-gua-tui-jian/vim-stratify.md)
+  * [stratify](vim/wai-gua-tui-jian/vim-stratify.md)
   * [ale](vim/wai-gua-tui-jian/ale.md)
   * [NERDTree](vim/wai-gua-tui-jian/nerdtree.md)
   * [php-cs-fixer](vim/wai-gua-tui-jian/php-cs-fixer.md)
