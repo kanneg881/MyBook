@@ -14,11 +14,9 @@
 
 ## 簡易說明
 
-建議一併下載 airline-themes
+建議一併下載 [airline-themes](airline-themes.md)
 
-{% page-ref page="airline-themes.md" %}
-
-還有一個叫 powerline 類似 airline，是給終端使用的
+還有一個叫 powerline 是給終端使用的，airline 是其衍生的產品
 
 ## 配置 .vimrc
 
