@@ -56,3 +56,9 @@
   * [ctags](vim/wai-gua-tui-jian/ctags-jian-yi-shui-ming.md)
 * [什麼是 vimrc](vim/shen-me-shi-vimrc.md)
 
+## 終端
+
+* [插件推薦](zhong-duan/cha-jian-tui-jian/README.md)
+  * [外觀](zhong-duan/cha-jian-tui-jian/wai-guan/README.md)
+    * [powerline](zhong-duan/cha-jian-tui-jian/wai-guan/powerline.md)
+
