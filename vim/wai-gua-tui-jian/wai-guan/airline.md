@@ -14,10 +14,15 @@
 
 ## 簡易說明
 
-建議一併下載 airline-themes  
-還有終端有一個叫 powerline 類似 airline
+建議一併下載 airline-themes
+
+{% page-ref page="airline-themes.md" %}
+
+還有一個叫 powerline 類似 airline，是給終端使用的
 
 ## 配置 .vimrc
+
+此配置包含 airline themes 的配置，如果您沒下載 airline themes 配置只是浪費空間，不影響運作。
 
 ```text
 " 設定主題
