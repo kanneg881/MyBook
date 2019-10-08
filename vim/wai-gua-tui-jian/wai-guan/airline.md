@@ -3,19 +3,25 @@
 ## 介紹
 
 美觀狀態欄和標籤欄  
-還有一個叫 [powerline](../../../../zhong-duan/cha-jian-tui-jian/wai-guan/powerline.md) 是給終端使用的，airline 是其衍生的產品
+還有一個叫 [powerline](../../../zhong-duan/cha-jian-tui-jian/wai-guan/powerline.md) 是給終端使用的，airline 是其衍生的產品
 
-![demo](../../../../.gitbook/assets/demo.gif)
+![demo](../../../.gitbook/assets/demo.gif)
 
-![tab](../../../../.gitbook/assets/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f3330363530322f313037323632332f34.gif)
+![tab](../../../.gitbook/assets/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f3330363530322f313037323632332f34.gif)
 
 ## 下載
 
+### airline
+
 {% embed url="https://github.com/vim-airline/vim-airline" %}
+
+### airline themes
+
+{% embed url="https://github.com/vim-airline/vim-airline-themes" %}
 
 ## 簡易說明
 
-建議一併下載 [airline-themes](airline-themes.md)
+建議一併下載 airline-themes
 
 ## 配置 .vimrc
 
