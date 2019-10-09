@@ -2,7 +2,7 @@
 
 ## 介紹
 
-vim 的黑暗主題
+黑暗主題
 
 ![vim Dracula &#x4E3B;&#x984C;](../../../.gitbook/assets/vim.png)
 
