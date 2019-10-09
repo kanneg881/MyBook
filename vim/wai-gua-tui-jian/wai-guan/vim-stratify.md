@@ -1,9 +1,11 @@
-# stratify
+# startify
 
 ## 介紹
 
 讓 vim 剛開始的畫面更漂亮，並且顯示一些常用的檔案  
 方便快速開啟檔案，也可以自己定義自己常用的檔案
+
+![startify demo](../../../.gitbook/assets/startify-menu.png)
 
 ## 下載
 

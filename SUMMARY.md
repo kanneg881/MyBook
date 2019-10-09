@@ -40,7 +40,7 @@
 * [插件推薦](vim/wai-gua-tui-jian/README.md)
   * [外觀](vim/wai-gua-tui-jian/wai-guan/README.md)
     * [airline](vim/wai-gua-tui-jian/wai-guan/airline.md)
-    * [stratify](vim/wai-gua-tui-jian/wai-guan/vim-stratify.md)
+    * [startify](vim/wai-gua-tui-jian/wai-guan/vim-stratify.md)
     * [NERDTree](vim/wai-gua-tui-jian/wai-guan/nerdtree.md)
   * [deoplete](vim/wai-gua-tui-jian/deoplete.md)
   * [surround](vim/wai-gua-tui-jian/surround.md)
