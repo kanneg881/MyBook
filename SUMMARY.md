@@ -39,6 +39,7 @@
 * [函數庫](vim/han-shu-ku.md)
 * [插件推薦](vim/wai-gua-tui-jian/README.md)
   * [外觀](vim/wai-gua-tui-jian/wai-guan/README.md)
+    * [Dracula](vim/wai-gua-tui-jian/wai-guan/dracula.md)
     * [airline](vim/wai-gua-tui-jian/wai-guan/airline.md)
     * [startify](vim/wai-gua-tui-jian/wai-guan/vim-stratify.md)
     * [NERDTree](vim/wai-gua-tui-jian/wai-guan/nerdtree.md)
