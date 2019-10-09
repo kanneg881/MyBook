@@ -4,7 +4,7 @@
 
 vim 的黑暗主題
 
-![](../../../.gitbook/assets/vim.png)
+![vim Dracula &#x4E3B;&#x984C;](../../../.gitbook/assets/vim.png)
 
 ## 下載
 

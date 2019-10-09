@@ -60,5 +60,6 @@
 
 * [插件推薦](zhong-duan/cha-jian-tui-jian/README.md)
   * [外觀](zhong-duan/cha-jian-tui-jian/wai-guan/README.md)
+    * [Dracula](zhong-duan/cha-jian-tui-jian/wai-guan/dracula.md)
     * [powerline](zhong-duan/cha-jian-tui-jian/wai-guan/powerline.md)
 
