@@ -42,7 +42,7 @@ vim 可以用這個指令檢查服務狀態
 
 #### 安裝擴充功能
 
-`:CocInstall`  
+`:CocInstall {name}`  
 安裝擴充功能指令
 
 `:CocInstall coc-json`  
@@ -50,6 +50,9 @@ vim 可以用這個指令檢查服務狀態
 
 安裝其他擴充功能，可以到 npm 網站搜尋  
 [https://www.npmjs.com/search?q=keywords%3Acoc.nvim](https://www.npmjs.com/search?q=keywords%3Acoc.nvim)
+
+`:CocUninstall {name}`  
+解除安裝擴充指令
 
 #### 配置
 
