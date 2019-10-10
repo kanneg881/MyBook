@@ -39,6 +39,7 @@
 * [函數庫](vim/han-shu-ku.md)
 * [插件推薦](vim/wai-gua-tui-jian/README.md)
   * [代碼](vim/wai-gua-tui-jian/dai-ma/README.md)
+    * [coc-json](vim/wai-gua-tui-jian/dai-ma/coc-json.md)
     * [coc](vim/wai-gua-tui-jian/dai-ma/coc.md)
     * [deoplete](vim/wai-gua-tui-jian/dai-ma/deoplete.md)
     * [ale](vim/wai-gua-tui-jian/dai-ma/ale.md)
