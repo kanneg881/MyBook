@@ -7,7 +7,7 @@ ALE \(異步 Lint 引擎\) 是一個提供 linting \(語法檢查和語義錯誤
 
 ## 下載
 
-[https://github.com/dense-analysis/ale](https://github.com/dense-analysis/ale)
+{% embed url="https://github.com/dense-analysis/ale" %}
 
 ## 簡易說明
 

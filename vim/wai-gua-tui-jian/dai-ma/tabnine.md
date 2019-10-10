@@ -7,5 +7,5 @@
 
 ## 下載
 
-[https://tabnine.com](https://tabnine.com)
+{% embed url="https://tabnine.com" %}
 
