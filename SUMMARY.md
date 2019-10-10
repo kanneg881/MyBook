@@ -45,6 +45,7 @@
     * [tabnine](vim/wai-gua-tui-jian/dai-ma/tabnine.md)
     * [php-cs-fixer](vim/wai-gua-tui-jian/dai-ma/php-cs-fixer.md)
     * [NERD Comment](vim/wai-gua-tui-jian/dai-ma/untitled.md)
+    * [ctags](vim/wai-gua-tui-jian/dai-ma/ctags-jian-yi-shui-ming.md)
   * [外觀](vim/wai-gua-tui-jian/wai-guan/README.md)
     * [purity](vim/wai-gua-tui-jian/wai-guan/purity.md)
     * [Dracula](vim/wai-gua-tui-jian/wai-guan/dracula.md)
@@ -56,7 +57,6 @@
   * [vim-plug](vim/wai-gua-tui-jian/vim-plug.md)
   * [Vundle](vim/wai-gua-tui-jian/vundle.md)
   * [visual-star-search](vim/wai-gua-tui-jian/visual-star-search.md)
-  * [ctags](vim/wai-gua-tui-jian/ctags-jian-yi-shui-ming.md)
 * [什麼是 vimrc](vim/shen-me-shi-vimrc.md)
 
 ## 終端
