@@ -54,6 +54,9 @@ vim 可以用這個指令檢查服務狀態
 `:CocUninstall {name}`  
 解除安裝擴充指令
 
+`:CocUpdate`  
+升級所有擴充，升級前請確保確保coc為最新版本
+
 #### 配置
 
 目前作者只有配置 node 路徑和快捷鍵到 .vimrc  
@@ -128,5 +131,5 @@ diagnostic.displayByAle
 
 #### 安裝 watchman
 
-watchman 是用來檢查擴充檔案變動，自己更新用的
+watchman 是用來檢查擴充檔案變動，用來自動更新擴充
 
