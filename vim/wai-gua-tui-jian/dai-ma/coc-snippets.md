@@ -13,7 +13,7 @@
 
 ## 簡易說明
 
-語法片段插件官網說建議安裝 honza/vim-snippets  
+語法片段插件官網說建議安裝 [honza/vim-snippets](vim-snippets.md)  
 vim-snippets 包含很多語言，讀者可以看是否有您想要的  
 或者讀者可以自己尋找其他的語法片段插件
 
@@ -51,6 +51,8 @@ function name(type args)
 而下面的配置就是改成 &lt;Tab&gt; 跳下一個，還有按 &lt;Tab&gt; 擴展片段  
 例如輸入 f 按 &lt;Tab&gt; 就會跳出如上的程式碼
 
+{% code-tabs %}
+{% code-tabs-item title=".vimrc" %}
 ```text
 " 使用 <tab> 鍵觸發自動完成、確認、擴展片段、跳躍
 inoremap <silent><expr> <TAB>
@@ -66,4 +68,6 @@ endfunction
 
 let g:coc_snippet_next = '<tab>'
 ```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
