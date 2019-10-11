@@ -37,6 +37,21 @@
 下面舉例新增字體到 mac os 系統裡面  
 [https://support.apple.com/zh-tw/guide/font-book/fntbk1000/mac](https://support.apple.com/zh-tw/guide/font-book/fntbk1000/mac)
 
+新增字體之後配置 coc
+
+`:CocConfig`  
+打開 coc 配置文件
+
+{% code-tabs %}
+{% code-tabs-item title="coc-settings.json" %}
+```text
+{
+    "explorer.icon.enableNerdfont": true
+}
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
 ## 配置 .vimrc
 
 {% code-tabs %}
