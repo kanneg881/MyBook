@@ -34,7 +34,8 @@
 
 到[下載](coc-explorer.md#xia-zai)的 Nerd Fonts 安裝字體，選擇喜歡的下載就好
 
-下面舉例安裝到 mac os 系統裡面
+下面舉例新增字體到 mac os 系統裡面  
+[https://support.apple.com/zh-tw/guide/font-book/fntbk1000/mac](https://support.apple.com/zh-tw/guide/font-book/fntbk1000/mac)
 
 ## 配置 .vimrc
 
