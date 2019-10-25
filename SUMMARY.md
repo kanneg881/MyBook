@@ -72,4 +72,6 @@
     * [purity](zhong-duan/cha-jian-tui-jian/wai-guan/purity.md)
     * [Dracula](zhong-duan/cha-jian-tui-jian/wai-guan/dracula.md)
     * [powerline](zhong-duan/cha-jian-tui-jian/wai-guan/powerline.md)
+  * [zsh](zhong-duan/cha-jian-tui-jian/zsh/README.md)
+    * [zsh-autosuggestions](zhong-duan/cha-jian-tui-jian/zsh/zsh-autosuggestions.md)
 
