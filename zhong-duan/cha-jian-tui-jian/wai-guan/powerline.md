@@ -80,10 +80,13 @@ $ pip3 show powerline-status
 如果整個 powerline 安裝完發現字體還有問題的話  
 可以嘗試 powerline font 官網的 [Fontconfig](https://github.com/powerline/fonts#Fontconfig) 說明
 
-## 配置 .bash\_profile
+## 配置環境
 
-檔案位置在  
+bash 檔案位置在  
 ~/.bash\_profile
+
+zsh 檔案位置在  
+~/.zshrc
 
 示範代碼最後一個是 {Location} 的位子再往後延伸  
 {Location}/powerline/bindings/{terminal}/{install\_file}  
