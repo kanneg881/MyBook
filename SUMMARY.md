@@ -66,6 +66,8 @@
 
 ## 終端
 
+* [指令](zhong-duan/zhi-ling/README.md)
+  * [zsh](zhong-duan/zhi-ling/zsh.md)
 * [插件推薦](zhong-duan/cha-jian-tui-jian/README.md)
   * [外觀](zhong-duan/cha-jian-tui-jian/wai-guan/README.md)
     * [Gogh](zhong-duan/cha-jian-tui-jian/wai-guan/gogh.md)
