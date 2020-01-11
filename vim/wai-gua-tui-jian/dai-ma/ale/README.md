@@ -25,12 +25,14 @@ let g:ale_fixers = {
 \   '*': ['remove_trailing_lines', 'trim_whitespace'],
 \}
 
+" 修正 C 檔使用 clang-format
 " 修正 PHP 檔使用 php-cs-fixer
 " 修正 PHP 檔使用 phpcbf
 " 修正 JavaScript 檔使用 prettier_standard
 let b:ale_fixers = {
-\   'php': ['php_cs_fixer', 'phpcbf'],
+\   'c': ['clang-format'], 
 \   'javascript': ['prettier_standard'],
+\   'php': ['php_cs_fixer', 'phpcbf'],
 \}
 
 " 檢查 JavaScript 檔使用 standard
