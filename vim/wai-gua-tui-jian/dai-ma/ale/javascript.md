@@ -2,7 +2,12 @@
 
 ## 介紹
 
-配置 ale Javascript
+standard 是語法檢查用  
+prettier-standard 是格式化成 standard 用，有些需要手動修改
+
+作者使用的是 JavaScript Standard Style，它是一種程式風格，規定程式碼要怎麼寫
+
+{% embed url="https://standardjs.com/rules-zhtw.html" caption="standard 規則" %}
 
 ## 下載
 
@@ -12,20 +17,14 @@
 
 ## 簡易說明
 
-作者使用的是 JavaScript Standard Style，它是一種程式風格，規定程式碼要怎麼寫
-
-{% embed url="https://standardjs.com/rules-zhtw.html" caption="standard 規則" %}
-
 安裝步驟如下
 
 1. 安裝 standard，[下載](javascript.md#xia-zai)的 standard 連結有詳細說明
 2. 安裝 prettier-standard，[下載](javascript.md#xia-zai)的 prettier-standard 連結有詳細說明
 3. 配置 .vimrc 已經寫在[ale 配置 .vimrc](./#pei-zhi-vimrc)
 
-standard 是語法檢查用  
-prettier-standard 是格式化成 standard 用，有些需要手動修改
+### 手動修改說明
 
-例如   
 a == b  
 它會建議把 == 改成 ===  
 這可能並不是你想要的，所以 prettier-standard 就不會自動修改
