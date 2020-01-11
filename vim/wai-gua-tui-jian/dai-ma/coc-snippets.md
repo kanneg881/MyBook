@@ -51,8 +51,7 @@ function name(type args)
 而下面的配置就是改成 &lt;Tab&gt; 跳下一個，還有按 &lt;Tab&gt; 擴展片段  
 例如輸入 f 按 &lt;Tab&gt; 就會跳出如上的程式碼
 
-{% code-tabs %}
-{% code-tabs-item title=".vimrc" %}
+{% code title=".vimrc" %}
 ```text
 " 使用 <tab> 鍵觸發自動完成、確認、擴展片段、跳躍
 inoremap <silent><expr> <TAB>
@@ -68,6 +67,5 @@ endfunction
 
 let g:coc_snippet_next = '<tab>'
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 

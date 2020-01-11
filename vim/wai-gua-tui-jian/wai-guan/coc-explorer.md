@@ -42,24 +42,20 @@
 `:CocConfig`  
 打開 coc 配置文件
 
-{% code-tabs %}
-{% code-tabs-item title="coc-settings.json" %}
+{% code title="coc-settings.json" %}
 ```text
 {
     "explorer.icon.enableNerdfont": true
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 ## 配置 .vimrc
 
-{% code-tabs %}
-{% code-tabs-item title=".vimrc" %}
+{% code title=".vimrc" %}
 ```text
 " 快捷鍵 ge 打開檔案瀏覽器
 :nmap ge :CocCommand explorer<CR>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
