@@ -1,27 +1,43 @@
-# 設定環境指令
+# 環境設定
 
-`:set cindent`  
+## 介紹
+
+vim 可以設定很多環境，通常都是寫在 [vimrc](shen-me-shi-vimrc/)
+
+大部分接可以直接在 Ex命令模式執行
+
+例如  
+`set number`  
+在 Ex 命令就直接打  
+`:set number`
+
+## 環境指令
+
+`filetype plugin indent on`  
+檔案類型 檢測 插件 縮排 打開
+
+`set cindent`  
 使用 C/C++ 語言的自動縮排方式
 
-`:set hidden`  
+`set hidden`  
 如果想保留修改了的緩衝區但不寫回，打開 'hidden' 選項
 
-`:set history=[number]`  
+`set history=[number]`  
 歷史命令數量為 `[number]`
 
-`:set hlsearch`  
+`set hlsearch`  
 高亮顯示搜尋匹配
 
-`:set ignorecase`  
+`set ignorecase`  
 是否不區分大小寫
 
-`:set number`  
+`set number`  
 顯示行號
 
-`:set smartcase`  
+`set smartcase`  
 智能的大小寫敏感
 
-`:set ts=number sts=number sw=number et`  
+`set ts=number sts=number sw=number et`  
 number 為數字  
 ts tabstop 為 tab 空格數  
 sts softtabstop 為符合 ts 空格是就變成 tab  
@@ -30,10 +46,10 @@ et exandtab 為插入空白
 
 ## 拼寫
 
-`:set spell`  
+`set spell`  
 開啟拼寫檢查
 
-`:set spellfile`  
+`set spellfile`  
 可以指定拼寫文件的路徑  
 `zg` 和 `zw` 保存和刪除的位子  
 也可以指定多個
@@ -46,18 +62,18 @@ setlocal spelling=~/mySpell/myWord.utf-8.add
 `1zg` 代表存在 en.utf-8.add  
 `2zg` 代表存在 myWord.utf-8.add
 
-`:set spelllang`  
+`set spelllang`  
 設定拼寫語言  
 例如  
-`:set spelllang=en_us,nl`  
+`set spelllang=en_us,nl`  
 設定為美式英語、荷蘭語
 
-## :setlocal 跟 :set
+## setlocal 跟 set
 
-`:setlocal`  
+`setlocal`  
 只會影響當前視窗或緩衝區
 
-`;set`  
+`set`  
 全局影響
 
 ## 特殊符號
@@ -66,16 +82,16 @@ setlocal spelling=~/mySpell/myWord.utf-8.add
 例如
 
 ```text
-:set spell
-:set nospell
+set spell
+set nospell
 ```
 
-`:set spell!`  
+`set spell!`  
 加 ! 就會反轉該設定，開變關，關變開
 
-`:set spell?`  
+`set spell?`  
 加 ? 就可以獲得該設定的狀態
 
-`:set spell?`  
+`set spell?`  
 將該設定設定成預設值
 
