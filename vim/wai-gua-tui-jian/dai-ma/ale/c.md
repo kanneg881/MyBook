@@ -19,7 +19,7 @@ C語言格式化文件，需先安裝 [ale](./)
 | 指令 | 動作 |
 | :--- | :--- |
 | `$ clang --help` | 顯示可用的選項 |
-| `$  clang --version` | 印出版本資訊 |
+| `$ clang --version` | 印出版本資訊 |
 | `$ clang -o filename filename.c` | 指定將 filename.c 寫入 filename |
 
 編譯 c 語言如下

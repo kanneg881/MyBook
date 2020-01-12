@@ -34,7 +34,7 @@
   * [tags](vim/ex-ming-ling-mo-shi-zhi-ling/tags.md)
 * [搜尋模式指令](vim/sou-xun-mo-shi-zhi-ling/README.md)
   * [{pattern}](vim/sou-xun-mo-shi-zhi-ling/pattern.md)
-* [環境設定](vim/she-ding-huan-jing-zhi-ling.md)
+* [環境設定](vim/ex-ming-ling-mo-shi-zhi-ling/she-ding-huan-jing-zhi-ling.md)
 * [設定 help 文件中文版](vim/she-ding-help-wen-jian-zhong-wen-ban.md)
 * [函數庫](vim/han-shu-ku.md)
 * [插件推薦](vim/wai-gua-tui-jian/README.md)
@@ -45,7 +45,7 @@
     * [coc-json](vim/wai-gua-tui-jian/dai-ma/coc-json.md)
     * [coc](vim/wai-gua-tui-jian/dai-ma/coc.md)
     * [deoplete](vim/wai-gua-tui-jian/dai-ma/deoplete.md)
-    * [ale](vim/wai-gua-tui-jian/dai-ma/ale/README.md)
+    * [ale](vim/wai-gua-tui-jian/dai-ma/ale.md)
       * [C](vim/wai-gua-tui-jian/dai-ma/ale/c.md)
       * [Javascript](vim/wai-gua-tui-jian/dai-ma/ale/javascript.md)
     * [tabnine](vim/wai-gua-tui-jian/dai-ma/tabnine.md)
@@ -64,7 +64,7 @@
   * [vim-plug](vim/wai-gua-tui-jian/vim-plug.md)
   * [Vundle](vim/wai-gua-tui-jian/vundle.md)
   * [visual-star-search](vim/wai-gua-tui-jian/visual-star-search.md)
-* [什麼是 vimrc](vim/shen-me-shi-vimrc/README.md)
+* [什麼是 vimrc](vim/shen-me-shi-vimrc.md)
   * [ftplugin](vim/shen-me-shi-vimrc/ftplugin.md)
 
 ## 終端

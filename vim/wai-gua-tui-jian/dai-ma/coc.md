@@ -64,7 +64,8 @@ vim 可以用這個指令檢查服務狀態
 詳情可以查看 coc 文件  
 `:h coc-nvim.txt`
 
-{% code title=".vimrc" %}
+{% code-tabs %}
+{% code-tabs-item title=".vimrc" %}
 ```text
 " 設定 node 路徑
 let g:coc_node_path = "/usr/local/bin/node"
@@ -108,7 +109,8 @@ map <leader>fix <Plug>(coc-fix-current)
 map <leader>rf <Plug>(coc-refactor)
 
 ```
-{% endcode %}
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 `:CocConfig`  
 開啟 coc 檔的指令  
@@ -117,13 +119,15 @@ map <leader>rf <Plug>(coc-refactor)
 diagnostic.displayByAle  
 用 ale 顯示錯誤提示
 
-{% code title="coc-settings.json" %}
+{% code-tabs %}
+{% code-tabs-item title="coc-settings.json" %}
 ```text
 {
     "diagnostic.displayByAle": false
 }
 ```
-{% endcode %}
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 #### 安裝 watchman
 
