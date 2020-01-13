@@ -34,7 +34,7 @@
   * [tags](vim/ex-ming-ling-mo-shi-zhi-ling/tags.md)
 * [搜尋模式指令](vim/sou-xun-mo-shi-zhi-ling/README.md)
   * [{pattern}](vim/sou-xun-mo-shi-zhi-ling/pattern.md)
-* [環境設定](vim/she-ding-huan-jing-zhi-ling.md)
+* [環境設定](vim/ex-ming-ling-mo-shi-zhi-ling/she-ding-huan-jing-zhi-ling.md)
 * [設定 help 文件中文版](vim/she-ding-help-wen-jian-zhong-wen-ban.md)
 * [函數庫](vim/han-shu-ku.md)
 * [插件推薦](vim/wai-gua-tui-jian/README.md)

@@ -55,7 +55,8 @@ vim 可以用這個指令檢查服務狀態
 解除安裝擴充指令
 
 `:CocUpdate`  
-升級所有擴充，升級前請確保確保coc為最新版本
+升級所有擴充，升級前請確保確保coc為最新版本  
+例如如果是用 vim-plug 就用此插件的更新指令 `:PlugUpdate`
 
 #### 配置
 
@@ -64,8 +65,7 @@ vim 可以用這個指令檢查服務狀態
 詳情可以查看 coc 文件  
 `:h coc-nvim.txt`
 
-{% code-tabs %}
-{% code-tabs-item title=".vimrc" %}
+{% code title=".vimrc" %}
 ```text
 " 設定 node 路徑
 let g:coc_node_path = "/usr/local/bin/node"
@@ -109,8 +109,7 @@ map <leader>fix <Plug>(coc-fix-current)
 map <leader>rf <Plug>(coc-refactor)
 
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 `:CocConfig`  
 開啟 coc 檔的指令  
@@ -119,15 +118,13 @@ map <leader>rf <Plug>(coc-refactor)
 diagnostic.displayByAle  
 用 ale 顯示錯誤提示
 
-{% code-tabs %}
-{% code-tabs-item title="coc-settings.json" %}
+{% code title="coc-settings.json" %}
 ```text
 {
     "diagnostic.displayByAle": false
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 #### 安裝 watchman
 
