@@ -2,9 +2,9 @@
 
 ## 介紹
 
-Coc是vim8和neovim的智能感知引擎  
+Coc 是 vim8 和 neovim 的智能感知引擎  
 這是一個語法自動完成框架和語言服務器客戶端  
-支持VSCode的擴展功能
+支持 VSCode 的擴展功能
 
 ## 下載
 
