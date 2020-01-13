@@ -10,28 +10,3 @@
 
 [https://github.com/junegunn/vim-plug](https://github.com/junegunn/vim-plug)
 
-## 簡易說明
-
-### 安裝
-
-安裝有兩種方式，詳細做法請到官網查看
-
-1. 下載 plug.vim並將其放在 .vim/autoload 資料夾中
-2. 使用 curl 方式下載，這個指令可以放在 .vimrc 自動安裝
-
-### 使用方式
-
-到官網 Usage 的 Example 查看範例
-
-### 指令
-
-| 指令 | 描述 |
-| :--- | :--- |
-| `PlugInstall [name ...] [#threads]` | 安裝插件 |
-| `PlugUpdate [name ...] [#threads]` | 安裝或更新插件 |
-| `PlugClean[!]` | 刪除未列出的插件（爆版清除沒有提示） |
-| `PlugUpgrade` | 升級 vim-plug 自己 |
-| `PlugStatus` | 檢查插件狀態 |
-| `PlugDiff` | 檢查之前更新的更改和等待的更改 |
-| `PlugSnapshot[!] [output path]` | 生成腳本以還原目前插件的快照 |
-
