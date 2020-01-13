@@ -45,7 +45,7 @@
     * [coc-json](vim/wai-gua-tui-jian/dai-ma/coc-json.md)
     * [coc](vim/wai-gua-tui-jian/dai-ma/coc.md)
     * [deoplete](vim/wai-gua-tui-jian/dai-ma/deoplete.md)
-    * [ale](vim/wai-gua-tui-jian/dai-ma/ale/README.md)
+    * [ale](vim/wai-gua-tui-jian/dai-ma/ale.md)
       * [C](vim/wai-gua-tui-jian/dai-ma/ale/c.md)
       * [Javascript](vim/wai-gua-tui-jian/dai-ma/ale/javascript.md)
     * [tabnine](vim/wai-gua-tui-jian/dai-ma/tabnine.md)
