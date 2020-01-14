@@ -24,10 +24,12 @@ Enjoy
 $ git config --list
 user.name=Relax
 user.email=relax@example.com
+...
 
 $ git config --global --list
 user.name=Enjoy
 user.email=enjoy@example.com
+...
 ```
 
 
@@ -38,8 +40,13 @@ user.email=enjoy@example.com
 &lt;key&gt; 環境參數  
 &lt;value&gt; 設定值
 
+層級優先權  
+未填寫 &gt; global &gt; system  
+層級優先權高的會覆蓋優先權低的設定  
+global 會覆蓋 system
+
 ```text
+$ git config user.name "Relax"
 $ git config --global user.name "Enjoy"
-$ git config --global user.email enjoy@example.com
 ```
 
