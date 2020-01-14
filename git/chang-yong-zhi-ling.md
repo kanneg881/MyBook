@@ -1,5 +1,13 @@
 # 常用指令
 
+`git add <fileName>`  
+將 fileName 檔案加入追蹤
+
+
+
+`git status`  
+顯示目前工作環境狀態
+
 ## 配置
 
 `git config <key>`  
