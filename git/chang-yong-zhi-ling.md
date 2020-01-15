@@ -12,7 +12,7 @@
 `git diff`  
 顯示和前一個 commit 之間的差異，即修改哪些檔案
 
-git reset &lt;參照&gt; &lt;檔案&gt;   
+`git reset <參照> <檔案>`   
 命令將檔案的狀態重設成未追蹤。
 
 ```text
