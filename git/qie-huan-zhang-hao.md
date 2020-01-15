@@ -29,7 +29,9 @@ winstore 是給 windows 用的
 $ git config --global credential.helper osxkeychain
 ```
 
-## 刪除 osxkeychain
+## 編輯 osxkeychain
+
+刪除 github 的 osxkeychain，下次 push 到 github 時就會要求你輸入帳號密碼，也就是可以切換帳號了，或者也可以直接編輯它的資料
 
 按 &lt;Ctrl-space&gt; 打開 Spotlight 搜尋 Keychain Access app
 
