@@ -3,10 +3,14 @@
 `git add <檔案>`  
 將檔案加入追蹤
 
-`git commit [-m "訊息"]`  
+`git commit [-a -m "訊息"]`  
 提交追蹤的檔案  
+-a add 追蹤  
 -m 快速寫提交訊息  
 沒有打 -m 會跳到編輯視窗用來輸入提交訊息
+
+`git diff`  
+顯示和前一個 commit 之間的差異，即修改哪些檔案
 
 git reset &lt;參照&gt; &lt;檔案&gt;   
 命令將檔案的狀態重設成未追蹤。
