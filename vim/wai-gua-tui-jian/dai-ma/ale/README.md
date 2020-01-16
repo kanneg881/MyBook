@@ -40,11 +40,5 @@ let g:ale_linters = {
 \   'javascript': ['standard'],
 \}
 
-" 快速導覽錯誤
-" ctrl + k 上一個錯誤
-" ctrl + j 下一個錯誤
-nmap <silent> <C-k> <Plug>(ale_previous_wrap)
-nmap <silent> <C-j> <Plug>(ale_next_wrap)
-
 ```
 
