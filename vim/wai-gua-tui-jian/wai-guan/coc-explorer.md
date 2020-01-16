@@ -5,7 +5,7 @@
 檔案瀏覽樹，作者在撰寫時這個插件還在開發中  
 不過已經可以使用了，只是未來為大修改
 
-需要先安裝 [coc](../dai-ma/coc.md) 插件才能使用
+需要先安裝 [coc](../dai-ma/coc/) 插件才能使用
 
 如果已經安裝 [NERDTree](nerdtree.md) 的讀者  
 可以考慮使用 coc-explorer
