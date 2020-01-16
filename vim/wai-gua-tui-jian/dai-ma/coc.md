@@ -2,9 +2,9 @@
 
 ## 介紹
 
-Coc 是 vim8 和 neovim 的智能感知引擎  
+Coc是vim8和neovim的智能感知引擎  
 這是一個語法自動完成框架和語言服務器客戶端  
-支持 VSCode 的擴展功能
+支持VSCode的擴展功能
 
 ## 下載
 
@@ -55,8 +55,7 @@ vim 可以用這個指令檢查服務狀態
 解除安裝擴充指令
 
 `:CocUpdate`  
-升級所有擴充，升級前請確保確保coc為最新版本  
-例如如果是用 vim-plug 就用此插件的更新指令 `:PlugUpdate`
+升級所有擴充，升級前請確保確保coc為最新版本
 
 #### 配置
 
@@ -65,7 +64,8 @@ vim 可以用這個指令檢查服務狀態
 詳情可以查看 coc 文件  
 `:h coc-nvim.txt`
 
-{% code title=".vimrc" %}
+{% code-tabs %}
+{% code-tabs-item title=".vimrc" %}
 ```text
 " 設定 node 路徑
 let g:coc_node_path = "/usr/local/bin/node"
@@ -109,7 +109,8 @@ map <leader>fix <Plug>(coc-fix-current)
 map <leader>rf <Plug>(coc-refactor)
 
 ```
-{% endcode %}
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 `:CocConfig`  
 開啟 coc 檔的指令  
@@ -118,26 +119,15 @@ map <leader>rf <Plug>(coc-refactor)
 diagnostic.displayByAle  
 用 ale 顯示錯誤提示
 
-{% code title="coc-settings.json" %}
+{% code-tabs %}
+{% code-tabs-item title="coc-settings.json" %}
 ```text
 {
-    "diagnostic.displayByAle": false,
-    "explorer.icon.enableNerdfont": true,
-    "languageserver": {
-        "ccls": {
-            "command": "ccls",
-            "filetypes": ["c", "cpp", "objc", "objcpp"],
-            "rootPatterns": [".ccls", "compile_commands.json", ".vim/", ".git/", ".hg/"],
-            "initializationOptions": {
-                "cache": {
-                    "directory": "/tmp/ccls"
-                }
-            }
-        }
-    }
+    "diagnostic.displayByAle": false
 }
 ```
-{% endcode %}
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 #### 安裝 watchman
 
