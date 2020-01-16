@@ -8,7 +8,7 @@ ccls 是 language server
 
 ## 簡易說明
 
-安裝過程有點複雜，作者使用 homebrew 安裝比較簡單一點
+安裝過程有點複雜，作者使用 homebrew 安裝過程比較簡單一點
 
 `$ brew install llvm`  
 先安裝 llvm  
