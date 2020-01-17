@@ -49,6 +49,9 @@ vim 可以設定很多環境，通常都是寫在 [vimrc](shen-me-shi-vimrc/)
 `set smartcase`  
 智能的大小寫敏感
 
+`set shortmess+=c`  
+不顯示插入補全選單訊息
+
 `set ts=number sts=number sw=number et`  
 number 為數字  
 ts tabstop 為 tab 空格數  
