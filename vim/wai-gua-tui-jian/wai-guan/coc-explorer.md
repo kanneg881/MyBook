@@ -61,8 +61,8 @@
 
 {% code title=".vimrc" %}
 ```text
-" 快捷鍵 gc 打開檔案瀏覽器
-:nmap gc :CocCommand explorer<CR>
+" 快捷鍵 ge 打開檔案瀏覽器
+:nmap ge :CocCommand explorer<CR>
 ```
 {% endcode %}
 
