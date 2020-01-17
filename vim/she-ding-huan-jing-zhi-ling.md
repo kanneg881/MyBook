@@ -40,6 +40,9 @@ vim 可以設定很多環境，通常都是寫在 [vimrc](shen-me-shi-vimrc/)
 `set nobackup`  
 不需要備份文件
 
+`set nowritebackup`  
+編輯時不備份文件
+
 `set number`  
 顯示行號
 
