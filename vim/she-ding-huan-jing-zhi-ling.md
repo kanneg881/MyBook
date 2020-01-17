@@ -16,6 +16,9 @@ vim 可以設定很多環境，通常都是寫在 [vimrc](shen-me-shi-vimrc/)
 `filetype plugin indent on`  
 檔案類型 檢測 插件 縮排 打開
 
+`set backup`  
+需要備份文件
+
 `set cindent`  
 使用 C/C++ 語言的自動縮排方式
 
@@ -33,6 +36,9 @@ vim 可以設定很多環境，通常都是寫在 [vimrc](shen-me-shi-vimrc/)
 
 `set ignorecase`  
 是否不區分大小寫
+
+`set nobackup`  
+不需要備份文件
 
 `set number`  
 顯示行號
