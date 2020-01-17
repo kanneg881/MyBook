@@ -43,7 +43,7 @@
     * [coc-snippets](vim/wai-gua-tui-jian/dai-ma/coc-snippets.md)
     * [coc-phpls](vim/wai-gua-tui-jian/dai-ma/coc-phpls.md)
     * [coc-json](vim/wai-gua-tui-jian/dai-ma/coc-json.md)
-    * [coc](vim/wai-gua-tui-jian/dai-ma/coc.md)
+    * [coc](vim/wai-gua-tui-jian/dai-ma/coc/README.md)
       * [ccls](vim/wai-gua-tui-jian/dai-ma/coc/ccls.md)
     * [deoplete](vim/wai-gua-tui-jian/dai-ma/deoplete.md)
     * [ale](vim/wai-gua-tui-jian/dai-ma/ale/README.md)
