@@ -56,6 +56,9 @@ sts softtabstop 為符合 ts 空格是就變成 tab
 sw shiftwidth 為縮排所需的 Space 個數  
 et exandtab 為插入空白
 
+`set updatetime=4000`  
+如果過了這麼多毫秒數以後還沒有任何輸入，把交換文件寫入磁盤
+
 ## 拼寫
 
 `set spell`  
