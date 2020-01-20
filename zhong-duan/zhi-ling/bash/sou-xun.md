@@ -31,7 +31,7 @@ binaryFileName 二進位檔
 
 ## find
 
-$ find directory options expression
+`$ find directory options expression`
 
 directory 目錄  
 options 選項  
