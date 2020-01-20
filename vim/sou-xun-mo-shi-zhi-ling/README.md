@@ -92,7 +92,7 @@ vim 內部的 grep
 全域搜尋
 
 `[j]`  
-只更新 quickfix
+只更新 quickfix 列表
 
 ## grep
 
