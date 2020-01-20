@@ -82,13 +82,17 @@ very nomagic 搜尋模式，消除特殊字元含義例如 `.?*`
 
 ## vimgrep
 
-vim 內部的 grep
+vim 內部的 grep  
+可以打開 [quickfix](../ex-ming-ling-mo-shi-zhi-ling/quickfix.md) 查看查詢結果
 
 `:vimgrep /{pattern}/[g][j] {files}`  
 把找到的匹配放到 quickfix 列表
 
 `[g]`  
 全域搜尋
+
+`[j]`  
+只更新 quickfix
 
 ## grep
 
