@@ -70,6 +70,7 @@
 
 ## 終端
 
+* [序](zhong-duan/xu.md)
 * [指令](zhong-duan/zhi-ling/README.md)
   * [bash](zhong-duan/zhi-ling/bash/README.md)
     * [搜尋](zhong-duan/zhi-ling/bash/sou-xun.md)
