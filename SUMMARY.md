@@ -71,7 +71,8 @@
 ## 終端
 
 * [指令](zhong-duan/zhi-ling/README.md)
-  * [bash](zhong-duan/zhi-ling/bash.md)
+  * [bash](zhong-duan/zhi-ling/bash/README.md)
+    * [搜尋](zhong-duan/zhi-ling/bash/sou-xun.md)
   * [zsh](zhong-duan/zhi-ling/zsh.md)
   * [目錄路徑](zhong-duan/zhi-ling/mu-lu-lu-jing.md)
 * [插件推薦](zhong-duan/cha-jian-tui-jian/README.md)

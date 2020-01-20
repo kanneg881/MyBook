@@ -16,6 +16,9 @@ vim 可以設定很多環境，通常都是寫在 [vimrc](shen-me-shi-vimrc/)
 `filetype plugin indent on`  
 檔案類型 檢測 插件 縮排 打開
 
+`set backup`  
+需要備份文件
+
 `set cindent`  
 使用 C/C++ 語言的自動縮排方式
 
@@ -34,11 +37,23 @@ vim 可以設定很多環境，通常都是寫在 [vimrc](shen-me-shi-vimrc/)
 `set ignorecase`  
 是否不區分大小寫
 
+`set nobackup`  
+不需要備份文件
+
+`set nowritebackup`  
+編輯時不備份文件
+
 `set number`  
 顯示行號
 
 `set smartcase`  
 智能的大小寫敏感
+
+`set shortmess+=c`  
+不顯示插入補全選單訊息
+
+`set signcolumn=yes`  
+是否繪製標誌列
 
 `set ts=number sts=number sw=number et`  
 number 為數字  
@@ -46,6 +61,9 @@ ts tabstop 為 tab 空格數
 sts softtabstop 為符合 ts 空格是就變成 tab  
 sw shiftwidth 為縮排所需的 Space 個數  
 et exandtab 為插入空白
+
+`set updatetime=4000`  
+如果過了這麼多毫秒數以後還沒有任何輸入，把交換文件寫入磁盤
 
 ## 拼寫
 
