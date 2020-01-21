@@ -94,3 +94,8 @@
 * [常用指令](git/chang-yong-zhi-ling.md)
 * [切換帳號](git/qie-huan-zhang-hao.md)
 
+## kali
+
+* [序](kali/xu.md)
+* [E: unable to locate package](kali/e-unable-to-locate-package.md)
+
