@@ -5,7 +5,8 @@ description: 適用於 bash 指令
 # bash
 
 `$ head [-number] path/to/file`  
--number 要顯示的行數，預設 -10  
+顯示檔案開頭 10 行  
+-number 指定行數，例如 -20  
 path/to/file 檔案位置
 
 `$ ls [-al] [path]`  
@@ -19,6 +20,11 @@ path 指定目錄
 a 顯示現有終端機下的所有程序，包括其他用戶的程序  
 u 以用戶為主的格式來顯示程序狀況  
 x 顯示所有程序，不以終端機來區分
+
+`$ tail [-number] path/to/file`  
+顯示檔案尾部 10 行  
+-number 指定行數，例如 -20  
+path/to/file 檔案位置
 
 `$ whoami`  
 查看登入資訊
