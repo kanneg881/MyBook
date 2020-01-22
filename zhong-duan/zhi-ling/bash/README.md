@@ -15,6 +15,9 @@ path/to/file 檔案位置
 -l \(long listing\)詳細資料  
 path 指定目錄
 
+`$ nl path/to/file`  
+顯示檔案內容，並顯示行號
+
 `$ ps [aux]`  
 顯示所有系統上正在運行的程序  
 a 顯示現有終端機下的所有程序，包括其他用戶的程序  
