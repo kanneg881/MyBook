@@ -4,8 +4,9 @@ description: 適用於 bash 指令
 
 # bash
 
-`$ cd directorName`  
-移動到 directorName 資料夾
+`$ head [-number] path/to/file`  
+-number 要顯示的行數，預設 -10  
+path/to/file 檔案位置
 
 `$ ls [-al] [path]`  
 列出當前目錄中的檔案與子目錄  
