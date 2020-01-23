@@ -15,6 +15,11 @@ path/to/file 檔案位置
 -l \(long listing\)詳細資料  
 path 指定目錄
 
+`$ more path/to/file`  
+查看檔案內容  
+按 `<Enter>` 顯示下一行  
+按 `q` 離開
+
 `$ nl [option] path/to/file`  
 -ba 行數包含空白，預設不包含  
 顯示檔案內容，並顯示行號
