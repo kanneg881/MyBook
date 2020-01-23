@@ -30,14 +30,6 @@ mv 是搬移指令，搬移目錄或檔案
 `$ rm file`  
 移除檔案
 
-`$ sed s/keyword/replace/g path/to/file > path/to/newFile`  
-尋找位於 path/to/file 檔案的 keyword 內容並取代成 replace  
-然後另存為  path/to/newFile  
-s/keyword/replace/g 的 s 為搜尋  
-s/keyword/replace/g 的 g 為全域搜尋  
-如果沒有 g 則只取代搜尋到的第一個  
-如果 g 改成數字 n，則指定取代搜尋到的第 n 個
-
 ## 目錄
 
 `$ mkdir directoryName`  

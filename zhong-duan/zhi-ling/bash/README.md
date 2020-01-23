@@ -15,6 +15,11 @@ path/to/file 檔案位置
 -l \(long listing\)詳細資料  
 path 指定目錄
 
+`$ less path/to/file`  
+查看檔案內容  
+按 `/` 可以搜尋關鍵字  
+按 `n` 跳下一個
+
 `$ more path/to/file`  
 查看檔案內容  
 按 `<Enter>` 顯示下一行  
