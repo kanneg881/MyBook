@@ -98,4 +98,5 @@
 
 * [序](kali/xu.md)
 * [E: unable to locate package](kali/e-unable-to-locate-package.md)
+* [中文亂碼](kali/zhong-wen-luan-ma.md)
 
