@@ -7,6 +7,9 @@ description: 適用於 bash 指令
 `$ ifconfig`  
 分析網路，檢測並與網路介面卡進行互動
 
+`$ iwconfig`  
+檢查無線網路裝置
+
 `$ ls [-al] [path]`  
 列出當前目錄中的檔案與子目錄  
 -a 顯示隱藏檔案  
