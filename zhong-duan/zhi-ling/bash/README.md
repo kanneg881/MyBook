@@ -53,3 +53,25 @@ path/to/file 檔案位置
 -number 指定行數，例如 -20  
 path/to/file 檔案位置
 
+## 分析網路，檢測並與網路介面卡進行互動
+
+`$ ifconfig`  
+取得網路連線資訊
+
+`$ ifconfig eth0 xxx.xxx.xxx.xxx`  
+更改 IP 位址，xxx 為數字
+
+`$ ifconfig netmask xxx.xxx.xxx.xxx`  
+更改網路遮罩，xxx 為數字
+
+`$ ifconfig broadcast xxx.xxx.xxx.xxx`  
+更改網路遮罩，xxx 為數字
+
+### 竄改 MAC 位址
+
+```text
+$ ifconfig eth0 down
+$ ifconfig eth0 hw ether 00:11:22:33:44:55
+$ ifconfig eth0 up
+```
+
