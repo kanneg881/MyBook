@@ -100,3 +100,8 @@
 * [E: unable to locate package](kali/e-unable-to-locate-package.md)
 * [中文亂碼](kali/zhong-wen-luan-ma.md)
 
+## 影片剪輯
+
+* [序](ying-pian-jian-ji/xu.md)
+* [自動生成字幕](ying-pian-jian-ji/zi-dong-sheng-cheng-zi-mu.md)
+
