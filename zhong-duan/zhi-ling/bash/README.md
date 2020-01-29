@@ -4,6 +4,10 @@ description: 適用於 bash 指令
 
 # bash
 
+`$ dig domainName ns`  
+檢視 DNS 資訊  
+ns nameserver 伺服器名稱
+
 `$ ifconfig`  
 分析網路，檢測並與網路介面卡進行互動
 
