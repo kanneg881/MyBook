@@ -4,8 +4,12 @@ description: 適用於 bash 指令
 
 # bash
 
+`$ dig domainName mx`  
+檢視 domain name server 資訊  
+mx mail exchange server 郵件交換伺服器
+
 `$ dig domainName ns`  
-檢視 DNS 資訊  
+檢視 domain name server 資訊  
 ns nameserver 伺服器名稱
 
 `$ ifconfig`  
