@@ -17,6 +17,9 @@
 `$ vim -O file1 file2 ...`  
 垂直分割打開 file1 file2 等等
 
+`$ vim -p file1 file2 ...`  
+標籤頁方式打開 file1 file2 等等
+
 ### MacVim
 
 把 vim 改成 mvim

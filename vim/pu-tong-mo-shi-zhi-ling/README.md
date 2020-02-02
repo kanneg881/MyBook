@@ -62,6 +62,9 @@
 `d{motion}`  
 刪除
 
+`D`  
+從游標處刪除到此行結尾
+
 `y{motion}`  
 複製
 
@@ -87,10 +90,12 @@
 切換 `{motion}` 跨越的文本的大小寫
 
 `>{motion}`  
-將 `{motion}` 跨越的行右移 shiftwidth 列
+將 `{motion}` 跨越的行右移 shiftwidth 列  
+在可視模式中按 `>` 即右移 shiftwidth 列
 
 `<{motion}`  
-將 `{motion}` 跨越的行左移 shiftwidth 列
+將 `{motion}` 跨越的行左移 shiftwidth 列  
+在可視模式中按 `<` 即右移 shiftwidth 列
 
 `={motion}`  
 自動縮進
