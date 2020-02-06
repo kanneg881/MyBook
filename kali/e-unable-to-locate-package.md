@@ -24,5 +24,5 @@ deb http://http.kali.org/kali kali-rolling main contrib non-free
 接著再安裝一次套件  
 `$ apt-get install 套件`
 
-如果以上沒有解決問題，就指令再 google 看看是甚麼問題了
+如果以上沒有解決問題，就只能再 google 看看是甚麼問題了
 
