@@ -32,6 +32,7 @@
   * [ex-flags](vim/ex-ming-ling-mo-shi-zhi-ling/ex-flags.md)
   * [Quickfix](vim/ex-ming-ling-mo-shi-zhi-ling/quickfix.md)
   * [tags](vim/ex-ming-ling-mo-shi-zhi-ling/tags.md)
+  * [緩衝區](vim/ex-ming-ling-mo-shi-zhi-ling/huan-chong-ou.md)
 * [搜尋模式指令](vim/sou-xun-mo-shi-zhi-ling/README.md)
   * [{pattern}](vim/sou-xun-mo-shi-zhi-ling/pattern.md)
 * [環境設定](vim/she-ding-huan-jing-zhi-ling.md)
