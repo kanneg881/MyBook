@@ -22,7 +22,7 @@
 * [普通模式指令](vim/pu-tong-mo-shi-zhi-ling/README.md)
   * [移動](vim/pu-tong-mo-shi-zhi-ling/yi-dong.md)
   * [{motion}](vim/pu-tong-mo-shi-zhi-ling/motion.md)
-  * [視窗](vim/pu-tong-mo-shi-zhi-ling/shi-chuang.md)
+  * [視窗、標籤頁、緩衝區](vim/pu-tong-mo-shi-zhi-ling/shi-chuang.md)
   * [拼寫檢查器](vim/pu-tong-mo-shi-zhi-ling/pin-xie-jian-cha-qi.md)
 * [插入模式指令](vim/cha-ru-mo-shi-zhi-ling.md)
 * [Ex命令模式指令](vim/ex-ming-ling-mo-shi-zhi-ling/README.md)
