@@ -20,8 +20,11 @@
 `:[range]bufdo[!] {cmd}`  
 在緩衝區列表的每一個緩衝區裡執行 `{cmd}`
 
-`:b[number]`  
+`:b{number}`  
 切換到第 number 緩衝區
+
+`:b {file}`  
+切換到 file 緩衝區
 
 `:bd[elete][!] [N]`  
 卸載緩衝區 \[N\] \(默認: 當前緩衝區\)   
