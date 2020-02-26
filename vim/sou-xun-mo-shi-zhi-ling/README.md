@@ -32,6 +32,12 @@ very nomagic 搜尋模式，消除特殊字元含義例如 `.?*`
 `/e[+num]`  
 `/e[-num]`
 
+## 暫時關閉高亮
+
+`:noh[lsearch]`  
+如果打開 'hlsearch'，最後一次查找命令的所有匹配點都會被高亮。  
+用 `:nohlsearch` 命令來暫停。
+
 ## 暫存器
 
 `<Ctrl-r>{register}` 貼上暫存器的內容

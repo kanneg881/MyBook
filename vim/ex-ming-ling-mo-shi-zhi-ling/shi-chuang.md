@@ -1,4 +1,4 @@
-# 視窗、標籤頁
+# 視窗
 
 | 命令 | 用途 |
 | :--- | :--- |
@@ -73,11 +73,6 @@
           <br
           />&#x5982;&#x679C;&#x6C92;&#x6709; N &#x7576;&#x524D;&#x6A19;&#x7C64;&#x9801;&#x6210;&#x70BA;&#x6700;&#x5F8C;&#x4E00;&#x500B;</p>
       </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><code>:tab ba[ll]</code>
-      </td>
-      <td style="text-align:left">&#x5C07;&#x6240;&#x6709;&#x7DE9;&#x885D;&#x5340;&#x8B8A;&#x6210;&#x6A19;&#x7C64;&#x9801;</td>
     </tr>
   </tbody>
 </table>
