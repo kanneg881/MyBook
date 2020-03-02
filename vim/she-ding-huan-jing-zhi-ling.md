@@ -46,6 +46,9 @@ vim 可以設定很多環境，通常都是寫在 [vimrc](shen-me-shi-vimrc/)
 `set number`  
 顯示行號
 
+`set nonumber`  
+不顯示行號
+
 `set smartcase`  
 智能的大小寫敏感
 
