@@ -107,3 +107,7 @@
 * [序](ying-pian-jian-ji/xu.md)
 * [自動生成字幕](ying-pian-jian-ji/zi-dong-sheng-cheng-zi-mu.md)
 
+## 其它
+
+* [鍵盤符號中英文](qi-ta/jian-pan-fu-hao-zhong-ying-wen.md)
+
