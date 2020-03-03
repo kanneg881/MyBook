@@ -192,6 +192,11 @@
 `zN` 啟動縮進功能  
 `zi` 切換縮進功能（啟動和關閉）
 
+`zf{motion} 或 {Visual}zf`  
+創建折疊操作符
+
+`zd` 刪除在光標下的折疊
+
 ## 暫存器
 
 `"{register}[motion]`  
