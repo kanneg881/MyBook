@@ -13,7 +13,7 @@ userName@hostName:current\_directory
 例如：C:\tmp\directory
 
 ```text
-PS1='C:${PWD/\//\\/g}>'
+$ PS1='C:${PWD/\//\\/g}>'
 ```
 
 ${...} 是正規表達式
