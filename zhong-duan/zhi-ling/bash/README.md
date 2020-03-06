@@ -83,3 +83,10 @@ $ ifconfig eth0 hw ether 00:11:22:33:44:55
 $ ifconfig eth0 up
 ```
 
+## leafpad
+
+leafpad 是文字編輯器
+
+`$ leafpad fileName`  
+打開 leafpad 文字編輯器並新增一個名為 fileName 的檔案
+
