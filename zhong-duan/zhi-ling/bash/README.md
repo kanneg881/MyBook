@@ -33,6 +33,9 @@ x 顯示所有程序，不以終端機來區分
 `$ whoami`  
 查看登入資訊
 
+`$ command &`  
+將 command 指令在背景執行
+
 ## 查看檔案
 
 `$ head [-number] path/to/file`  
