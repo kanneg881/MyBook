@@ -36,6 +36,11 @@ x 顯示所有程序，不以終端機來區分
 `$ command &`  
 將 command 指令在背景執行
 
+`$ fg PID`  
+將在背景運行的程序叫回前端螢幕  
+PID 為 process ID  
+可以用 ps 查看 PID
+
 ## 查看檔案
 
 `$ head [-number] path/to/file`  
