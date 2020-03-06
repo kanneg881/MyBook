@@ -77,6 +77,7 @@
     * [建立與修改檔案或目錄](zhong-duan/zhi-ling/bash/jian-li-yu-xiu-gai-dang-an-huo-mu-lu.md)
     * [搜尋](zhong-duan/zhi-ling/bash/sou-xun.md)
     * [壓縮與打包](zhong-duan/zhi-ling/bash/ya-su.md)
+    * [備份](zhong-duan/zhi-ling/bash/bei-fen.md)
   * [zsh](zhong-duan/zhi-ling/zsh.md)
   * [目錄路徑](zhong-duan/zhi-ling/mu-lu-lu-jing.md)
   * [萬用字元](zhong-duan/zhi-ling/wan-yong-zi-yuan.md)
