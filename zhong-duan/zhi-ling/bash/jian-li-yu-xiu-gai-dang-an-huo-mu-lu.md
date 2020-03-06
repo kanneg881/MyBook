@@ -38,6 +38,12 @@ s/keyword/replace/g 的 g 為全域搜尋
 如果沒有 g 則只取代搜尋到的第一個  
 如果 g 改成數字 n，則指定取代搜尋到的第 n 個
 
+`$ tar -cvf filename.tar file1 [file2 [file3]]`  
+壓縮檔案  
+-c 建立檔案  
+-v 列出 tar 指令處理的檔案  
+-f 指名打包後的檔案名稱也具備讀取檔案的功能
+
 ## 目錄
 
 `$ mkdir directoryName`  
