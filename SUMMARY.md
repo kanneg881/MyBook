@@ -100,7 +100,7 @@
 * [序](kali/xu.md)
 * [快捷鍵](kali/kuai-jie-jian.md)
 * [E: unable to locate package](kali/e-unable-to-locate-package.md)
-* [中文亂碼](kali/zhong-wen-luan-ma.md)
+* [中文亂碼和中文輸入](kali/zhong-wen-luan-ma.md)
 * [命令提示字元修改成 Windows 格式](kali/ming-ling-ti-shi-zi-yuan-xiu-gai-cheng-windows-ge-shi.md)
 
 ## 影片剪輯
