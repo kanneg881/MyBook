@@ -33,5 +33,9 @@ compress &gt; gzip &gt; bzip2
 `$ gzip fileName`  
 壓縮檔案
 
+`$ gunzip fileName`  
+解壓縮檔案  
+gunzip 為 GNU unzip 縮寫
+
 
 
