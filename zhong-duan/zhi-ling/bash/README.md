@@ -4,6 +4,9 @@ description: 適用於 bash 指令
 
 # bash
 
+`$ command &`  
+將 command 指令在背景執行
+
 `$ dig domainName mx`  
 檢視 domain name server 資訊  
 mx mail exchange server 郵件交換伺服器
@@ -11,6 +14,11 @@ mx mail exchange server 郵件交換伺服器
 `$ dig domainName ns`  
 檢視 domain name server 資訊  
 ns nameserver 伺服器名稱
+
+`$ fg PID`  
+將在背景運行的程序叫回前端螢幕  
+PID 為 process ID  
+可以用 ps 查看 PID
 
 `$ ifconfig`  
 分析網路，檢測並與網路介面卡進行互動
@@ -32,14 +40,6 @@ x 顯示所有程序，不以終端機來區分
 
 `$ whoami`  
 查看登入資訊
-
-`$ command &`  
-將 command 指令在背景執行
-
-`$ fg PID`  
-將在背景運行的程序叫回前端螢幕  
-PID 為 process ID  
-可以用 ps 查看 PID
 
 ## 查看檔案
 
