@@ -43,6 +43,13 @@ gunzip 為 GNU unzip 縮寫
 壓縮檔案
 
 `$ bunzip2 fileName`  
-解壓縮檔案  
-gunzip 為 GNU unzip 縮寫
+解壓縮檔案
+
+### compress
+
+`$ compress fileName`  
+壓縮檔案
+
+`$ uncompress fileName`  
+解壓縮檔案
 
