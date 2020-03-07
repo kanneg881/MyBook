@@ -22,7 +22,7 @@ vim 可以設定很多環境，通常都是寫在 [vimrc](shen-me-shi-vimrc/)
 `set cindent`  
 使用 C/C++ 語言的自動縮排方式
 
-`set currsorline`  
+`set cursorline`  
 高亮光標所在的螢幕行
 
 `set clipboard=unnamed`  
