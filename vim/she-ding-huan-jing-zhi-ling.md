@@ -48,6 +48,11 @@ vim 剪貼板跟系統剪貼板共用
 `set nobackup`  
 不需要備份文件
 
+`set noswapfile`  
+緩衝區不建立交換文件  
+此為當檔案尚未存檔時，保留在相同目錄的暫存檔  
+以免發生不可預期的事情而沒存檔
+
 `set nowritebackup`  
 編輯時不備份文件
 
