@@ -18,19 +18,19 @@
 
 ### 配置中文輸入法
 
-![](../.gitbook/assets/tempsnip.png)
+![](../../.gitbook/assets/tempsnip.png)
 
-![](../.gitbook/assets/tempsnip2.png)
+![](../../.gitbook/assets/tempsnip2.png)
 
-![](../.gitbook/assets/tempsnip3.png)
+![](../../.gitbook/assets/tempsnip3.png)
 
-![](../.gitbook/assets/tempsnip4.png)
+![](../../.gitbook/assets/tempsnip4.png)
 
 ### 修改快捷鍵
 
 在台灣比較常用的是 &lt;Ctrl-space&gt;，以下為修改成 &lt;Ctrl-space&gt;
 
-![](../.gitbook/assets/tempsnip5.png)
+![](../../.gitbook/assets/tempsnip5.png)
 
-![](../.gitbook/assets/xie-qu.PNG)
+![](../../.gitbook/assets/xie-qu.PNG)
 

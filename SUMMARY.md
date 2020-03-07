@@ -97,13 +97,13 @@
 * [常用指令](git/chang-yong-zhi-ling.md)
 * [切換帳號](git/qie-huan-zhang-hao.md)
 
-## kali
+## 作業系統
 
-* [序](kali/xu.md)
-* [快捷鍵](kali/kuai-jie-jian.md)
-* [E: unable to locate package](kali/e-unable-to-locate-package.md)
-* [中文亂碼和中文輸入](kali/zhong-wen-luan-ma.md)
-* [命令提示字元修改成 Windows 格式](kali/ming-ling-ti-shi-zi-yuan-xiu-gai-cheng-windows-ge-shi.md)
+* [kali](zuo-ye-xi-tong/kali/README.md)
+  * [快捷鍵](zuo-ye-xi-tong/kali/kuai-jie-jian.md)
+  * [E: unable to locate package](zuo-ye-xi-tong/kali/e-unable-to-locate-package.md)
+  * [中文亂碼和中文輸入](zuo-ye-xi-tong/kali/zhong-wen-luan-ma.md)
+  * [命令提示字元修改成 Windows 格式](zuo-ye-xi-tong/kali/ming-ling-ti-shi-zi-yuan-xiu-gai-cheng-windows-ge-shi.md)
 
 ## 影片剪輯
 

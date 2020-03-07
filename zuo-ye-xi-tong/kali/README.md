@@ -1,4 +1,4 @@
-# 序
+# kali
 
 Kali 是一個 Linux 作業系統  
 作者開這個主題不是要教學 Kali 的  
