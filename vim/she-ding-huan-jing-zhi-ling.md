@@ -13,6 +13,10 @@ vim 可以設定很多環境，通常都是寫在 [vimrc](shen-me-shi-vimrc/)
 
 ## 環境指令
 
+`colorscheme {name}`  
+載入色彩方案 {name}  
+作者是使用[插件](wai-gua-tui-jian/wai-guan/dracula.md)自己設定
+
 `filetype plugin indent on`  
 檔案類型 檢測 插件 縮排 打開
 
