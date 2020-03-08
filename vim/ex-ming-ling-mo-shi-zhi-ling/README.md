@@ -22,64 +22,64 @@
 
 ## 編輯文件
 
-`:pw[d]`  
-顯示當前目錄
-
 `:cd[!] {path}`  
 切換當前目錄為 `{path}`
+
+`:[range]co[py] {address}`  
+把 `[range]` 指定的行複製到 `{address}` 表示的行之下
+
+`:[range]d[elete] [x]`  
+刪除 `[range]` 範圍的行 \(缺省: 當前行\) \[到暫存器 x 裡\]
+
+`:e[dit] [++opt] [+cmd] {file}`  
+編輯文件 `{file}`
+
+`:[range]j[oin][!] [flags]`  
+連接 `[range]` 範圍的行
 
 `:lc[d][!] {path}`  
 和 `:cd` 類似，但只設置當前窗口的當前目錄  
 別的窗口的當前目錄保持不變
 
-`:[range]co[py] {address}`  
-把 `[range]` 指定的行複製到 `{address}` 表示的行之下
-
-`:t`  
-和 `:copy` 等價
-
 `:[range]m[ove] {address}`  
 把 `[range]` 指定的行移動到 `{address}` 表示的行之下
 
-`:[range]j[oin][!] [flags]`  
-連接 `[range]` 範圍的行
-
-`:e[dit] [++opt] [+cmd] {file}`  
-編輯文件 `{file}`
-
-`:[range]y[ank] [x]`  
-抽出 `[range]` 所指定的行到暫存器 `[x]`
-
-`:[range]d[elete] [x]`  
-刪除 `[range]` 範圍的行 \(缺省: 當前行\) \[到暫存器 x 裡\]
-
-`:w[rite] [++opt]`  
-將整個緩衝區寫入當前文件
-
-`:wa[ll]`  
-保存所有已修改的緩衝區。沒有文件名的緩衝區會報錯。  
-只讀的緩衝區不會被寫入。
-
-`:[range]up[date][!] [++opt] [>>] [file]`  
-和 `:write` 類似，但只有在某些已修改的時候才寫
-
-`:q[uit]`  
-退出當前視窗。如果是最後的一個，退出 Vim。
+`:pw[d]`  
+顯示當前目錄
 
 `:qa[ll]`  
 退出 Vim，除非存在修改過的緩衝區。
 
-`:[range]sor[t][!] [b][f][i][n][o][r][u][x] [/{pattern}/]`  
-給 `[range]` 裡的行排序。如果沒有指定行範圍，給所有行排序。
-
-`:[range]> [flags]`  
-將 `[range]` 指定的行右移 'shiftwidth' 列  
-多個 '&gt;' 右移 多個 'shiftwidth' 列
+`:q[uit]`  
+退出當前視窗。如果是最後的一個，退出 Vim。
 
 `:[range]ret[ab][!] [new_tabstop]`  
 把所有包含 &lt;Tab&gt; 的空白序列替代成由新的製表位  
 \[new\_tabstop\] 確定的空白序列。如果你不指定新的製表位，  
 或者它為 0，Vim 使用原來的製表位 tabstop
+
+`:[range]sor[t][!] [b][f][i][n][o][r][u][x] [/{pattern}/]`  
+給 `[range]` 裡的行排序。如果沒有指定行範圍，給所有行排序。
+
+`:t`  
+和 `:copy` 等價
+
+`:[range]up[date][!] [++opt] [>>] [file]`  
+和 `:write` 類似，但只有在某些已修改的時候才寫
+
+`:wa[ll]`  
+保存所有已修改的緩衝區。沒有文件名的緩衝區會報錯。  
+只讀的緩衝區不會被寫入。
+
+`:w[rite] [++opt]`  
+將整個緩衝區寫入當前文件
+
+`:[range]y[ank] [x]`  
+抽出 `[range]` 所指定的行到暫存器 `[x]`
+
+`:[range]> [flags]`  
+將 `[range]` 指定的行右移 'shiftwidth' 列  
+多個 '&gt;' 右移 多個 'shiftwidth' 列
 
 ## 設定變數
 
