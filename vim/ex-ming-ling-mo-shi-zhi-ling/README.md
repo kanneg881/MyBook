@@ -76,6 +76,11 @@
 將 `[range]` 指定的行右移 'shiftwidth' 列  
 多個 '&gt;' 右移 多個 'shiftwidth' 列
 
+`:[range]ret[ab][!] [new_tabstop]`  
+把所有包含 &lt;Tab&gt; 的空白序列替代成由新的製表位  
+\[new\_tabstop\] 確定的空白序列。如果你不指定新的製表位，  
+或者它為 0，Vim 使用原來的製表位 tabstop
+
 ## 設定變數
 
 設定變數 i 等於 0  
