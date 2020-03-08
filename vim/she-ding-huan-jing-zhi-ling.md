@@ -68,6 +68,12 @@ vim 剪貼板跟系統剪貼板共用
 `set shortmess+=c`  
 不顯示插入補全選單訊息
 
+`set showtabline=number`  
+本選項的 number 值指定何時顯示帶有標籤頁標籤的行:  
+ 0: 永遠不會  
+1: 至少有兩個標籤頁時才會  
+2: 永遠會
+
 `set signcolumn=yes`  
 是否繪製標誌列
 
