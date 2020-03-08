@@ -74,7 +74,7 @@ vim 剪貼板跟系統剪貼板共用
 `set ts=number sts=number sw=number et`  
 number 為數字  
 ts tabstop 為 tab 空格數  
-sts softtabstop 為符合 ts 空格是就變成 tab  
+sts softtabstop 為符合 ts 空格數就變成 tab  
 sw shiftwidth 為縮排所需的 Space 個數  
 et exandtab 為插入空白
 
