@@ -41,7 +41,7 @@
 `:[range]m[ove] {address}`  
 把 `[range]` 指定的行移動到 `{address}` 表示的行之下
 
-`[range]j[oin][!] [flags]`  
+`:[range]j[oin][!] [flags]`  
 連接 `[range]` 範圍的行
 
 `:e[dit] [++opt] [+cmd] {file}`  
