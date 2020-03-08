@@ -77,6 +77,9 @@ vim 剪貼板跟系統剪貼板共用
 `set splitbelow`  
 如果打開，視窗的分割會把新視窗放到當前視窗之下
 
+`set splitright`  
+如果打開，視窗的分割會把新視窗放到當前視窗之右
+
 `set signcolumn=yes`  
 是否繪製標誌列
 
