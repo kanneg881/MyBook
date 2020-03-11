@@ -60,7 +60,7 @@ vim 可以用這個指令檢查服務狀態
 
 #### 配置
 
-set hidden 等在[環境設定](../../../she-ding-huan-jing-zhi-ling.md)有中文  
+set hidden 等在[環境設定](../../../she-ding-huan-jing-zhi-ling/)有中文  
   
 `:h coc-nvim.txt`  
 詳情可以查看 coc 文件

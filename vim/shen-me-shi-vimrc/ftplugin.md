@@ -10,8 +10,8 @@
 一般都是在家目錄底下  
 ~/.vim/ftplugin/
 
-如果有設定[檔案類型 檢測 插件](../she-ding-huan-jing-zhi-ling.md#huan-jing-zhi-ling)  
-你就可以在 ftplugin 依檔案類型個別[設定環境](../she-ding-huan-jing-zhi-ling.md)  
+如果有設定[檔案類型 檢測 插件](../she-ding-huan-jing-zhi-ling/#huan-jing-zhi-ling)  
+你就可以在 ftplugin 依檔案類型個別[設定環境](../she-ding-huan-jing-zhi-ling/)  
 檔案命名方式為 filetype.vim
 
 例如  
