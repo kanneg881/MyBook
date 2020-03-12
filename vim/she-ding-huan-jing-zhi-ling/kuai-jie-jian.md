@@ -32,7 +32,7 @@
 
 ### 舉例
 
-`:map gq :wq<CR>`  
+`:nmap gq :wq<CR>`  
 按 gq 就執行 :wq  
 &lt;CR&gt; 為 enter 的意思
 
