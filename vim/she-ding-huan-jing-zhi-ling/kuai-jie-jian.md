@@ -27,14 +27,30 @@
 | {lhs} | 映射鍵 |
 | {rhs} | 映射鍵執行的功能 |
 
-基本用法為  
+### 設定映射語法
+
 {cmd} {lhs} {rhs}
 
-### 舉例
+舉例
 
 `:nmap gq :wq<CR>`  
 按 gq 就執行 :wq  
 &lt;CR&gt; 為 enter 的意思
+
+### 刪除映射語法
+
+{cmd} {lhs}
+
+前面指定模式英文加上 unmap  
+unmap 刪除 map  
+nunmap 刪除 nmap  
+vunmap 刪除 vmap  
+以此類堆
+
+舉例
+
+`:unnmap gq`  
+刪除 gq 映射
 
 ## 常用指令
 
