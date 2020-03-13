@@ -33,8 +33,25 @@
 | {cmd} | 如上表中的 map, nmap, vmap 等 |
 | {lhs} | 映射鍵 |
 | {rhs} | 映射鍵執行的功能 |
+| Leader | 此為設定鍵值的變數，預設為 \ |
 
-### 設定遞迴映射語法
+## 設定 Leader
+
+預設 leader 為 \
+
+你可以更改 Leader 變數  
+`:let mapleader = ","`
+
+如上 Leader 變成 ,
+
+使用 leader 範例  
+`:map <Leader>a i`
+
+輸入 \a 會變成 i   
+假如 Leader 變數為 \  
+i 為插入模式
+
+## 設定遞迴映射語法
 
 {cmd} {lhs} {rhs}
 
@@ -55,7 +72,7 @@ map, nmap, vmap...
 造成無限循環，導致設定失敗  
 這時就要用避免遞迴映射語法
 
-### 設定避免遞迴映射語法
+## 設定避免遞迴映射語法
 
 {cmd} {lhs} {rhs}
 
@@ -75,7 +92,7 @@ noremap, nnoremap, vnoremap...
 輸入 b 會輸出 a  
 兩者不互相影響
 
-### 刪除映射語法
+## 刪除映射語法
 
 {cmd} {lhs}
 
