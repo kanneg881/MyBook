@@ -19,6 +19,13 @@
 | lmap |  |  |  | ✓ |  | ✓ | ✓ |
 | cmap |  |  |  |  |  | ✓ |  |
 
+後面每個映射指令都會使用前綴字加上映射指令  
+例如  
+刪除 map 指令為 unmap  
+刪除 nmap 指令為 nunmap  
+刪除 vmap 指令為 vunmap  
+以此類推
+
 ## 映射指令說明
 
 | 語法 | 說明 |
@@ -27,25 +34,53 @@
 | {lhs} | 映射鍵 |
 | {rhs} | 映射鍵執行的功能 |
 
-### 設定映射語法
+### 設定遞迴映射語法
 
 {cmd} {lhs} {rhs}
 
+前面指定模式英文加上 map  
+map, nmap, vmap...
+
 舉例
 
-`:nmap gq :wq<CR>`  
-按 gq 就執行 :wq  
-&lt;CR&gt; 為 enter 的意思
+`:imap a b`  
+插入模式輸入 a 輸出 b
+
+`:imap b a`  
+插入模式輸入 b 輸出 a
+
+因為遞迴的關係  
+輸入 a 會輸出 b  
+又因為輸入 b 會輸出 a  
+造成無限循環，導致設定失敗  
+這時就要用避免遞迴映射語法
+
+### 設定避免遞迴映射語法
+
+{cmd} {lhs} {rhs}
+
+前面指定模式英文加上 noremap  
+noremap, nnoremap, vnoremap...
+
+舉例
+
+`:inoremap a b`  
+插入模式輸入 a 輸出 b
+
+`:inoremap b a`  
+插入模式輸入 b 輸出 a
+
+因為避免遞迴的關係  
+輸入 a 會輸出 b  
+輸入 b 會輸出 a  
+兩者不互相影響
 
 ### 刪除映射語法
 
 {cmd} {lhs}
 
 前面指定模式英文加上 unmap  
-unmap 刪除 map  
-nunmap 刪除 nmap  
-vunmap 刪除 vmap  
-以此類堆
+unmap, nunmap ,vunmap...
 
 舉例
 
