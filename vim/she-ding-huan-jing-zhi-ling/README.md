@@ -107,6 +107,9 @@ et exandtab 為插入空白
 `set updatetime=4000`  
 如果過了這麼多毫秒數以後還沒有任何輸入，把交換文件寫入磁盤
 
+`set wrap`  
+超出視窗寬度的文字行都會被迴繞顯示 
+
 `syntax on`  
 語法高亮
 
