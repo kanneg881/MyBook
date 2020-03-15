@@ -58,6 +58,10 @@ vim 剪貼板跟系統剪貼板共用
 `set linebreak`  
 在某些字元才能自動摺行，避免斷句不乾淨 
 
+`set list`  
+顯示 tab 尾部空白、換行符號  
+不顯示則改成 nolist
+
 `set nobackup`  
 不需要備份文件
 
@@ -79,8 +83,16 @@ vim 剪貼板跟系統剪貼板共用
 顯示游標位置的行號和列號  
 和在整個文件的比例
 
+`set scrolloff=number`  
+游標上下兩側最少保留的螢幕行數  
+number 為數字
+
 `set smartcase`  
 智能的大小寫敏感
+
+`set showcmd`  
+在螢幕最後一行顯示（部分的）命令  
+關閉則改成 noshowcmd
 
 `set shortmess+=c`  
 不顯示插入補全選單訊息
@@ -93,7 +105,7 @@ vim 剪貼板跟系統剪貼板共用
 
 `set showmode`  
 在插入，替換和可視模式裡，在最後一行提供消息  
-關閉則改成 noshowmode 即可
+關閉則改成 noshowmode
 
 `set splitbelow`  
 如果打開，視窗的分割會把新視窗放到當前視窗之下
