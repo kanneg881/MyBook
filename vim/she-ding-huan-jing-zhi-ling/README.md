@@ -72,6 +72,9 @@ vim 剪貼板跟系統剪貼板共用
 `set nonumber`  
 不顯示行號
 
+`set ruler`  
+顯示游標位置的行號和列號
+
 `set smartcase`  
 智能的大小寫敏感
 
