@@ -135,7 +135,13 @@ setlocal spelling=~/mySpell/myWord.utf-8.add
 `set`  
 全局影響
 
-## 特殊符號
+## 特殊用法
+
+`:set`  
+顯示自己設定的環境設定
+
+`:set all`  
+顯示所有的環境設定
 
 有些設定在前面加 no 就會關閉此功能  
 例如
@@ -151,6 +157,6 @@ set nospell
 `set spell?`  
 加 ? 就可以獲得該設定的狀態
 
-`set spell?`  
+`set spell&`  
 將該設定設定成預設值
 

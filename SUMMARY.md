@@ -106,6 +106,12 @@
   * [E: unable to locate package](zuo-ye-xi-tong/kali/e-unable-to-locate-package.md)
   * [中文亂碼和中文輸入](zuo-ye-xi-tong/kali/zhong-wen-luan-ma.md)
   * [命令提示字元修改成 Windows 格式](zuo-ye-xi-tong/kali/ming-ling-ti-shi-zi-yuan-xiu-gai-cheng-windows-ge-shi.md)
+* [mac os](zuo-ye-xi-tong/mac-os/README.md)
+  * [架站 MAMP](zuo-ye-xi-tong/mac-os/jia-zhan-mamp/README.md)
+    * [Apache](zuo-ye-xi-tong/mac-os/jia-zhan-mamp/apache.md)
+    * [PHP](zuo-ye-xi-tong/mac-os/jia-zhan-mamp/php.md)
+    * [MySQL](zuo-ye-xi-tong/mac-os/jia-zhan-mamp/mysql.md)
+    * [phpMyAdmin](zuo-ye-xi-tong/mac-os/jia-zhan-mamp/phpmyadmin.md)
 
 ## 影片剪輯
 
