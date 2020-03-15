@@ -15,6 +15,9 @@ vim 可以設定很多環境，通常都是寫在 [vimrc](../shen-me-shi-vimrc/)
 
 `colorscheme {name}`  
 載入色彩方案 {name}  
+若不知道要設定哪個  
+可以在輸入完 colorscheme \(空白\)後按 `<Ctrl-d>`  
+顯示列表  
 作者是使用[Dracula](../wai-gua-tui-jian/wai-guan/dracula.md)
 
 `filetype plugin indent on`  
