@@ -55,6 +55,9 @@ vim 剪貼板跟系統剪貼板共用
 `set incsearch`  
 輸入搜索命令時，顯示目前輸入的模式的匹配位置
 
+`set linebreak`  
+在某些字元才能自動摺行，避免斷句不乾淨 
+
 `set nobackup`  
 不需要備份文件
 
