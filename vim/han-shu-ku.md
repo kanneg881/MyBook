@@ -3,6 +3,14 @@
 `escape({string}, {chars})`  
 轉義 string，chars 為要被轉義的字元
 
+`executable({expr})`  
+本函數檢查名字由 {expr} 指定的可執行文件存在與否  
+1 存在  
+0 不存在  
+-1 此系統中沒有實現  
+大概就是說指令是否可以執行的意思  
+例如 php 指令是否可以執行
+
 `expand({expr} [, {nosuf} [, {list}]])`  
 擴展 `{expr}` 裡的通配符和下列特殊關鍵字
 
