@@ -118,6 +118,10 @@
 * [序](ying-pian-jian-ji/xu.md)
 * [自動生成字幕](ying-pian-jian-ji/zi-dong-sheng-cheng-zi-mu.md)
 
+## WordPress
+
+* [localhost ftp 連線問題](wordpress/localhost-ftp-lian-xian-wen-ti.md)
+
 ## 其它
 
 * [鍵盤符號中英文](qi-ta/jian-pan-fu-hao-zhong-ying-wen.md)
