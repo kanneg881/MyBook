@@ -166,10 +166,10 @@ setlocal spelling=~/mySpell/myWord.utf-8.add
 
 ## 特殊用法
 
-`:set`  
+`set`  
 顯示自己設定的環境設定
 
-`:set all`  
+`set all`  
 顯示所有的環境設定
 
 有些設定在前面加 no 就會關閉此功能  
@@ -188,16 +188,4 @@ set nospell
 
 `set spell&`  
 將該設定設定成預設值
-
-## try catch
-
-try catch 為錯誤處理，用法與一般程式例外處理差不多
-
-```text
-try
-    指令
-catch
-    發生錯誤時執行此處指令
-endtry
-```
 
