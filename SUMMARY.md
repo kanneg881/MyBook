@@ -70,7 +70,8 @@
   * [Vundle](vim/wai-gua-tui-jian/vundle.md)
   * [visual-star-search](vim/wai-gua-tui-jian/visual-star-search.md)
 * [什麼是 vimrc](vim/shen-me-shi-vimrc/README.md)
-  * [ftplugin](vim/shen-me-shi-vimrc/ftplugin.md)
+  * [設定檔案配置](vim/shen-me-shi-vimrc/she-ding-dang-an-pei-zhi/README.md)
+    * [ftplugin](vim/shen-me-shi-vimrc/she-ding-dang-an-pei-zhi/ftplugin.md)
 
 ## 終端
 
