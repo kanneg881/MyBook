@@ -53,3 +53,10 @@ gunzip 為 GNU unzip 縮寫
 `$ uncompress fileName`  
 解壓縮檔案
 
+### zip
+
+`$ zip -r zipFileName.zip directorName`  
+壓縮整個資料夾  
+zipFileName.zip 壓縮檔名稱  
+directorName 資料夾名稱
+
