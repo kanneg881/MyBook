@@ -4,7 +4,7 @@
 
 vim 可以設定很多環境，通常都是寫在 [vimrc](../shen-me-shi-vimrc/)
 
-大部分接可以直接在 Ex命令模式執行
+大部分接可以直接在 [Ex命令模式](../ex-ming-ling-mo-shi-zhi-ling/)執行
 
 例如  
 `set number`  
