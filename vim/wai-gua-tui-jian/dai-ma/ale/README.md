@@ -26,11 +26,13 @@ let g:ale_fixers = {
 \}
 
 " 修正 C 檔使用 clang-format
+" 修正 HTML 檔使用 prettier
+" 修正 JavaScript 檔使用 prettier_standard
 " 修正 PHP 檔使用 php-cs-fixer
 " 修正 PHP 檔使用 phpcbf
-" 修正 JavaScript 檔使用 prettier_standard
 let g:ale_fixers = {
-\   'c': ['clang-format'], 
+\   'c': ['clang-format'],
+\   'html': ['prettier'],
 \   'javascript': ['prettier_standard'],
 \   'php': ['php_cs_fixer', 'phpcbf'],
 \}
@@ -45,6 +47,7 @@ let g:ale_linters = {
 " ctrl + j 下一個錯誤
 nmap <silent> <C-k> <Plug>(ale_previous_wrap)
 nmap <silent> <C-j> <Plug>(ale_next_wrap)
+
 
 ```
 

@@ -52,6 +52,7 @@
     * [deoplete](vim/wai-gua-tui-jian/dai-ma/deoplete.md)
     * [ale](vim/wai-gua-tui-jian/dai-ma/ale/README.md)
       * [C](vim/wai-gua-tui-jian/dai-ma/ale/c.md)
+      * [HTML](vim/wai-gua-tui-jian/dai-ma/ale/html.md)
       * [Javascript](vim/wai-gua-tui-jian/dai-ma/ale/javascript.md)
     * [tabnine](vim/wai-gua-tui-jian/dai-ma/tabnine.md)
     * [php-cs-fixer](vim/wai-gua-tui-jian/dai-ma/php-cs-fixer.md)
