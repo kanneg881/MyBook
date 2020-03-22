@@ -153,3 +153,11 @@ $ openssl req -x509 -new -nodes -sha256 -utf8 -days 3650 -newkey rsa:2048 -keyou
 
 接下來就能使用 https://localhost 了
 
+## 參考
+
+{% embed url="https://medium.com/@onlinemad/極速打造-https-localhost-431d89a0c2e4" %}
+
+{% embed url="https://getgrav.org/blog/macos-catalina-apache-ssl" %}
+
+{% embed url="https://blog.miniasp.com/post/2019/02/25/Creating-Self-signed-Certificate-using-OpenSSL" %}
+
