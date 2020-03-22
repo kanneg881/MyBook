@@ -8,7 +8,9 @@ NERDTree 是檔案系統瀏覽器，一般IDE都會有一個可視化的樹狀�
 
 ## 下載
 
-[https://github.com/scrooloose/nerdtree](https://github.com/scrooloose/nerdtree)
+{% embed url="https://github.com/scrooloose/nerdtree" %}
+
+
 
 ## 簡易說明
 

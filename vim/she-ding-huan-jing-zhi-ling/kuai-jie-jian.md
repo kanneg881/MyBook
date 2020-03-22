@@ -28,14 +28,44 @@
 
 ## 映射指令說明
 
-| 語法 | 說明 |
-| :--- | :--- |
-| {cmd} | 如上表中的 map, nmap, vmap 等 |
-| {lhs} | 映射鍵 |
-| {rhs} | 映射鍵執行的功能 |
-| Leader | 此為設定鍵值的變數，預設為 \ |
-
-## 設定 Leader
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">&#x8A9E;&#x6CD5;</th>
+      <th style="text-align:left">&#x8AAA;&#x660E;</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">{cmd}</td>
+      <td style="text-align:left">&#x5982;&#x4E0A;&#x8868;&#x4E2D;&#x7684; map, nmap, vmap &#x7B49;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">{lhs}</td>
+      <td style="text-align:left">&#x6620;&#x5C04;&#x9375;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">{rhs}</td>
+      <td style="text-align:left">&#x6620;&#x5C04;&#x9375;&#x57F7;&#x884C;&#x7684;&#x529F;&#x80FD;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Leader</td>
+      <td style="text-align:left">&#x6B64;&#x70BA;&#x8A2D;&#x5B9A;&#x9375;&#x503C;&#x7684;&#x8B8A;&#x6578;&#xFF0C;&#x9810;&#x8A2D;&#x70BA;
+        \</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">silent</td>
+      <td style="text-align:left">
+        <p>&#x8981;&#x5728;&#x5B9A;&#x7FA9;&#x4E00;&#x500B;&#x6620;&#x5C04;&#x6642;&#x4E0D;&#x5728;&#x547D;&#x4EE4;&#x884C;&#x4E0A;&#x56DE;&#x986F;&#x8A72;&#x6620;&#x5C04;
+          <br
+          />&#x53EF;&#x4EE5;&#x4F7F;&#x7528; silent &#x4F5C;&#x70BA;&#x7B2C;&#x4E00;&#x500B;&#x53C3;&#x6578;</p>
+        <p>&#x4F8B;&#x5982;&#xFF1A;</p>
+        <p><code>:map &lt;silent&gt; ,h /Header&lt;CR&gt;</code>
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>## 設定 Leader
 
 預設 leader 為 \
 
