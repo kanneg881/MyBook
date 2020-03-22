@@ -4,7 +4,7 @@
 
 NERDTree 是檔案系統瀏覽器，一般IDE都會有一個可視化的樹狀檔案瀏覽器。
 
-![NERDTree demo](../../../.gitbook/assets/screenshot.png)
+![NERDTree demo](../../../.gitbook/assets/screenshot%20%281%29.png)
 
 ## 下載
 
