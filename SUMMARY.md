@@ -116,15 +116,21 @@
     * [PHP](zuo-ye-xi-tong/mac-os/jia-zhan-mamp/php.md)
     * [MySQL](zuo-ye-xi-tong/mac-os/jia-zhan-mamp/mysql.md)
     * [phpMyAdmin](zuo-ye-xi-tong/mac-os/jia-zhan-mamp/phpmyadmin.md)
+    * [localhost https](zuo-ye-xi-tong/mac-os/jia-zhan-mamp/localhost-https.md)
+
+## AWS
+
+* [序](aws/xu.md)
+* [Amazon EC2](aws/gu-ding-ip.md)
+
+## WordPress
+
+* [localhost ftp 連線問題](wordpress/localhost-ftp-lian-xian-wen-ti.md)
 
 ## 影片剪輯
 
 * [序](ying-pian-jian-ji/xu.md)
 * [自動生成字幕](ying-pian-jian-ji/zi-dong-sheng-cheng-zi-mu.md)
-
-## WordPress
-
-* [localhost ftp 連線問題](wordpress/localhost-ftp-lian-xian-wen-ti.md)
 
 ## 其它
 
