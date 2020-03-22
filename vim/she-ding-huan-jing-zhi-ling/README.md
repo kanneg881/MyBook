@@ -105,7 +105,7 @@ number 為數字
 
 `set showmode`  
 在插入，替換和可視模式裡，在最後一行提供消息  
-關閉則改成 noshowmode
+關閉則改成 `noshowmode`
 
 `set splitbelow`  
 如果打開，視窗的分割會把新視窗放到當前視窗之下
