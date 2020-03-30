@@ -40,6 +40,23 @@ vim 剪貼板跟系統剪貼板共用
 `set filetype=myfiletype`  
 如果檔案沒有識別或識別錯誤，可以手動設定 filetype
 
+`set guifont=字型檔:h{Number}`  
+gui 版 vim 字型  
+{Number} 字型大小  
+ex:   
+`set guifont=MesloLGL\ Nerd\ Font:h18`
+
+`set  guioptions=egmrLtT`  
+gui 版 vim 使用的部件和選項  
+每一個字母都代表一個選項  
+如果不想要某個選項把那個字母刪掉即可  
+egmrLtT 是預設值  
+主要可以設定滾動條顯示  
+r 右邊的滾動條總是存在  
+R 如有垂直分割的窗口，右邊的滾動條總是存在  
+l 左邊的滾動條總是存在  
+L 如有垂直分割的窗口，左邊的滾動條總是存在
+
 `set hidden`  
 如果想保留修改了的緩衝區但不寫回，打開 'hidden' 選項
 
