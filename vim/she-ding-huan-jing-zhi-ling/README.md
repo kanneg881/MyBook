@@ -43,7 +43,7 @@ vim 剪貼板跟系統剪貼板共用
 `set guifont=字型檔:h{Number}`  
 gui 版 vim 字型  
 {Number} 字型大小  
-ex:   
+舉例：  
 `set guifont=MesloLGL\ Nerd\ Font:h18`
 
 `set  guioptions=egmrLtT`  
@@ -73,7 +73,13 @@ L 如有垂直分割的窗口，左邊的滾動條總是存在
 輸入搜索命令時，顯示目前輸入的模式的匹配位置
 
 `set linebreak`  
-在某些字元才能自動摺行，避免斷句不乾淨 
+在某些字元才能自動摺行，避免斷句不乾淨
+
+`set linespace={number}`  
+設定每行的間距，高度的差距  
+number 為距離  
+舉例：  
+`set linespace=2`
 
 `set list`  
 顯示 tab 尾部空白、換行符號  
