@@ -130,12 +130,6 @@ number 為數字
 在插入，替換和可視模式裡，在最後一行提供消息  
 關閉則改成 `noshowmode`
 
-`set transparency={number}`  
-設定背景透明度 0-100  
-0 為不透明  
-100 為完全透明  
-在桌面設定 50 看起來很像高科技...
-
 `set splitbelow`  
 如果打開，視窗的分割會把新視窗放到當前視窗之下
 
@@ -144,6 +138,12 @@ number 為數字
 
 `set signcolumn=yes`  
 是否繪製標誌列
+
+`set transparency={number}`  
+設定背景透明度 0-100  
+0 為不透明  
+100 為完全透明  
+在桌面設定 50 看起來很像高科技...
 
 `set ts=number sts=number sw=number et`  
 number 為數字  
