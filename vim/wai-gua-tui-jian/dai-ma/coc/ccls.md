@@ -6,6 +6,8 @@ ccls 是 language server
 
 ## 下載
 
+{% embed url="https://github.com/MaskRay/ccls" %}
+
 ## 簡易說明
 
 安裝過程有點複雜，作者使用 homebrew 安裝過程比較簡單一點

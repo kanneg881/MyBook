@@ -141,6 +141,7 @@ number 為數字
 
 `set transparency={number}`  
 設定背景透明度 0-100  
+此為 gui 版 vim 才有效  
 0 為不透明  
 100 為完全透明  
 在桌面設定 50 看起來很像高科技...
