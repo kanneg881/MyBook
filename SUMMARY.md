@@ -39,6 +39,7 @@
   * [快捷鍵](vim/she-ding-huan-jing-zhi-ling/kuai-jie-jian.md)
   * [try catch](vim/she-ding-huan-jing-zhi-ling/try-catch.md)
   * [autocmd](vim/she-ding-huan-jing-zhi-ling/autocmd.md)
+  * [背景顏色](vim/she-ding-huan-jing-zhi-ling/bei-jing-yan-se.md)
 * [設定 help 文件中文版](vim/she-ding-help-wen-jian-zhong-wen-ban.md)
 * [函數庫](vim/han-shu-ku.md)
 * [插件推薦](vim/wai-gua-tui-jian/README.md)
