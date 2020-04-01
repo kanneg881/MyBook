@@ -43,6 +43,8 @@ cterm 色彩終端 \(MS-DOS 控制台、color-xterm
 
 gui GUI
 
+### 範例
+
 ctermfg={color-nr}  
 修改 cterm前景顏色
 
