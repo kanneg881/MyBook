@@ -11,14 +11,22 @@ universal-ctags 上面的版本的衍生版，持續更新中
 
 ## 下載
 
-官網下載：  
-[http://ctags.sourceforge.net](http://ctags.sourceforge.net)  
-其他安裝方式（homebrew, yum...）：  
-[https://packagecontrol.io/packages/CTags](https://packagecontrol.io/packages/CTags)  
-universal-ctags github（裡面有 homebrew 指令安裝說明）：  
-[https://github.com/universal-ctags/ctags](https://github.com/universal-ctags/ctags)
+{% embed url="http://ctags.sourceforge.net" caption="官網下載" %}
+
+{% embed url="https://packagecontrol.io/packages/CTags" caption="其他安裝方式（homebrew, yum...）" %}
+
+{% embed url="https://github.com/universal-ctags/ctags" caption="universal-ctags 官網（裡面有 mac os 安裝說明文件）" %}
+
+{% embed url="https://github.com/universal-ctags/homebrew-universal-ctags" caption="universal-ctags（裡面有 homebrew 指令安裝）" %}
+
+
 
 ## 簡易說明
+
+如果是 mac 建議安裝使用 homebrew  
+只要下指令玩大致上就安裝好了
+
+
 
 ```text
 $ ctags -R
