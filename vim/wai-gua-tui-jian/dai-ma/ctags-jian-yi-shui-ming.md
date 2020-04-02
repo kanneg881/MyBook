@@ -4,9 +4,10 @@
 
 掃描程式碼庫，生成關鍵字索引  
 可以快速跳到函數和類別定義之處  
-作者是安裝 Exuberant Ctags 版，不過好像很久沒更新了  
-還有一個 universal-ctags 持續更新，不過作者沒有研究  
-大家可以看看
+一共有兩個版本  
+Exuberant Ctags 不過好像很久沒更新了  
+universal-ctags 上面的版本的衍生版，持續更新中  
+作者是安裝 universal-ctags
 
 ## 下載
 
@@ -14,7 +15,7 @@
 [http://ctags.sourceforge.net](http://ctags.sourceforge.net)  
 其他安裝方式（homebrew, yum...）：  
 [https://packagecontrol.io/packages/CTags](https://packagecontrol.io/packages/CTags)  
-universal-ctags github：  
+universal-ctags github（裡面有 homebrew 指令安裝說明）：  
 [https://github.com/universal-ctags/ctags](https://github.com/universal-ctags/ctags)
 
 ## 簡易說明
