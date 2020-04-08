@@ -79,6 +79,10 @@ sessison 會話
 建立會話，名稱為 mysession  
 -s 指定會話名稱
 
+`$ tmux new -d`  
+建立會話  
+-d 隱藏在背景
+
 `$ tmux new -nmytopwindow top`  
 建立會話，一開始的窗口名稱為 mytopwindow，運作 top 指令  
 -n 指定一開始的窗口名稱
@@ -95,4 +99,7 @@ S- shift
 
 `C-b ?`  
 列出按鍵綁定
+
+`C-b c`  
+新建窗口
 
