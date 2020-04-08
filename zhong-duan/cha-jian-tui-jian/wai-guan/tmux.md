@@ -83,3 +83,16 @@ sessison 會話
 建立會話，一開始的窗口名稱為 mytopwindow，運作 top 指令  
 -n 指定一開始的窗口名稱
 
+## 進入到 tmux 的指令
+
+C-b 代表 Ctrl-b
+
+C- Ctrl  
+M- 通常是 Alt  
+S- shift
+
+如果組合在一起 C-M-x 代表 Ctrl-Alt-x
+
+`C-b ?`  
+列出按鍵綁定
+
