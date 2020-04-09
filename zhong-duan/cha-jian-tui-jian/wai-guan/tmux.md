@@ -96,6 +96,15 @@ sessison 會話
 建立會話，一開始的窗口名稱為 mytopwindow，運作 top 指令  
 -n 指定一開始的窗口名稱
 
+### 連接會話
+
+`$ tmux attach`  
+連接最近使用的會話，並且尚未連接的
+
+`$ tmux attach -tmysession`  
+連接指定會話名稱的會話  
+-t 指定會話
+
 ## 進入到 tmux 的指令
 
 C-b 代表 Ctrl-b
@@ -111,4 +120,10 @@ S- shift
 
 `C-b c`  
 新建窗口
+
+`C-b d`  
+分離會話，類似斷線  
+會提示 \[detached \(from session sessionName\)\]
+
+
 
