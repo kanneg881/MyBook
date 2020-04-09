@@ -82,7 +82,8 @@ sessison 會話
 一開始沒有會話時可以不帶參數
 
 `$ tmux new-session`  
-建立會話，名稱為按照數字順序
+建立會話，名稱為按照數字順序  
+new-session 縮寫為 new
 
 `$ tmux new -smysession`  
 建立會話，名稱為 mysession  
