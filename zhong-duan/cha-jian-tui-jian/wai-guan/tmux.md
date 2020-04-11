@@ -156,6 +156,9 @@ S- shift
 `:kill-server`  
 殺死會話\(刪掉的意思\)
 
+`:neww command`  
+新增一個視窗，並下 command 指令
+
 `:neww -dnmynewwindow`  
 新增一個視窗名為 mynewwindow，並且不進入此視窗  
 不讓此視窗為當前視窗  
