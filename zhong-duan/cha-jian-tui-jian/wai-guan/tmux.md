@@ -81,10 +81,6 @@ sessison 會話
 `$ tmux`  
 一開始沒有會話時可以不帶參數
 
-`$ tmux list-session`  
-顯示可以連接的可用會話列表  
-list-session 縮寫為 ls
-
 `$ tmux new-session`  
 建立會話，名稱為按照數字順序  
 new-session 縮寫為 new
@@ -121,6 +117,12 @@ new-session 縮寫為 new
 注意這裡是 -As\[會話名稱\]  
 -A 如果會話名稱存在就連接此會話  
 -D 類似 attach -d ，分離其他已經連接此會話的用戶
+
+### 列出會話
+
+`$ tmux list-session`  
+顯示可以連接的可用會話列表  
+list-session 縮寫為 ls
 
 
 
