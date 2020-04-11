@@ -124,8 +124,6 @@ new-session 縮寫為 new
 顯示可以連接的可用會話列表  
 list-session 縮寫為 ls
 
-
-
 ## 進入到 tmux 的快捷鍵
 
 C-b 代表 Ctrl-b
