@@ -139,6 +139,9 @@ S- shift
 `C-b ?`  
 列出按鍵綁定
 
+`C-b :`  
+切換命令提示，狀態欄會變成冒號 :
+
 `C-b c`  
 新建窗口
 
@@ -146,5 +149,8 @@ S- shift
 分離會話，類似斷線  
 會提示 \[detached \(from session sessionName\)\]
 
+## 命令提示指令
 
+`:kill-server`  
+殺死會話\(刪掉的意思\)
 
