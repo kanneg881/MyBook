@@ -126,7 +126,7 @@ list-session 縮寫為 ls
 
 
 
-## 進入到 tmux 的指令
+## 進入到 tmux 的快捷鍵
 
 C-b 代表 Ctrl-b
 
@@ -142,6 +142,12 @@ S- shift
 `C-b :`  
 切換命令提示，狀態欄會變成冒號 :
 
+`C-b %`  
+新增窗口，水平分割，左右各一個
+
+`C-b "`  
+新增窗口，垂直分割，上下各一個
+
 `C-b c`  
 新建窗口  
 窗口索引按照 0 1 2 依序指定  
@@ -150,6 +156,17 @@ S- shift
 `C-b d`  
 分離會話，類似斷線  
 會提示 \[detached \(from session sessionName\)\]
+
+## 進入到 tmux 指令
+
+`$ tmux split-window -flag`  
+分割窗口，可以搭配 flag  
+-b 分割的窗口在左邊或上面  
+-d 分割後不切換當前輸入指令的窗口  
+-f 分割的窗口佔整個寬或高  
+-h 水平分割，預設為右邊  
+-v 垂直分割，預設為下面  
+以上的參數同樣適用`new-session` 和 `new-window`
 
 ## 命令提示指令
 
