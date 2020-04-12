@@ -155,6 +155,23 @@ S- shift
 分離會話，類似斷線  
 會提示 \[detached \(from session sessionName\)\]
 
+### 改變當前窗口
+
+`C-b number`  
+改變窗口為 number，number 為 0 ~ 9
+
+`C-b '`  
+狀態欄出現提示 index 後面輸入窗口索引，並切換到此窗口
+
+`C-b n`  
+切換到下一個數字索引窗口，如果存在的話
+
+`C-b p`  
+切換到上一個數字索引窗口，如果存在的話
+
+`C-b l`  
+切換到前一個當前窗口
+
 ## 進入到 tmux 指令
 
 `$ tmux split-window -flag`  
