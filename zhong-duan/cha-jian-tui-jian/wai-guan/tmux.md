@@ -188,10 +188,6 @@ S- shift
 `C-b C-o`  
 移動下一號的窗格到目前窗格的位置
 
-
-
-\*\*\*\*
-
 ## 進入到 tmux 指令
 
 `$ tmux split-window -flag`  
