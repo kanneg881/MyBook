@@ -172,6 +172,26 @@ S- shift
 `C-b l`  
 切換到前一個當前窗口
 
+**改變活動窗格**
+
+`C-b Up`, `C-b Down`, `C-b Left` 和 ****`C-b Right`  
+****使用上下左右的方式改變
+
+`C-b q`  
+使用此指令會跳出窗格號碼，  
+在號碼還沒消失前輸入對應的號碼  
+就能改變活動窗格為此號碼
+
+`C-b o`  
+移動到下一號的窗格
+
+`C-b C-o`  
+移動下一號的窗格到目前窗格的位置
+
+
+
+\*\*\*\*
+
 ## 進入到 tmux 指令
 
 `$ tmux split-window -flag`  
@@ -182,6 +202,13 @@ S- shift
 -h 水平分割，預設為右邊  
 -v 垂直分割，預設為下面  
 以上的參數同樣適用`new-session` 和 `new-window`
+
+`$ tmux display-panes`  
+顯示窗格號碼
+
+`$ tmux select-pane -t[number]`  
+選擇活動窗格為 number  
+number 為數字，用 `$ tmux display-panes`  查看
 
 ## 命令提示指令
 
