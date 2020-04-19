@@ -10,7 +10,7 @@
 殺死活動中的窗格
 
 `$ tmux kill-window`  
-提示確認殺死當前窗口，在此窗口中的所有窗格會一併刪除
+殺死當前窗口，在此窗口中的所有窗格會一併刪除
 
 `$ tmux select-pane -t[number]`  
 選擇活動窗格為 number  
