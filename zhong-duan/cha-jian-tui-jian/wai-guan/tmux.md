@@ -256,6 +256,16 @@ S- shift
 
 ## 進入到 tmux 指令
 
+`$ tmux detach-client -a`  
+分離連接此客戶端以外的所有客戶端
+
+`$ tmux display-panes`  
+顯示窗格號碼
+
+`$ tmux select-pane -t[number]`  
+選擇活動窗格為 number  
+number 為數字，用 `$ tmux display-panes`  查看
+
 `$ tmux split-window -flag`  
 分割窗口，可以搭配 flag  
 -b 分割的窗口在左邊或上面  
@@ -264,13 +274,6 @@ S- shift
 -h 水平分割，預設為右邊  
 -v 垂直分割，預設為下面  
 以上的參數同樣適用`new-session` 和 `new-window`
-
-`$ tmux display-panes`  
-顯示窗格號碼
-
-`$ tmux select-pane -t[number]`  
-選擇活動窗格為 number  
-number 為數字，用 `$ tmux display-panes`  查看
 
 ## 命令提示指令
 
