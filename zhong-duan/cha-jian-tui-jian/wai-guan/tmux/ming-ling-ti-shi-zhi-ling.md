@@ -22,6 +22,9 @@
 `:kill-server`  
 殺死會話\(刪掉的意思\)
 
+`:kill-session`  
+殺死連接的會話和它的所有窗口並且分離客戶端
+
 `:neww command`  
 新增一個視窗，並下 command 指令
 
