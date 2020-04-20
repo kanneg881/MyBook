@@ -12,6 +12,12 @@
 `$ tmux kill-window`  
 殺死當前窗口，在此窗口中的所有窗格會一併刪除
 
+`$ tmux rename-session sessionName`  
+更改會話名稱為 sessionName
+
+`$ tmux rename-window windowName`  
+更改窗口名稱為 windowName
+
 `$ tmux select-pane -t[number]`  
 選擇活動窗格為 number  
 number 為數字，用 `$ tmux display-panes`  查看
