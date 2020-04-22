@@ -26,16 +26,19 @@ let g:ale_fixers = {
 \}
 
 " 修正 C 檔使用 clang-format
+" 修正 cpp 檔使用 clang-format
 " 修正 HTML 檔使用 prettier
 " 修正 JavaScript 檔使用 prettier_standard
 " 修正 PHP 檔使用 php-cs-fixer
 " 修正 PHP 檔使用 phpcbf
 let g:ale_fixers = {
 \   'c': ['clang-format'],
+\   'cpp': ['clang-format'],
 \   'html': ['prettier'],
 \   'javascript': ['prettier_standard'],
 \   'php': ['php_cs_fixer', 'phpcbf'],
 \}
+
 
 " 檢查 JavaScript 檔使用 standard
 let g:ale_linters = {
