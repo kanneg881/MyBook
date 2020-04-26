@@ -39,3 +39,13 @@
 新增一個視窗，索引值為 999  
 -t 指定索引值
 
+### 交換和移動
+
+`:swap-pane`  
+跟[標記](jin-ru-dao-tmux-de-kuai-jie-jian.md#jiao-huan-he-yi-dong)的窗格交換
+
+`:swap-window`  
+跟[標記](jin-ru-dao-tmux-de-kuai-jie-jian.md#jiao-huan-he-yi-dong)的窗口交換
+
+
+

@@ -146,3 +146,15 @@ S- shift
 `C-b ,`  
 提示為當前的窗口輸入新名稱
 
+## 交換和移動
+
+`C-b m`  
+標記窗格  
+標記的窗格背景邊框為綠色  
+狀態欄標記窗格的窗口有 M 旗標
+
+`C-b M`  
+取消標記窗格
+
+可使用[命令提示指令](ming-ling-ti-shi-zhi-ling.md#jiao-huan-he-yi-dong)做交換
+
