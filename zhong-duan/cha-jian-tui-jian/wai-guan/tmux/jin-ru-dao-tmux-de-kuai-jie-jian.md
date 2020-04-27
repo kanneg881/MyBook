@@ -175,3 +175,35 @@ S- shift
 
 ## 調整和縮放窗格
 
+These use the `resize-pane` command.
+
+`C-b C-Left  
+C-b C-Right  
+C-b C-Up  
+C-b C-Down`  
+小步調整窗格大小  
+Left Right Up Down 為方向鍵  
+mac os 本身有其對應的快捷鍵，會造成衝突
+
+`C-b M-Left  
+C-b M-Right  
+C-b M-Up  
+C-b M-Down`  
+大步調整窗格大小  
+Left Right Up Down 為方向鍵
+
+### **窗口佈局**
+
+`C-b space`  
+可以循環切換以下的窗口佈局
+
+| **名稱** | 快捷鍵 | 描述 |
+| :--- | :--- | :--- |
+| 水平平均 | `C-b M-1` | 水平均勻分佈 |
+| 垂直平均 | `C-b M-2` | 上下均勻分佈 |
+| 主水平 | `C-b M-3` | 頂部有一個大窗格，其餘的水平均勻分佈 |
+| 主垂直 | `C-b M-4` | 左側有一個大窗格，其餘的上下均勻分佈 |
+| 平鋪 | `C-b M-5` | 平鋪與列數相同的行數 |
+
+
+
