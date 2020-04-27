@@ -234,5 +234,7 @@ tmux 有自己的複製和貼上系統，複製的內容會在貼上緩衝區
 | `M-f` | 移動游標到下一個單字 |
 | `M-b` | 移動游標到上一個單字 |
 
+[手冊頁](https://man.openbsd.org/tmux#WINDOWS_AND_PANES)中提供了 vi\(1\) 和 emacs\(1\) 的完整快捷鍵列表。
+
 
 
