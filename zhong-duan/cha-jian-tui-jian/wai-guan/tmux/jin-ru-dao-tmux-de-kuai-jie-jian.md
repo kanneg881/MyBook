@@ -5,10 +5,14 @@
 C-b 代表 Ctrl-b
 
 C- Ctrl  
-M- 通常是 Alt  
+M- Meta 通常是 Alt， mac 為 option  
 S- shift
 
 如果組合在一起 C-M-x 代表 Ctrl-Alt-x
+
+#### 在 mac os 使用 Meta 需要在終端打開 option
+
+![](../../../../.gitbook/assets/jie-tu-20200427-xia-wu-7.15.48.png)
 
 ## 一般快捷鍵
 
