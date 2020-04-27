@@ -41,11 +41,19 @@
 
 ### 交換和移動
 
+標記的方式，使用 tmux 的[快捷鍵](jin-ru-dao-tmux-de-kuai-jie-jian.md#jiao-huan-he-yi-dong)
+
 `:swap-pane`  
-跟[標記](jin-ru-dao-tmux-de-kuai-jie-jian.md#jiao-huan-he-yi-dong)的窗格交換
+跟標記的窗格交換
 
 `:swap-window`  
-跟[標記](jin-ru-dao-tmux-de-kuai-jie-jian.md#jiao-huan-he-yi-dong)的窗口交換
+跟標記的窗口交換
+
+`:move-window -kt[number]`  
+移動窗口  
+-k 如果窗口存在會取代  
+-t 指定窗口索引  
+\[number\] 索引號碼
 
 
 
