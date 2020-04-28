@@ -60,5 +60,13 @@
 如果窗口索引為 1 20 30  
 輸入完畢後會變成 1 2 3
 
+### 複製和貼上
 
+`:setb -bbuffer0 -nmybuffer`  
+將貼上緩衝區 buffer0 更名成 mybuffer  
+-b 存在的緩衝區名稱  
+-n 更名的緩衝區名稱
+
+`:setb -bfoo bar`  
+建立緩衝區名為 foo，緩衝區的內容為 bar
 
