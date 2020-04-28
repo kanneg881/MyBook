@@ -15,6 +15,9 @@ mx mail exchange server 郵件交換伺服器
 檢視 domain name server 資訊  
 ns nameserver 伺服器名稱
 
+`$ fdisk -l`  
+檢視磁碟分割
+
 `$ fg PID`  
 將在背景運行的程序叫回前端螢幕  
 PID 為 process ID  
