@@ -96,6 +96,7 @@
     * [Dracula](zhong-duan/cha-jian-tui-jian/wai-guan/dracula.md)
     * [powerline](zhong-duan/cha-jian-tui-jian/wai-guan/powerline.md)
     * [tmux](zhong-duan/cha-jian-tui-jian/wai-guan/tmux/README.md)
+      * [配置 tmux](zhong-duan/cha-jian-tui-jian/wai-guan/tmux/pei-zhi-tmux.md)
       * [未進 tmux 的終端指令](zhong-duan/cha-jian-tui-jian/wai-guan/tmux/wei-jin-tmux-de-zhong-duan-zhi-ling.md)
       * [進入到 tmux 指令](zhong-duan/cha-jian-tui-jian/wai-guan/tmux/jin-ru-dao-tmux-zhi-ling.md)
       * [進入到 tmux 的快捷鍵](zhong-duan/cha-jian-tui-jian/wai-guan/tmux/jin-ru-dao-tmux-de-kuai-jie-jian.md)
