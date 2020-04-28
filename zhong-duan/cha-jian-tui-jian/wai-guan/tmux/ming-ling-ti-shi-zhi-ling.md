@@ -70,3 +70,16 @@
 `:setb -bfoo bar`  
 建立緩衝區名為 foo，緩衝區的內容為 bar
 
+`:loadb -bbuffername ~/a/file`  
+建立緩衝區名為 buffername  
+緩衝區的內容為 ~/a/file 檔案的內容
+
+`set-buffer` 或 `load-buffer`  
+縮寫為 `setb` `loadb`  
+沒有用 -b 命名緩衝區名稱的話  
+會自動建立緩衝區名稱
+
+`:saveb -bbuffer0 ~/saved_buffer`  
+保存緩衝區 buffer0 的內容到 ~/saved\_buffer 檔案裡  
+
+
