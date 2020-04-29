@@ -108,7 +108,13 @@ leafpad 是文字編輯器
 
 `$ mount /name /mountPoint`  
 手動掛載裝置  
+/name 裝置名稱  
+/mountPoint 掛載點  
 例如  
 mount /dev/sdb1 /mnt  
 掛載 sdb1 硬碟於 /mnt
+
+`$ umount /name`  
+手動卸載裝置  
+/name 裝置名稱
 
