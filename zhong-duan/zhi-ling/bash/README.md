@@ -103,6 +103,12 @@ leafpad 是文字編輯器
 `$ fdisk -l`  
 檢視磁碟分割
 
-`lsblk`  
+`$ lsblk`  
 列出區塊裝置資訊
+
+`$ mount /name /mountPoint`  
+手動掛載裝置  
+例如  
+mount /dev/sdb1 /mnt  
+掛載 sdb1 硬碟於 /mnt
 
