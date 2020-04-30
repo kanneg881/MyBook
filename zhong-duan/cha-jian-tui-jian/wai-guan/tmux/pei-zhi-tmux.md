@@ -56,12 +56,23 @@ tmux 中的每個快捷鍵綁定都屬於一個命名的快捷鍵表
 -T 標誌 要顯示的快捷鍵表  
 -N 標誌 顯示快捷鍵幫助，像是 `C-b？` 快捷鍵綁定
 
+**作者在輸入 -N 時，已經變成非法的選項了**
+
 例如，僅列出 prefix 表中的快捷鍵
 
 ```text
 $ tmux lsk -Tprefix
 bind-key    -T prefix C-b     send-prefix
 bind-key    -T prefix C-o     rotate-window
+...
+```
+
+或者
+
+```text
+$ tmux lsk -Tprefix -N
+C-b     Send the prefix key
+C-o     Rotate through the panes
 ...
 ```
 
