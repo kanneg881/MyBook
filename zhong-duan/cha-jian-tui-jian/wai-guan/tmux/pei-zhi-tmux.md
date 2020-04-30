@@ -45,9 +45,9 @@ set -g status off
 tmux 中的每個快捷鍵綁定都屬於一個命名的快捷鍵表  
 有四個預設的快捷表：
 
-* root 表包含不帶前綴鍵的快捷鍵綁定
-* prefix 表包含在前綴鍵按下之後的快捷鍵綁定 就像[進入到 tmux 的快捷鍵](jin-ru-dao-tmux-de-kuai-jie-jian.md)提到的那樣
-* copy-mode 表包含使用 emacs\(1\)-style 的按鍵 在復制模式下使用快捷鍵綁定。
+* root\(根\) 表包含不帶前綴鍵的快捷鍵綁定
+* prefix\(前綴\) 表包含在前綴鍵按下之後的快捷鍵綁定 就像[進入到 tmux 的快捷鍵](jin-ru-dao-tmux-de-kuai-jie-jian.md)提到的那樣
+* copy-mode\(複製模式\) 表包含使用 emacs\(1\)-style 的按鍵 在復制模式下使用快捷鍵綁定。
 * copy-mode-vi 表包含使用 vi\(1\)-style 的按鍵 在復制模式下使用快捷鍵綁定。
 
 可以使用 `list-keys` 命令列出所有的快捷鍵綁定或  
@@ -55,4 +55,13 @@ tmux 中的每個快捷鍵綁定都屬於一個命名的快捷鍵表
 一系列的 bind-key 命令。  
 -T 標誌 要顯示的快捷鍵表  
 -N 標誌 顯示快捷鍵幫助，像是 `C-b？` 快捷鍵綁定
+
+例如，僅列出 prefix 表中的快捷鍵
+
+```text
+$ tmux lsk -Tprefix
+bind-key    -T prefix C-b     send-prefix
+bind-key    -T prefix C-o     rotate-window
+...
+```
 
