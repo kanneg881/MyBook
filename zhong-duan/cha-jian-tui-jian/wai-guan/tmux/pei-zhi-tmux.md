@@ -50,3 +50,11 @@ tmux 中的每個快捷鍵綁定都屬於一個命名的快捷鍵表
 * copy-mode 表包含使用 emacs\(1\)-style 的按鍵 在復制模式下使用快捷鍵綁定。
 * copy-mode-vi 表包含使用 vi\(1\)-style 的按鍵 在復制模式下使用快捷鍵綁定。
 
+All the key bindings or those for a single table can be listed with the `list-keys` command. By default, this shows the keys as a series of `bind-key` commands. The `-T` flag gives the key table to show and the `-N` flag shows the key help, like the `C-b ?` key binding.
+
+可以使用 `list-keys` 命令列出所有的快捷鍵綁定或  
+單個表的快捷鍵綁定。預設情況下，這會將按快捷鍵顯示為  
+一系列的 bind-key 命令。  
+-T 標誌 要顯示的快捷鍵表  
+-N 標誌 顯示快捷鍵幫助，像是 `C-b？` 快捷鍵綁定
+
