@@ -7,6 +7,22 @@
 請務必注意 .tmux.conf 僅在啟動伺服器時運行  
 而不在創建新會話時運行
 
+可以使用 source-file 命令從 .tmux.conf 或正在運行的 tmux 伺服器  
+運行不同的配置文件，例如使用命令提示符從正在運行的  
+伺服器再次運行 .tmux.conf
+
+```text
+:source ~/.tmux.conf
+```
+
+配置文件中的命令每行顯示一個  
+以＃開頭的任何行都是註釋，將被忽略
+
+```text
+# 這是一個註解 - 下面的命令為關閉狀態欄
+set -g status off
+```
+
 ## 使用滑鼠
 
 `:set -g mouse on`  
