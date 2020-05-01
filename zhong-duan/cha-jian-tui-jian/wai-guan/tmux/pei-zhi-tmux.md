@@ -102,3 +102,33 @@ $ tmux lsk -Tcopy-mode C-a
 bind-key -T copy-mode C-a send-keys -X start-of-line
 ```
 
+[手冊頁](https://man.openbsd.org/tmux#WINDOWS_AND_PANES)中提供了複製模式命令的完整列表，這裡是選取：
+
+| 命令 | _emacs\(1\)_ | _vi\(1\)_ | 描述 |
+| :--- | :--- | :--- | :--- |
+| begin-selection | C-Space | Space | 開始選取 |
+| cancel | q | q | 離開複製模式 |
+| clear-selection | C-g | Escape | 清除選取 |
+| copy-pipe |  |  | 複製並管道到第一個參數中的命令 |
+| copy-selection-and-cancel | M-w | Enter | 複製選取並離開複製模式 |
+| cursor-down | Down | j | 向下移動游標 |
+| cursor-left | Left | h | 向左移動游標 |
+| cursor-right | Right | l | 向右移動游標 |
+| cursor-up | Up | k | 向上移動游標 |
+| end-of-line | C-e | $ | 移動游標到行尾 |
+| history-bottom | M-&gt; | G | 移至歷史底部 |
+| history-top | M-&lt; | g | 移至歷史頂部 |
+| middle-line | M-r | M | 移至中間行 |
+| next-word-end | M-f | e | 移至下一個單字的節尾 |
+| page-down | PageDown | C-f | 向下翻頁 |
+| page-up | PageUp | C-b | 向上翻頁 |
+| previous-word | M-b | b | 移至上一個單字 |
+| rectangle-toggle | R | v | 切換矩形選取 |
+| search-again | n | n | 重複上一次搜尋 |
+| search-backward |  | ? | 向後搜尋，第一個參數是搜尋項目 |
+| search-backward-incremental | C-r |  | 向後漸進搜尋，通常與 -i 標誌一起使用命令提示 |
+| search-forward |  | / | 向前搜尋，第一個參數是搜尋項目 |
+| search-forward-incremental | C-s |  | 向前漸進搜尋 |
+| search-reverse | N | N | 重複上一次搜尋，但方向相反 |
+| start-of-line | C-a | 0 | 移至行首 |
+
