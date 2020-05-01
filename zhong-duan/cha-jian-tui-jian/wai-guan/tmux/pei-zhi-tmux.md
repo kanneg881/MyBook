@@ -90,3 +90,15 @@ unbind M-0
 
 更進一步綁定的部分在[手冊頁的命令部分](https://man.openbsd.org/tmux#COMMANDS)
 
+### 複製模式快捷鍵
+
+複製模式快捷鍵綁定在 copy-mode 和 copy-mode-vi 按鍵表中設定  
+複製模式具有一組單獨的命令，這些命令使用 -X 標誌  
+傳遞給 send-keys 命令，例如，複製模式 start-of-line 命令  
+將游標移動到行的開頭，並綁定 C-a 到 copy-mode 按鍵表：
+
+```text
+$ tmux lsk -Tcopy-mode C-a
+bind-key -T copy-mode C-a send-keys -X start-of-line
+```
+
