@@ -76,3 +76,17 @@ C-o     Rotate through the panes
 ...
 ```
 
+綁定 `C-b M-0` 快捷鍵為選擇窗口 10
+
+```text
+bind M-0 selectw -t:=10
+```
+
+取消綁定快捷鍵 `C-b M-0`
+
+```text
+unbind M-0
+```
+
+更進一步綁定的部分在[手冊頁的命令部分](https://man.openbsd.org/tmux#COMMANDS)
+
