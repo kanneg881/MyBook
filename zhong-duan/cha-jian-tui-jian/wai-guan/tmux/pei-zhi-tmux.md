@@ -132,3 +132,7 @@ bind-key -T copy-mode C-a send-keys -X start-of-line
 | search-reverse | N | N | 重複上一次搜尋，但方向相反 |
 | start-of-line | C-a | 0 | 移至行首 |
 
+## 選項類型
+
+
+
