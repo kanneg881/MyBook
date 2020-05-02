@@ -134,5 +134,17 @@ bind-key -T copy-mode C-a send-keys -X start-of-line
 
 ## 選項類型
 
+### 顯示選項
 
+`$ tmux show -s`  
+-s 顯示伺服器選項
+
+`$ tmux show -g`  
+-g 沒有其他的旗標為顯式全域會話選項
+
+`$ tmux show -wg`  
+-w 和 -g 一起為顯示全域窗口選項
+
+`$ tmux show -g status`  
+指定顯示 status 選項
 
