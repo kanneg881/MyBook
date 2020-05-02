@@ -148,3 +148,11 @@ bind-key -T copy-mode C-a send-keys -X start-of-line
 `$ tmux show -g status`  
 指定顯示 status 選項
 
+### 改變選項
+
+`set -g status off`  
+設定狀態欄選項關閉
+
+`set -s default-terminal 'tmux-256color'`  
+設定預設終端選項
+
