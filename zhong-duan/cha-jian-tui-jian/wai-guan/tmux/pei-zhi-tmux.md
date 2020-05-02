@@ -159,3 +159,10 @@ bind-key -T copy-mode C-a send-keys -X start-of-line
 `set -gu status`  
 -u 變成未設置選項，未設置選項會恢復成預設值
 
+## 顏色和風格
+
+`set -g status-style 'bg=blue'`  
+設定狀態欄背景的顏色為藍色
+
+剩下的風格項目寫在[手冊裡](https://man.openbsd.org/tmux#STYLES)
+
