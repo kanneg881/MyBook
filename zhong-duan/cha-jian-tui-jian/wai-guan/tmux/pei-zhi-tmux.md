@@ -156,3 +156,6 @@ bind-key -T copy-mode C-a send-keys -X start-of-line
 `set -s default-terminal 'tmux-256color'`  
 設定預設終端選項
 
+`set -gu status`  
+-u 變成未設置選項，未設置選項會恢復成預設值
+
