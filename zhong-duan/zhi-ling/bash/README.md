@@ -128,3 +128,18 @@ mount /dev/sdb1 /mnt
 手動卸載裝置  
 /name 裝置名稱
 
+## 背景服務
+
+控制系統的背景服務，指令如下
+
+service servicename start \| stop \| restart  
+控制系統的背景服務  
+servicename 服務名稱  
+start \| stop \| restart 開啟 \| 終止 \| 重啟\(選一個\)
+
+例如  
+`$ service rsyslog stop`  
+終止日誌服務
+
+
+
