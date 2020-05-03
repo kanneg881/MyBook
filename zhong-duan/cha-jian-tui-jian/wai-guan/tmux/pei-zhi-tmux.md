@@ -166,3 +166,146 @@ bind-key -T copy-mode C-a send-keys -X start-of-line
 
 剩下的風格項目寫在[手冊裡](https://man.openbsd.org/tmux#STYLES)
 
+## 有用選項列表
+
+除了樣式選項，這是最常用的 tmux 選項的簡短列表：
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">&#x9078;&#x9805;</th>
+      <th style="text-align:left">&#x985E;&#x578B;</th>
+      <th style="text-align:left">&#x63CF;&#x8FF0;</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">base-index</td>
+      <td style="text-align:left">&#x6703;&#x8A71;</td>
+      <td style="text-align:left">&#x5982;&#x679C;&#x8A2D;&#x5B9A;&#xFF0C;&#x5247;&#x7A97;&#x53E3;&#x7D22;&#x5F15;&#x5F9E;
+        base-index &#x958B;&#x59CB;&#x800C;&#x4E0D;&#x662F;&#x5F9E;0</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">buffer-limit</td>
+      <td style="text-align:left">&#x4F3A;&#x670D;&#x5668;</td>
+      <td style="text-align:left">&#x4FDD;&#x7559;&#x7684;&#x6700;&#x5927;&#x81EA;&#x52D5;&#x7DE9;&#x885D;&#x5340;&#x6578;&#xFF0C;&#x9810;&#x8A2D;&#x503C;&#x70BA;50</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">default-terminal</td>
+      <td style="text-align:left">&#x4F3A;&#x670D;&#x5668;</td>
+      <td style="text-align:left">tmux &#x4E2D; TERM &#x74B0;&#x5883;&#x8B8A;&#x6578;&#x7684;&#x9810;&#x8A2D;&#x503C;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">display-panes-time</td>
+      <td style="text-align:left">&#x7A97;&#x53E3;</td>
+      <td style="text-align:left"><code>C-b q</code> &#x4EE5;&#x6BEB;&#x79D2;&#x70BA;&#x55AE;&#x4F4D;&#x7684;&#x6642;&#x9593;&#x986F;&#x793A;&#x7684;&#x7A97;&#x683C;&#x865F;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">display-time</td>
+      <td style="text-align:left">&#x6703;&#x8A71;</td>
+      <td style="text-align:left">&#x72C0;&#x614B;&#x6B04;&#x4E0A;&#x986F;&#x793A;&#x8A0A;&#x606F;&#x7684;&#x6642;&#x9593;&#xFF08;&#x4EE5;&#x6BEB;&#x79D2;&#x70BA;&#x55AE;&#x4F4D;&#xFF09;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">escape-time</td>
+      <td style="text-align:left">&#x4F3A;&#x670D;&#x5668;</td>
+      <td style="text-align:left">tmux &#x6536;&#x5230; Escape &#x9375;&#x5F8C;&#x7B49;&#x5F85;&#x7684;&#x6642;&#x9593;
+        <br
+        />&#x4EE5;&#x67E5;&#x770B;&#x5B83;&#x662F;&#x5426;&#x662F;&#x8F03;&#x9577;&#x9375;&#x5E8F;&#x5217;&#x7684;&#x4E00;&#x90E8;&#x5206;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">focus-events</td>
+      <td style="text-align:left">&#x4F3A;&#x670D;&#x5668;</td>
+      <td style="text-align:left">tmux &#x662F;&#x5426;&#x767C;&#x9001;&#x7126;&#x9EDE;&#x9375;&#x5E8F;&#x5217;&#xFF0C;&#x7576;&#x6D3B;&#x52D5;&#x7A97;&#x683C;&#x66F4;&#x6539;&#x6642;
+        <br
+        />&#x4EE5;&#x53CA;&#x662F;&#x5426;&#x5F9E;&#x5916;&#x90E8;&#x7D42;&#x7AEF;&#x63A5;&#x6536;&#xFF08;&#x5982;&#x679C;&#x652F;&#x6301;&#xFF09;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">history-limit</td>
+      <td style="text-align:left">&#x6703;&#x8A71;</td>
+      <td style="text-align:left">&#x6BCF;&#x500B;&#x7A97;&#x683C;&#x7684;&#x6B77;&#x53F2;&#x8A18;&#x9304;&#x4E2D;&#x4FDD;&#x7559;&#x7684;&#x6700;&#x5927;&#x884C;&#x6578;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">mode-keys</td>
+      <td style="text-align:left">&#x7A97;&#x53E3;</td>
+      <td style="text-align:left">&#x5728;&#x5FA9;&#x5236;&#x6A21;&#x5F0F;&#x4E0B;&#x4F7F;&#x7528; emacs(1)&#x9084;&#x662F;
+        vi(1) &#x9375;&#x7D81;&#x5B9A;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">mouse</td>
+      <td style="text-align:left">&#x6703;&#x8A71;</td>
+      <td style="text-align:left">&#x5982;&#x679C;&#x555F;&#x7528;&#x4E86;&#x6E38;&#x6A19;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">pane-border-status</td>
+      <td style="text-align:left">&#x7A97;&#x53E3;</td>
+      <td style="text-align:left">&#x72C0;&#x614B;&#x6B04;&#x662F;&#x5426;&#x51FA;&#x73FE;&#x5728;&#x6BCF;&#x500B;&#x7A97;&#x683C;&#x908A;&#x6846;&#x4E2D;&#xFF1A;&#x9802;&#x90E8;&#x6216;&#x5E95;&#x90E8;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">prefix</td>
+      <td style="text-align:left">&#x6703;&#x8A71;</td>
+      <td style="text-align:left">&#x524D;&#x7DB4;&#x9375;&#xFF0C;&#x9810;&#x8A2D;&#x70BA; <code>C-b</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">remain-on-exit</td>
+      <td style="text-align:left">&#x7A97;&#x53E3;</td>
+      <td style="text-align:left">&#x7A0B;&#x5E8F;&#x5728;&#x904B;&#x884C;&#x96E2;&#x958B;&#x6642;&#x662F;&#x5426;&#x81EA;&#x52D5;&#x6BBA;&#x6B7B;&#x7A97;&#x683C;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">renumber-windows</td>
+      <td style="text-align:left">&#x6703;&#x8A71;</td>
+      <td style="text-align:left">&#x5982;&#x679C; on(&#x958B;)&#xFF0C;&#x5247;&#x7A97;&#x53E3;&#x5C07;&#x81EA;&#x52D5;&#x91CD;&#x65B0;&#x7DE8;&#x865F;
+        <br
+        />&#x4EE5;&#x586B;&#x88DC;&#x7A97;&#x53E3;&#x5217;&#x8868;&#x4E2D;&#x7684;&#x6240;&#x6709;&#x9593;&#x9699;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">set-clipboard</td>
+      <td style="text-align:left">&#x6703;&#x8A71;</td>
+      <td style="text-align:left">
+        <p>&#x7576;&#x8907;&#x88FD;&#x6587;&#x672C;&#x548C;&#x5916;&#x90E8;&#x7D42;&#x7AEF;&#x652F;&#x6301;&#x6642;</p>
+        <p>tmux &#x662F;&#x5426;&#x61C9;&#x5617;&#x8A66;&#x8A2D;&#x5B9A;&#x5916;&#x90E8;
+          X(7) &#x526A;&#x8CBC;&#x677F;</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">set-titles</td>
+      <td style="text-align:left">&#x6703;&#x8A71;</td>
+      <td style="text-align:left">&#x5982;&#x679C; on&#xFF0C;tmux &#x5C07;&#x8A2D;&#x5B9A;&#x5916;&#x90E8;&#x7D42;&#x7AEF;&#x7684;&#x6A19;&#x984C;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">status</td>
+      <td style="text-align:left">&#x6703;&#x8A71;</td>
+      <td style="text-align:left">&#x72C0;&#x614B;&#x884C;&#x662F;&#x5426;&#x53EF;&#x898B;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">status-keys</td>
+      <td style="text-align:left">&#x6703;&#x8A71;</td>
+      <td style="text-align:left">&#x5728;&#x547D;&#x4EE4;&#x63D0;&#x793A;&#x5B57;&#x5143;&#x4E0B;&#x662F;&#x5426;&#x4F7F;&#x7528;
+        emacs(1) &#x6216; vi(1) &#x9375;&#x7D81;&#x5B9A;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">status-interval</td>
+      <td style="text-align:left">&#x6703;&#x8A71;</td>
+      <td style="text-align:left">&#x91CD;&#x756B;&#x72C0;&#x614B;&#x884C;&#x4E4B;&#x524D;&#x7684;&#x6700;&#x9577;&#x6642;&#x9593;&#xFF08;&#x4EE5;&#x79D2;&#x70BA;&#x55AE;&#x4F4D;&#xFF09;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">status-position</td>
+      <td style="text-align:left">&#x6703;&#x8A71;</td>
+      <td style="text-align:left">&#x72C0;&#x614B;&#x884C;&#x7684;&#x4F4D;&#x7F6E;&#xFF1A;&#x9802;&#x90E8;&#x6216;&#x5E95;&#x90E8;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">synchronize-panes</td>
+      <td style="text-align:left">&#x7A97;&#x53E3;</td>
+      <td style="text-align:left">&#x5982;&#x679C; on&#xFF0C;&#x5247;&#x5C07;&#x5728;&#x7A97;&#x53E3;&#x4E2D;&#x7684;&#x4EFB;&#x4F55;&#x7A97;&#x683C;&#x4E2D;&#x9375;&#x5165;&#x7684;&#x5167;&#x5BB9;
+        <br
+        />&#x767C;&#x9001;&#x5230;&#x7A97;&#x53E3;&#x4E2D;&#x7684;&#x6240;&#x6709;&#x7A97;&#x683C;
+        - &#x8ACB;&#x8B39;&#x614E;&#x4F7F;&#x7528;&#x6B64;&#x9078;&#x9805;&#xFF01;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">terminal-overrides</td>
+      <td style="text-align:left">&#x6703;&#x8A71;</td>
+      <td style="text-align:left">tmux &#x7684;&#x4EFB;&#x4F55;&#x529F;&#x80FD;&#x90FD;&#x61C9;&#x5F9E;&#x70BA;&#x5916;&#x90E8;&#x7D42;&#x7AEF;&#x6307;&#x5B9A;&#x7684;
+        TERM &#x4E2D;&#x8986;&#x84CB;</td>
+    </tr>
+  </tbody>
+</table>
