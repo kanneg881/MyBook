@@ -319,4 +319,9 @@ bind-key -T copy-mode C-a send-keys -X start-of-line
 | message-style | 會話 | 狀態行和命令提示字元上 顯示的訊息樣式 |
 | mode-style | 窗口 | 在複製模式選取的樣式 |
 | pane-active-border-style | 窗口 | 活動窗格邊框的樣式 |
+| pane-border-format | 窗口 | 如果設定了 panel-border-status 則文本格式顯示在窗格邊框 狀態行中的 |
+| pane-border-style | 窗口 | 除了活動窗格的窗格邊框的樣式 |
+| status-left-length | 會話 | 狀態行左側的最大長度 |
+| status-left-style | 會話 | 狀態行左側的樣式 |
+| status-left | 會話 | 狀態行左側的文本格式 |
 
