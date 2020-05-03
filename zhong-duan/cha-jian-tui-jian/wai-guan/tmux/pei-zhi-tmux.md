@@ -308,4 +308,15 @@ bind-key -T copy-mode C-a send-keys -X start-of-line
         TERM &#x4E2D;&#x8986;&#x84CB;</td>
     </tr>
   </tbody>
-</table>
+</table>### 樣式和格式選項列表
+
+這是最常用的 tmux 樣式和格式選項列表：
+
+| 選項 | 類型 | 描述 |
+| :--- | :--- | :--- |
+| display-panes-active-colour | 會話 | `C-b q` 活動窗格編號的樣式 |
+| display-panes-colour | 會話 | `C-b q` 除了活動窗格的 窗格編號的樣式 |
+| message-style | 會話 | 狀態行和命令提示字元上 顯示的訊息樣式 |
+| mode-style | 窗口 | 在複製模式選取的樣式 |
+| pane-active-border-style | 窗口 | 活動窗格邊框的樣式 |
+
