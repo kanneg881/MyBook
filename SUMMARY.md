@@ -135,6 +135,7 @@
 
 * [localhost ftp 連線問題](wordpress/localhost-ftp-lian-xian-wen-ti.md)
 * [強制修改信箱帳號](wordpress/jiang-zhi-xiu-gai-xin-xiang-zhang-hao.md)
+* [bitnami 登入 Wordpress](wordpress/bitnami-deng-ru-wordpress.md)
 
 ## 影片剪輯
 
