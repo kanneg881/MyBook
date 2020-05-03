@@ -38,6 +38,17 @@ s/keyword/replace/g 的 g 為全域搜尋
 如果沒有 g 則只取代搜尋到的第一個  
 如果 g 改成數字 n，則指定取代搜尋到的第 n 個
 
+## 破壞檔案
+
+當你要徹底移除檔案，你只使用刪除，有可能還是會被復原  
+最好的辦法是，刪除一個檔案，在覆寫數次，這樣復原的難度就會提高好多
+
+`$ shred -f -n number /path/to/file`  
+複寫 /path/to/file 檔案 number 次  
+-f 修改檔案權限，讓你可以覆寫  
+-n number 覆寫 number 次  
+/path/to/file 檔案位置
+
 ## 目錄
 
 `$ mkdir directoryName`  
