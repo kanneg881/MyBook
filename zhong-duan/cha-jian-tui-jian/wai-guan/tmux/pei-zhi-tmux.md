@@ -336,3 +336,25 @@ bind-key -T copy-mode C-a send-keys -X start-of-line
 | window-status-style | 窗口 | 除當前窗口外，窗口列表中窗口的樣式 |
 | window-style | 窗口 | 除了活動窗格以外，窗口中窗格的預設顏色樣式 |
 
+## 常見配置更改
+
+.tmux.conf 常見的配置更改
+
+### 更改前綴鍵
+
+將 C-b 前綴鍵改成 C-a
+
+```text
+set -g prefix C-a
+unbind C-b
+bind C-a send-prefix
+```
+
+### 自定義狀態行
+
+`set -g status off`  
+關閉狀態行
+
+`set -g status-position top`  
+將狀態行移到頂部
+
