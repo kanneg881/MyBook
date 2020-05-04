@@ -335,5 +335,4 @@ bind-key -T copy-mode C-a send-keys -X start-of-line
 | window-status-separator | 窗口 | 窗口列表中窗口之間的分隔字元 |
 | window-status-style | 窗口 | 除當前窗口外，窗口列表中窗口的樣式 |
 | window-style | 窗口 | 除了活動窗格以外，窗口中窗格的預設顏色樣式 |
-|  |  |  |
 
