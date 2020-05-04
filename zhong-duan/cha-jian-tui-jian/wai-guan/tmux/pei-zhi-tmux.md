@@ -358,3 +358,28 @@ bind C-a send-prefix
 `set -g status-position top`  
 將狀態行移到頂部
 
+`set -g status-style bg=red`  
+將背景色設定為紅色
+
+`set -g status-right '%H:%M'`  
+將右側的文本更改為僅有時間
+
+`set -g window-status-current-style 'underscore'`  
+在當前窗口下劃線
+
+### 配置窗格邊框
+
+可以設定窗格的邊框顏色
+
+```text
+set -g pane-border-style fg=red
+set -g pane-active-border-style 'fg=red,bg=yellow'
+```
+
+可以為每個窗格分配一個帶有 `panel-border-status` 選項的狀態行，例如以粗體顯示窗格標題
+
+```text
+set -g pane-border-status top
+set -g pane-border-format '#[bold]#{pane_title}#[default]'
+```
+
