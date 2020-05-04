@@ -316,12 +316,24 @@ bind-key -T copy-mode C-a send-keys -X start-of-line
 | :--- | :--- | :--- |
 | display-panes-active-colour | 會話 | `C-b q` 活動窗格編號的樣式 |
 | display-panes-colour | 會話 | `C-b q` 除了活動窗格的 窗格編號的樣式 |
-| message-style | 會話 | 狀態行和命令提示字元上 顯示的訊息樣式 |
+| message-style | 會話 | 狀態行和命令提示字元上顯示的訊息樣式 |
 | mode-style | 窗口 | 在複製模式選取的樣式 |
 | pane-active-border-style | 窗口 | 活動窗格邊框的樣式 |
-| pane-border-format | 窗口 | 如果設定了 panel-border-status 則文本格式顯示在窗格邊框 狀態行中的 |
+| pane-border-format | 窗口 | 如果設定了 panel-border-status 則文本格式顯示在窗格邊框狀態行中的 |
 | pane-border-style | 窗口 | 除了活動窗格的窗格邊框的樣式 |
 | status-left-length | 會話 | 狀態行左側的最大長度 |
 | status-left-style | 會話 | 狀態行左側的樣式 |
 | status-left | 會話 | 狀態行左側的文本格式 |
+| status-right-length | 會話 | 狀態行右側的最大長度 |
+| status-right-style | 會話 | 狀態行右側的樣式 |
+| status-right | 會話 | 狀態行右側的文本格式 |
+| status-style | 會話 | 狀態行整體的樣式，部分可能會被更具體的選項覆蓋，像是 status-left-style |
+| window-active-style | 窗口 | 窗口活動窗格中預設顏色的樣式 |
+| window-status-current-format | 窗口 | 窗口列表中當前窗口的格式 |
+| window-status-current-style | 窗口 | 窗口列表中當前窗口的樣式 |
+| window-status-format | 窗口 | 除當前窗口外，窗口列表中窗口的格式 |
+| window-status-separator | 窗口 | 窗口列表中窗口之間的分隔字元 |
+| window-status-style | 窗口 | 除當前窗口外，窗口列表中窗口的樣式 |
+| window-style | 窗口 | 除了活動窗格以外，窗口中窗格的預設顏色樣式 |
+|  |  |  |
 
