@@ -393,3 +393,15 @@ set -g mode-keys vi
 set -g status-keys vi
 ```
 
+### 滑鼠複製行為
+
+`unbind -Tcopy-mode MouseDragEnd1Pane`  
+釋放滑鼠時，不複製或清除選擇內容或退出複制模式。  
+必須使用鍵盤來複製選取
+
+`bind -Tcopy-mode MouseDragEnd1Pane send -X copy-selection`  
+複製並清除選取，但不退出複制模式
+
+`bind -Tcopy-mode MouseDragEnd1Pane send -X copy-selection-no-clear`  
+複製但不清除選取
+
