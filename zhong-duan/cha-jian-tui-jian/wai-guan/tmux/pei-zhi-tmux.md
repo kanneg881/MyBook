@@ -383,3 +383,13 @@ set -g pane-border-status top
 set -g pane-border-format '#[bold]#{pane_title}#[default]'
 ```
 
+### **vi\(1\)鍵綁定**
+
+1. mode-keys 複製模式使用 vi 鍵
+2. status-keys 命令提示使用 vi 鍵
+
+```text
+set -g mode-keys vi
+set -g status-keys vi
+```
+
