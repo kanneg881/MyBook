@@ -20,23 +20,23 @@ ns nameserver 伺服器名稱
 PID 為 process ID  
 可以用 ps 查看 PID
 
-`$ ifconfig`  
-分析網路，檢測並與網路介面卡進行互動
-
-`$ iwconfig`  
-檢查無線網路裝置
-
 `$ ls [-al] [path]`  
 列出當前目錄中的檔案與子目錄  
 -a 顯示隱藏檔案  
 -l \(long listing\)詳細資料  
 path 指定目錄
 
+`$ lsmod`  
+列出安裝在核心的模組
+
 `$ ps [aux]`  
 顯示所有系統上正在運行的程序  
 a 顯示現有終端機下的所有程序，包括其他用戶的程序  
 u 以用戶為主的格式來顯示程序狀況  
 x 顯示所有程序，不以終端機來區分
+
+`$ uname -a`  
+顯示版本資訊
 
 `$ whoami`  
 查看登入資訊
@@ -72,7 +72,7 @@ path/to/file 檔案位置
 ## 分析網路，檢測並與網路介面卡進行互動
 
 `$ ifconfig`  
-取得網路連線資訊
+分析網路，檢測並與網路介面卡進行互動
 
 `$ ifconfig eth0 xxx.xxx.xxx.xxx`  
 更改 IP 位址，xxx 為數字
@@ -82,6 +82,14 @@ path/to/file 檔案位置
 
 `$ ifconfig broadcast xxx.xxx.xxx.xxx`  
 更改網路遮罩，xxx 為數字
+
+`$ iwconfig`  
+檢查無線網路裝置
+
+`$ iwlist wlan0 scan`  
+掃描可用 wifi  
+wlan0 代表第0個  
+用 iwconfig 先查看無線網路裝置
 
 ### 竄改 MAC 位址
 
