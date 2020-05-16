@@ -38,6 +38,10 @@ x 顯示所有程序，不以終端機來區分
 `$ sysctl -a | less`  
 列出顯示核心選項
 
+`$ sysctl -p`  
+修改完  /etc/sysctl.conf 核心選項  
+執行此指令去執行修改
+
 `$ uname -a`  
 顯示版本資訊
 
