@@ -308,7 +308,9 @@ bind-key -T copy-mode C-a send-keys -X start-of-line
         TERM &#x4E2D;&#x8986;&#x84CB;</td>
     </tr>
   </tbody>
-</table>### 樣式和格式選項列表
+</table>
+
+### 樣式和格式選項列表
 
 這是最常用的 tmux 樣式和格式選項列表：
 

@@ -65,7 +65,9 @@
       </td>
     </tr>
   </tbody>
-</table>## 設定 Leader
+</table>
+
+## 設定 Leader
 
 預設 leader 為 \
 

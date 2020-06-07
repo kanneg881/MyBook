@@ -125,6 +125,8 @@
     * [MySQL](zuo-ye-xi-tong/mac-os/jia-zhan-mamp/mysql.md)
     * [phpMyAdmin](zuo-ye-xi-tong/mac-os/jia-zhan-mamp/phpmyadmin.md)
     * [localhost https](zuo-ye-xi-tong/mac-os/jia-zhan-mamp/localhost-https.md)
+* [Ubuntu](zuo-ye-xi-tong/ubuntu/README.md)
+  * [安裝 Nginx](zuo-ye-xi-tong/ubuntu/an-zhuang-nginx.md)
 
 ## AWS
 
