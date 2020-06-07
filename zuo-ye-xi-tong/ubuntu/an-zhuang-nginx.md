@@ -89,3 +89,14 @@ index 就是入口網站的預設讀取的檔案
 
 假設安裝的是 php7.4 上面就是輸入 php7.4-fpm.sock
 
+`$ sudo nginx -t`   
+測試設定有沒有問題
+
+如果沒問題就會看到以下訊息
+
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok  
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+
+接下來重啟 Nginx 就可以了  
+`$ sudo systemctl restart nginx`
+
