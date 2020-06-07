@@ -58,3 +58,34 @@ http://你的IP
 重新載入 Nginx  
 如果有修改配置，可以使用此指令
 
+## 配置 PHP
+
+安裝完 PHP 後需要配置 Nginx
+
+預設檔案在 /etc/nginx/sites-available/default
+
+{% code title="/etc/nginx/sites-available/default" %}
+```text
+server {
+    略
+    index index.php 略
+ 
+    略
+ 
+    location ~ \.php$ {
+        include snippets/fastcgi-php.conf;
+        fastcgi_pass unix:/run/php/php7.4-fpm.sock;
+    }
+ 
+    location ~ /\.ht {
+        deny all;
+    }
+}
+```
+{% endcode %}
+
+index 就是入口網站的預設讀取的檔案  
+如果有多個會依序找檔案，找到的第一個為主
+
+假設安裝的是 php7.4 上面就是輸入 php7.4-fpm.sock
+
