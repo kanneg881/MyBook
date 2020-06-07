@@ -43,3 +43,18 @@ http://你的IP
 你的 IP 如果是雲端伺服器，應該會看到 IP 訊息  
 如果是本機就看本機的網路 IP 即可
 
+## 啟動關閉 Nginx
+
+`$ sudo systemctl stop nginx`  
+終止 Nginx
+
+`$ sudo systemctl start nginx`  
+啟動 Nginx
+
+`$ sudo systemctl restart nginx`  
+重新啟動 Nginx
+
+`$ sudo systemctl reload nginx`  
+重新載入 Nginx  
+如果有修改配置，可以使用此指令
+
