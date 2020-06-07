@@ -1,4 +1,4 @@
-# 安裝 Nginx
+# Nginx
 
 ## 說明
 
