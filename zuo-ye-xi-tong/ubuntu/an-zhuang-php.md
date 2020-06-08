@@ -9,7 +9,12 @@
 
 ### 增加套件倉庫
 
-最新版套件需要另外增加套件的倉庫
+如果你使用的是舊版的 Ubuntu  
+可能需要另外增加套件的倉庫
+
+你可以先跳過此步驟，直接到[安裝 php-fpm](an-zhuang-php.md#an-zhuang-phpfpm)  
+看是否為最新版的 php-fpm，如果不是，請先回來新增倉庫  
+再繼續安裝
 
 請先更新套件
 
@@ -17,6 +22,7 @@
 
 `$ sudo apt-get install python-software-properties  
 $ sudo add-apt-repository ppa:ondrej/php`  
+第一行是要增加倉庫而安裝的  
 加入 ppa:ondrej/php 倉庫
 
 安裝完再更新一次
@@ -30,6 +36,9 @@ $ sudo add-apt-repository ppa:ondrej/php`
 `$ sudo apt install php-fpm`
 
 安裝過程裝，你會看到你安裝的 PHP 版本  
+如果不是最新的版本，你可以先按 `Ctrl-C` 終止指令  
+回到[增加套件倉庫](an-zhuang-php.md#zeng-jia-tao-jian-cang-ku)
+
 假設是 php7.4-fpm 就輸入以下指令檢查狀態
 
 `$ systemctl status php7.4-fpm`
