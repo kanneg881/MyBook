@@ -1,4 +1,4 @@
-# Nginx
+# 安裝 Nginx
 
 ## 說明
 
@@ -6,7 +6,7 @@ Nginx 為伺服器，一般安裝伺服器有 Apache 和 Nginx
 關於 Nginx 和 Apache 比較，這裡就不再多做說明  
 主要以安裝 Nginx 為主
 
-## 安裝
+## 安裝步驟
 
 請先確保安裝之前，沒有其他程序佔用 80 port 或 443 port  
 80 port 是 http  
@@ -43,7 +43,7 @@ http://你的IP
 你的 IP 如果是雲端伺服器，應該會看到 IP 訊息  
 如果是本機就看本機的網路 IP 即可
 
-## 啟動關閉 Nginx
+## 啟動關閉 Nginx 服務
 
 `$ sudo systemctl stop nginx`  
 終止 Nginx
