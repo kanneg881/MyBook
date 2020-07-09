@@ -85,6 +85,7 @@
     * [搜尋](zhong-duan/zhi-ling/bash/sou-xun.md)
     * [壓縮與打包](zhong-duan/zhi-ling/bash/ya-su.md)
     * [備份](zhong-duan/zhi-ling/bash/bei-fen.md)
+    * [重導向](zhong-duan/zhi-ling/bash/zhong-dao-xiang.md)
   * [zsh](zhong-duan/zhi-ling/zsh/README.md)
     * [alias](zhong-duan/zhi-ling/zsh/alias.md)
   * [目錄路徑](zhong-duan/zhi-ling/mu-lu-lu-jing.md)
