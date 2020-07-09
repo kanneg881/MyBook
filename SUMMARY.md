@@ -104,6 +104,7 @@
   * [zsh](zhong-duan/cha-jian-tui-jian/zsh/README.md)
     * [zsh-syntax-highlighting](zhong-duan/cha-jian-tui-jian/zsh/zsh-syntax-highlighting.md)
     * [zsh-autosuggestions](zhong-duan/cha-jian-tui-jian/zsh/zsh-autosuggestions.md)
+* [Windows 上使用 bash](zhong-duan/windows-shang-shi-yong-bash.md)
 
 ## Git
 
