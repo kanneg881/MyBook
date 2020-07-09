@@ -7,6 +7,12 @@ description: 適用於 bash 指令
 `$ command &`  
 將 command 指令在背景執行
 
+`$ compgen [-b][-c][-k]`  
+顯示有哪些指令、內建功能、關鍵字  
+-b 內建功能  
+-c 指令  
+-k 關鍵字
+
 `$ dig domainName mx`  
 檢視 domain name server 資訊  
 mx mail exchange server 郵件交換伺服器
