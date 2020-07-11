@@ -5,10 +5,14 @@
 `command < inputData > outputData 2> error.log`  
 將輸入導向到 inputData  
 輸出導向到 outData  
-錯誤導向到 error.log
+錯誤導向到 error.log  
+輸出會覆蓋檔案
 
 輸出的1為一般輸出  
 輸出的2為錯誤輸出
+
+`command < inputData >> outputData`  
+輸出覆加到 outputData，而不是覆蓋
 
 `command < inputData > outputData 2>&1`  
 把錯誤訊息和正常輸出導向一起  
