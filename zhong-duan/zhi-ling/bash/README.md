@@ -4,9 +4,6 @@ description: 適用於 bash 指令
 
 # bash
 
-`$ command &`  
-將 command 指令在背景執行
-
 `$ compgen [-b][-c][-k]`  
 顯示有哪些指令、內建功能、關鍵字  
 -b 內建功能  
@@ -20,11 +17,6 @@ mx mail exchange server 郵件交換伺服器
 `$ dig domainName ns`  
 檢視 domain name server 資訊  
 ns nameserver 伺服器名稱
-
-`$ fg PID`  
-將在背景運行的程序叫回前端螢幕  
-PID 為 process ID  
-可以用 ps 查看 PID
 
 `$ ls [-al] [path]`  
 列出當前目錄中的檔案與子目錄  
@@ -56,7 +48,7 @@ x 顯示所有程序，不以終端機來區分
 辨識 word 是關鍵字、內建功能、指令...  
 例如 : $ type -t pwd 為內建功能
 
-`$ uname -a`  
+`$ uname -a`   
 顯示版本資訊
 
 `$ whoami`  
