@@ -24,5 +24,7 @@
 `command < inputData > /dev/null`  
 捨棄輸出
 
-
+`command < inputData | tee [-a] outputData`  
+將輸出導向到 outputData 並顯示在螢幕上  
+-a 以覆加檔案的方式
 
