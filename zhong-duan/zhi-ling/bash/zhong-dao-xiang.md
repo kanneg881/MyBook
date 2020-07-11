@@ -15,7 +15,10 @@
 &1 的意思為，和1\(正常輸出\)一樣位置
 
 `command < inputData &> outputData`  
-同上，更為精簡的寫法
+同上，更為精簡的寫
+
+`command < inputData > /dev/null`  
+捨棄輸出
 
 
 
