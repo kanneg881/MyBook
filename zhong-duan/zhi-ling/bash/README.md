@@ -18,6 +18,9 @@ mx mail exchange server 郵件交換伺服器
 檢視 domain name server 資訊  
 ns nameserver 伺服器名稱
 
+`$ echo "something"`  
+輸出內容到螢幕上，會自動換行
+
 `$ ls [-al] [path]`  
 列出當前目錄中的檔案與子目錄  
 -a 顯示隱藏檔案  
@@ -36,6 +39,9 @@ moduleName 模組名稱
 a 顯示現有終端機下的所有程序，包括其他用戶的程序  
 u 以用戶為主的格式來顯示程序狀況  
 x 顯示所有程序，不以終端機來區分
+
+`$ printf "something\n"`  
+格式化輸出內容到螢幕上
 
 `$ sysctl -a | less`  
 列出顯示核心選項
@@ -84,7 +90,7 @@ path/to/file 檔案位置
 
 ## 分析網路，檢測並與網路介面卡進行互動
 
-`$ ifconfig`  
+`$ ifconfig`   
 分析網路，檢測並與網路介面卡進行互動
 
 `$ ifconfig eth0 xxx.xxx.xxx.xxx`  
@@ -96,7 +102,7 @@ path/to/file 檔案位置
 `$ ifconfig broadcast xxx.xxx.xxx.xxx`  
 更改網路遮罩，xxx 為數字
 
-`$ iwconfig`  
+`$ iwconfig`   
 檢查無線網路裝置
 
 `$ iwlist wlan0 scan`  
@@ -125,7 +131,7 @@ leafpad 是文字編輯器
 取得掛載中裝置的資訊  
 \[磁碟代號\] sda sdb 等等
 
-`$ fdisk -l`  
+`$ fdisk -l`   
 檢視磁碟分割
 
 `$ fsck -p [/dev/sdb1]`  
@@ -137,7 +143,7 @@ leafpad 是文字編輯器
 `$ lsblk`  
 列出區塊裝置資訊
 
-`$ mount /name /mountPoint`  
+`$ mount /name /mountPoint`   
 手動掛載裝置  
 /name 裝置名稱  
 /mountPoint 掛載點  
