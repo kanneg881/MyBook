@@ -81,6 +81,7 @@
 * [序](zhong-duan/xu.md)
 * [指令](zhong-duan/zhi-ling/README.md)
   * [bash](zhong-duan/zhi-ling/bash/README.md)
+    * [參數](zhong-duan/zhi-ling/bash/can-shu.md)
     * [背景執行](zhong-duan/zhi-ling/bash/bei-jing-zhi-hang.md)
     * [建立與修改檔案或目錄](zhong-duan/zhi-ling/bash/jian-li-yu-xiu-gai-dang-an-huo-mu-lu.md)
     * [搜尋](zhong-duan/zhi-ling/bash/sou-xun.md)
