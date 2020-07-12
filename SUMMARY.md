@@ -79,9 +79,11 @@
 ## 終端
 
 * [序](zhong-duan/xu.md)
+* [bash 腳本](zhong-duan/bash-jiao-ben/README.md)
+  * [參數](zhong-duan/bash-jiao-ben/can-shu.md)
+  * [常用內建指令](zhong-duan/bash-jiao-ben/chang-yong-nei-jian-zhi-ling.md)
 * [指令](zhong-duan/zhi-ling/README.md)
   * [bash](zhong-duan/zhi-ling/bash/README.md)
-    * [參數](zhong-duan/zhi-ling/bash/can-shu.md)
     * [背景執行](zhong-duan/zhi-ling/bash/bei-jing-zhi-hang.md)
     * [建立與修改檔案或目錄](zhong-duan/zhi-ling/bash/jian-li-yu-xiu-gai-dang-an-huo-mu-lu.md)
     * [搜尋](zhong-duan/zhi-ling/bash/sou-xun.md)
