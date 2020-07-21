@@ -83,6 +83,7 @@
   * [參數](zhong-duan/bash-jiao-ben/can-shu.md)
   * [常用內建指令](zhong-duan/bash-jiao-ben/chang-yong-nei-jian-zhi-ling.md)
   * [條件判斷](zhong-duan/bash-jiao-ben/tiao-jian-pan-duan.md)
+  * [Windows 上使用 bash](zhong-duan/bash-jiao-ben/windows-shang-shi-yong-bash.md)
 * [指令](zhong-duan/zhi-ling/README.md)
   * [bash](zhong-duan/zhi-ling/bash/README.md)
     * [背景執行](zhong-duan/zhi-ling/bash/bei-jing-zhi-hang.md)
@@ -110,7 +111,6 @@
   * [zsh](zhong-duan/cha-jian-tui-jian/zsh/README.md)
     * [zsh-syntax-highlighting](zhong-duan/cha-jian-tui-jian/zsh/zsh-syntax-highlighting.md)
     * [zsh-autosuggestions](zhong-duan/cha-jian-tui-jian/zsh/zsh-autosuggestions.md)
-* [Windows 上使用 bash](zhong-duan/windows-shang-shi-yong-bash.md)
 
 ## Git
 
