@@ -77,8 +77,9 @@ ex :
 -k 不要停在第一個比對符合項目;要把所有符合類型的檔案都列出來  
 -z 檢視壓縮黨內部
 
-`$ head [-number] path/to/file`  
+`$ head [-c][-number] path/to/file`  
 顯示檔案開頭 10 行  
+-c 指定要輸出多少位元組  
 -number 指定行數，例如 -20  
 path/to/file 檔案位置
 
