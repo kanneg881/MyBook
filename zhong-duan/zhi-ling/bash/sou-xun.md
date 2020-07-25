@@ -42,6 +42,9 @@ expression 表達式
 指定搜尋的起點目錄，檔案名稱、  
 建立或修改日期、擁有者、群組、權限、大小等
 
+`$ finde /home -size +5G`  
+搜尋 /home 目錄，大於 5G 的檔案
+
 ## grep
 
 `grep keyword`
