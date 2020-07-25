@@ -21,10 +21,11 @@ ns nameserver 伺服器名稱
 `$ echo "something"`  
 輸出內容到螢幕上，會自動換行
 
-`$ ls [-al] [path]`  
+`$ ls [-a][-l][-s] [path]`  
 列出當前目錄中的檔案與子目錄  
--a 顯示隱藏檔案  
--l \(long listing\)詳細資料  
+a 顯示隱藏檔案  
+l \(long listing\)詳細資料  
+s 顯示檔案大小，單位為區塊  
 path 指定目錄
 
 `$ lsmod`  
@@ -100,6 +101,12 @@ path/to/file 檔案位置
 `$ nl [option] path/to/file`  
 顯示檔案內容，並顯示行號  
 -ba 行數包含空白，預設不包含
+
+`$ sort [-n][-r]`  
+將資料排序，可以用 \| 管線傳遞  
+-n 依照數字風格排序  
+-r 由大到小排序  
+
 
 `$ tail [-number] path/to/file`  
 顯示檔案尾部 10 行  
