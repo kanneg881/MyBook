@@ -106,6 +106,9 @@ path/to/file 檔案位置
 
 ## 分析網路，檢測並與網路介面卡進行互動
 
+`$ arp -a`  
+顯示位址解析表\(ARP table\)
+
 `$ ifconfig`   
 分析網路，檢測並與網路介面卡進行互動
 
@@ -125,6 +128,9 @@ path/to/file 檔案位置
 掃描可用 wifi  
 wlan0 代表第0個  
 用 iwconfig 先查看無線網路裝置
+
+`$ netstat -a`  
+顯示網路連線
 
 ### 竄改 MAC 位址
 
@@ -158,6 +164,9 @@ leafpad 是文字編輯器
 
 `$ lsblk`  
 列出區塊裝置資訊
+
+`$ mount`  
+顯示檔案系統
 
 `$ mount /name /mountPoint`   
 手動掛載裝置  

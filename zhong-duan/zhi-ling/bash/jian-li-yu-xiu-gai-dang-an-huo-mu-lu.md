@@ -51,11 +51,14 @@ s/keyword/replace/g 的 g 為全域搜尋
 
 ## 目錄
 
-`$ mkdir directoryName`  
-新增目錄
+`$ cd -`  
+移動到上一個切換的資料夾
 
 `$ cd directoryName`  
 移動到 directoryName 資料夾
+
+`$ mkdir directoryName`  
+新增目錄
 
 `$ rmdir directory`  
 刪除空目錄
