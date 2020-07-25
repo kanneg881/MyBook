@@ -45,6 +45,13 @@ expression 表達式
 `$ finde /home -size +5G`  
 搜尋 /home 目錄，大於 5G 的檔案
 
+`$ find / -type f`  
+搜尋根目錄，類型為檔案
+
+`$ find / -exec {command} \;`  
+搜尋根目錄，並將找到的每一個檔案執行 {command} 指令  
+\; 為結束
+
 ## grep
 
 `grep keyword`
