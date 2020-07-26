@@ -52,6 +52,12 @@ expression 表達式
 搜尋根目錄，並將找到的每一個檔案執行 {command} 指令  
 \; 為結束
 
+`find ./ -mmin -5`  
+搜尋5分鐘內更改過的檔案
+
+`find ./ -mtime -1`  
+搜尋24小時內改過的檔案
+
 ## grep
 
 `grep keyword`
