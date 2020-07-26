@@ -24,11 +24,12 @@ ns nameserver 伺服器名稱
 `$ echo "something"`  
 輸出內容到螢幕上，會自動換行
 
-`$ ls [-a][-l][-s] [path]`  
+`$ ls [-a][-l][-s][-R] [path]`  
 列出當前目錄中的檔案與子目錄  
 a 顯示隱藏檔案  
 l \(long listing\)詳細資料  
 s 顯示檔案大小，單位為區塊  
+R 找遍指定目錄的所有子目錄  
 path 指定目錄
 
 `$ lsmod`  
