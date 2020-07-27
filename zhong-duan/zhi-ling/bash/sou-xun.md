@@ -42,11 +42,8 @@ expression 表達式
 指定搜尋的起點目錄，檔案名稱、  
 建立或修改日期、擁有者、群組、權限、大小等
 
-`$ finde /home -size +5G`  
-搜尋 /home 目錄，大於 5G 的檔案
-
-`$ find / -type f`  
-搜尋根目錄，類型為檔案
+`$ find ./ -atime -1`  
+搜尋24小時內取用過的檔案
 
 `$ find / -exec {command} \;`  
 搜尋根目錄，並將找到的每一個檔案執行 {command} 指令  
@@ -57,6 +54,15 @@ expression 表達式
 
 `find ./ -mtime -1`  
 搜尋24小時內改過的檔案
+
+`find ./ -mtime +1`  
+搜尋超過24小時已修改的檔案
+
+`$ find / -type f`  
+搜尋根目錄，類型為檔案
+
+`$ finde /home -size +5G`  
+搜尋 /home 目錄，大於 5G 的檔案
 
 ## grep
 
