@@ -66,9 +66,14 @@ expression 表達式
 
 ## grep
 
-`grep keyword`
+`grep [-i][-r] path [-e] keyword`
 
-過濾輸出或者檔案內容
+過濾輸出或者檔案內容  
+-i 不分大小寫  
+-r 遞迴搜尋  
+path 搜尋路徑  
+-e 指定正規表示式  
+keyword 搜尋字串
 
 ### 例如
 
@@ -77,4 +82,7 @@ expression 表達式
 
 `grep div /index.html`  
 過濾 index.html 只包含 div 關鍵字
+
+`$ grep -i -r ./ -e 'keyword'`  
+不區分大小寫的遞迴搜尋當前目錄下 keyword 字串
 
