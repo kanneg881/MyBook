@@ -66,11 +66,13 @@ expression 表達式
 
 ## grep
 
-`grep [-i][-r] path [-e] keyword`
+`grep [-i][-n][-r][-w] path [-e] keyword`
 
 過濾輸出或者檔案內容  
 -i 不分大小寫  
+-n 顯示行數  
 -r 遞迴搜尋  
+-w 比對完整的一個字  
 path 搜尋路徑  
 -e 指定正規表示式  
 keyword 搜尋字串
