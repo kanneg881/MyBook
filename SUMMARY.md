@@ -83,6 +83,7 @@
   * [參數](zhong-duan/bash-jiao-ben/can-shu.md)
   * [常用內建指令](zhong-duan/bash-jiao-ben/chang-yong-nei-jian-zhi-ling.md)
   * [條件判斷](zhong-duan/bash-jiao-ben/tiao-jian-pan-duan.md)
+  * [迴圈](zhong-duan/bash-jiao-ben/hui-quan.md)
   * [Windows 上使用 bash](zhong-duan/bash-jiao-ben/windows-shang-shi-yong-bash.md)
 * [指令](zhong-duan/zhi-ling/README.md)
   * [bash](zhong-duan/zhi-ling/bash/README.md)

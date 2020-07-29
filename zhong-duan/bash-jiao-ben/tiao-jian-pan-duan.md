@@ -1,7 +1,7 @@
 # 條件判斷
 
 {% tabs %}
-{% tab title="條件判斷格式" %}
+{% tab title="if else" %}
 ```text
 if command
 then
@@ -9,6 +9,19 @@ then
 else
   do other thing
 fi
+```
+{% endtab %}
+
+{% tab title="case" %}
+```
+case "${var}" in
+  a) $var 變數為 a
+    do something
+    ;;
+  b) $var 變數為 b
+    do something
+    ;;
+esac
 ```
 {% endtab %}
 {% endtabs %}
