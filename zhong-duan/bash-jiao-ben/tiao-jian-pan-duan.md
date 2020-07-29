@@ -15,10 +15,13 @@ fi
 {% tab title="case" %}
 ```
 case "${var}" in
-  a) $var 變數為 a
+  a) # $var 變數為 a
     do something
     ;;
-  b) $var 變數為 b
+  b) # $var 變數為 b
+    do something
+    ;;
+  [Cc]) # $var 變數為 C 或 c 都可
     do something
     ;;
 esac
