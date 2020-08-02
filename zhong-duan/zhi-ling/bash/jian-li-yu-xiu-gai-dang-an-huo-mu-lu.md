@@ -16,11 +16,12 @@
 `$ touch fileName`  
 建立新檔
 
-`$ cp file path/to/copyFile`  
+`$ cp [-p] file path/to/copyFile`  
 複製一份 file 命名為 copyFile 到指定目錄  
 不指定目錄就是在當前目錄  
 不指定檔案名稱就是原檔名  
-不能都不指定
+不能都不指定  
+-p 保留檔案本身的存取模式、所有權、時間戳記
 
 `$ mv file newFile`  
 重新命名 file 為 newFile  
