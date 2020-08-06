@@ -83,12 +83,14 @@ path 搜尋路徑
 -e 指定正規表示式  
 keyword 搜尋字串
 
+egrep 等同於 grep -e
+
 ### 例如
 
-`ps aux | grep apache2`  
+`$ ps aux | grep apache2`  
 顯示系統上運行程序的資訊並過濾只包含 apache2
 
-`grep div /index.html`  
+`$ grep div /index.html`  
 過濾 index.html 只包含 div 關鍵字
 
 `$ grep -i -r ./ -e 'keyword'`  
