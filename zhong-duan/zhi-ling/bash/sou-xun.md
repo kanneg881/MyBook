@@ -49,14 +49,17 @@ expression 表達式
 搜尋根目錄，並將找到的每一個檔案執行 {command} 指令  
 \; 為結束
 
-`find ./ -mmin -5`  
+`$ find ./ -mmin -5`  
 搜尋5分鐘內更改過的檔案
 
-`find ./ -mtime -1`  
+`$ find ./ -mtime -1`  
 搜尋24小時內改過的檔案
 
-`find ./ -mtime +1`  
+`$ find ./ -mtime +1`  
 搜尋超過24小時已修改的檔案
+
+`$ find ./ -name 'fileName'`  
+搜尋 fileName 檔名
 
 `$ find / -type f`  
 搜尋根目錄，類型為檔案
