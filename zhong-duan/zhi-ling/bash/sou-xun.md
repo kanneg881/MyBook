@@ -96,3 +96,15 @@ egrep 等同於 grep -e
 `$ grep -i -r ./ -e 'keyword'`  
 不區分大小寫的遞迴搜尋當前目錄下 keyword 字串
 
+## awk
+
+`$ awk '$1 == "string" {command}' fileName`
+
+awk 會迭代 fileName 的每一行內容  
+迭代的每一行如果第一個字是 string 就執行 command 指令  
+$0 代表整行  
+$1 第1個字  
+$2 第2個字  
+以此類推  
+預設是以空格來區隔每個字
+
