@@ -40,7 +40,8 @@ replace 就是 \/
 
 `$ sed -i '_bk' 's/\\/\//g fileName.txt`  
 如果是 mac os 系統，需要加上後綴字做備份  
-功能如上，但會把原始檔備份到 fileName.txt\_bk  
+Linux 使用如上的指令即可  
+此指令和上一個一樣，但會把原始檔備份到 fileName.txt\_bk  
 '\_bk' 代表備份檔的後綴字  
 不想要備份檔可以在 -i 後輸入 ''  
 `$ sed -i '' 's/\\/\//g fileName.txt`
