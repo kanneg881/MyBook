@@ -38,6 +38,13 @@ s/keyword/replace/g 的 g 為全域搜尋
 replace 就是 \/  
 -i 代表會把結果寫回輸入的檔案 fileName.txt 裡
 
+`$ sed -i '_bk' 's/\\/\//g fileName.txt`  
+如果是 mac os 系統，需要加上後綴字做備份  
+功能如上，但會把原始檔備份到 fileName.txt\_bk  
+'\_bk' 代表備份檔的後綴字  
+不想要備份檔可以在 -i 後輸入 ''  
+`$ sed -i '' 's/\\/\//g fileName.txt`
+
 ### tr
 
 `$ tr '\\-' '/|' < inputFile.txt > outputFile.txt`  
