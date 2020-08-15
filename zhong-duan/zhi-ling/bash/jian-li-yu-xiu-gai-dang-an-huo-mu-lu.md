@@ -38,7 +38,16 @@ s/keyword/replace/g 的 g 為全域搜尋
 replace 就是 \/  
 -i 代表會把結果寫回輸入的檔案 fileName.txt 裡
 
+### tr
 
+`$ tr '\\-' '/|' < inputFile.txt > outputFile.txt`  
+將 inputFile.txt 的 \ 取代成 /，- 取代成 \|  
+並將結果輸出到 outputFile.txt  
+因為 \ 是特殊字元，需要加上 \ 轉逸  
+上述第1個 ' ' 的內容為要被取代的字元  
+第2個 ' ' 的內容為要取代成裡面的字元  
+所以 \\ 取代成 /  
+- 取代成 \|
 
 ## 複製檔案
 
