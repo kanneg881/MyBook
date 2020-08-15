@@ -49,6 +49,11 @@ replace 就是 \/
 所以 \\ 取代成 /  
 - 取代成 \|
 
+`$ tr -d '\r' < inputFile.txt > outputFile.txt`   
+將 inputFile.txt 的 \r 字元刪除  
+並將結果輸出到 outputFile.txt  
+-d 為指定要刪除的字元
+
 ## 複製檔案
 
 `$ cp [-p] file path/to/copyFile`  
