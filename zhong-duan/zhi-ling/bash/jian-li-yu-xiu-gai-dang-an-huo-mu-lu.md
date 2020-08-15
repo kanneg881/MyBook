@@ -30,6 +30,16 @@ s/keyword/replace/g 的 g 為全域搜尋
 如果沒有 g 則只取代搜尋到的第一個  
 如果 g 改成數字 n，則指定取代搜尋到的第 n 個
 
+`$ sed -i 's/\\/\//g fileName.txt`  
+把 fileName.txt 的所有 \ 取代成 /  
+因為 \ 是特殊字元，所以要加 \ 轉逸  
+變成 \\，而 / 也是特殊字元，也需要轉逸  
+所以這行指令 keyword 就是 \\  
+replace 就是 \/  
+-i 代表會把結果寫回輸入的檔案 fileName.txt 裡
+
+
+
 ## 複製檔案
 
 `$ cp [-p] file path/to/copyFile`  
