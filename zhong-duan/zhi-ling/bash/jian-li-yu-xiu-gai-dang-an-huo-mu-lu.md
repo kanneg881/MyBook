@@ -2,6 +2,25 @@
 
 ## 檔案
 
+### awk
+
+`$ awk '$1 == "string" {command}' fileName`
+
+awk 會迭代 fileName 的每一行內容  
+迭代的每一行如果第一個字是 string 就執行 command 指令  
+$0 代表整行  
+$1 第1個字  
+$2 第2個字  
+以此類推  
+預設是以空格來區隔每個字
+
+`$ awk ' /regular/ {command}'`
+
+同上，不過 // 之間為正規表達式  
+只要符合就執行 command
+
+### cat
+
 `$ cat fileName`  
 顯示檔案
 
@@ -13,8 +32,7 @@
 建立檔案，內容添加在原檔案後方  
 輸入完內容按 `<Ctrl-D>` 回到終端
 
-`$ touch fileName`  
-建立新檔
+### cp
 
 `$ cp [-p] file path/to/copyFile`  
 複製一份 file 命名為 copyFile 到指定目錄  
@@ -23,13 +41,52 @@
 不能都不指定  
 -p 保留檔案本身的存取模式、所有權、時間戳記
 
+### join
+
+`$ join -1 2 -2 1 -t, students.txt grades.txt`  
+合併檔案 students.txt 和 grades.txt  
+-1 2 代表指定第1個檔案的第2個欄位  
+-2 1 代表指定第2個檔案的第1個欄位  
+用此兩個欄位將資料合併  
+-t, 代表用 , 做區隔
+
+{% tabs %}
+{% tab title="students.txt" %}
+```text
+student1,1
+student2,2
+student3,3
+```
+{% endtab %}
+
+{% tab title="grades.txt" %}
+```
+1,80
+2,90
+3,100
+```
+{% endtab %}
+{% endtabs %}
+
+合併後
+
+1,student1,80  
+2,student2,90  
+3,student3,100
+
+### mv
+
 `$ mv file newFile`  
 重新命名 file 為 newFile  
 mv 是搬移指令，搬移目錄或檔案  
 用這個方法來重新命名
 
+### rm
+
 `$ rm file`  
 移除檔案
+
+### sed
 
 `$ sed s/keyword/replace/g path/to/file > path/to/newFile`  
 尋找位於 path/to/file 檔案的 keyword 內容並取代成 replace  
@@ -38,6 +95,11 @@ s/keyword/replace/g 的 s 為搜尋
 s/keyword/replace/g 的 g 為全域搜尋  
 如果沒有 g 則只取代搜尋到的第一個  
 如果 g 改成數字 n，則指定取代搜尋到的第 n 個
+
+### touch
+
+`$ touch fileName`  
+建立新檔
 
 ## 破壞檔案
 
