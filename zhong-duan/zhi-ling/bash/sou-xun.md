@@ -1,33 +1,21 @@
 # 搜尋
 
-## locate
+## awk
 
-`$ locate keyword`
+`$ awk '$1 == "string" {command}' fileName`
 
-keyword 關鍵字
+awk 會迭代 fileName 的每一行內容  
+迭代的每一行如果第一個字是 string 就執行 command 指令  
+$0 代表整行  
+$1 第1個字  
+$2 第2個字  
+以此類推  
+預設是以空格來區隔每個字
 
-搜尋檔案  
-該指令會搜尋整個檔案系統、定位關鍵字
+`$ awk ' /regular/ {command}'`
 
-檔案會被建立在資料庫，一天更新一次，所以剛建立的檔案可能會搜尋不到
-
-## whereis
-
-`$ whereis binaryFileName`
-
-binaryFileName 二進位檔
-
-搜尋二進位檔和操作手冊
-
-## which
-
-`$ which binaryFileName`
-
-binaryFileName 二進位檔 
-
-搜尋二進位檔
-
-只搜尋 PATH 變數中的二進位檔
+同上，不過 // 之間為正規表達式  
+只要符合就執行 command
 
 ## find
 
@@ -96,20 +84,65 @@ egrep 等同於 grep -e
 `$ grep -i -r ./ -e 'keyword'`  
 不區分大小寫的遞迴搜尋當前目錄下 keyword 字串
 
-## awk
+## join
 
-`$ awk '$1 == "string" {command}' fileName`
+`$ join -1 2 -2 1 -t, students.txt grades.txt`  
+合併檔案 students.txt 和 grades.txt  
+-1 2 代表指定第1個檔案的第2個欄位  
+-2 1 代表指定第2個檔案的第1個欄位  
+用此兩個欄位將資料合併  
+-t, 代表用 , 做區隔
 
-awk 會迭代 fileName 的每一行內容  
-迭代的每一行如果第一個字是 string 就執行 command 指令  
-$0 代表整行  
-$1 第1個字  
-$2 第2個字  
-以此類推  
-預設是以空格來區隔每個字
+{% tabs %}
+{% tab title="students.txt" %}
+```text
+student1,1
+student2,2
+student3,3
+```
+{% endtab %}
 
-`$ awk ' /regular/ {command}'`
+{% tab title="grades.txt" %}
+```
+1,80
+2,90
+3,100
+```
+{% endtab %}
+{% endtabs %}
 
-同上，不過 // 之間為正規表達式  
-只要符合就執行 command
+合併後
+
+1,student1,80  
+2,student2,90  
+3,student3,100
+
+## locate
+
+`$ locate keyword`
+
+keyword 關鍵字
+
+搜尋檔案  
+該指令會搜尋整個檔案系統、定位關鍵字
+
+檔案會被建立在資料庫，一天更新一次，所以剛建立的檔案可能會搜尋不到
+
+## whereis
+
+`$ whereis binaryFileName`
+
+binaryFileName 二進位檔
+
+搜尋二進位檔和操作手冊
+
+## which
+
+`$ which binaryFileName`
+
+binaryFileName 二進位檔 
+
+搜尋二進位檔
+
+只搜尋 PATH 變數中的二進位檔
 
