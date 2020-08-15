@@ -19,19 +19,6 @@ $2 第2個字
 同上，不過 // 之間為正規表達式  
 只要符合就執行 command
 
-### cat
-
-`$ cat fileName`  
-顯示檔案
-
-`$ cat > fileName`  
-建立檔案，之前的內容會覆蓋  
-輸入完內容按 `<Ctrl-D>` 回到終端
-
-`$ cat >> fileName`  
-建立檔案，內容添加在原檔案後方  
-輸入完內容按 `<Ctrl-D>` 回到終端
-
 ### cp
 
 `$ cp [-p] file path/to/copyFile`  

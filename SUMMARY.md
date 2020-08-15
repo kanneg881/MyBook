@@ -91,6 +91,7 @@
 * [指令](zhong-duan/zhi-ling/README.md)
   * [bash](zhong-duan/zhi-ling/bash/README.md)
     * [程序](zhong-duan/zhi-ling/bash/bei-jing-zhi-hang.md)
+    * [查看檔案](zhong-duan/zhi-ling/bash/cha-kan-dang-an.md)
     * [建立與修改檔案或目錄](zhong-duan/zhi-ling/bash/jian-li-yu-xiu-gai-dang-an-huo-mu-lu.md)
     * [搜尋](zhong-duan/zhi-ling/bash/sou-xun.md)
     * [壓縮與打包](zhong-duan/zhi-ling/bash/ya-su.md)
