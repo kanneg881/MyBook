@@ -19,7 +19,18 @@ $2 第2個字
 同上，不過 // 之間為正規表達式  
 只要符合就執行 command
 
-### cp
+### sed
+
+`$ sed s/keyword/replace/g path/to/file > path/to/newFile`  
+尋找位於 path/to/file 檔案的 keyword 內容並取代成 replace  
+然後另存為  path/to/newFile  
+keyword 為正規表示式  
+s/keyword/replace/g 的 s 為取代  
+s/keyword/replace/g 的 g 為全域搜尋  
+如果沒有 g 則只取代搜尋到的第一個  
+如果 g 改成數字 n，則指定取代搜尋到的第 n 個
+
+## 複製檔案
 
 `$ cp [-p] file path/to/copyFile`  
 複製一份 file 命名為 copyFile 到指定目錄  
@@ -28,7 +39,7 @@ $2 第2個字
 不能都不指定  
 -p 保留檔案本身的存取模式、所有權、時間戳記
 
-### join
+## 合併檔案
 
 `$ join -1 2 -2 1 -t, students.txt grades.txt`  
 合併檔案 students.txt 和 grades.txt  
@@ -61,30 +72,19 @@ student3,3
 2,student2,90  
 3,student3,100
 
-### mv
+## 移動或重新命名檔案
 
 `$ mv file newFile`  
 重新命名 file 為 newFile  
 mv 是搬移指令，搬移目錄或檔案  
 用這個方法來重新命名
 
-### rm
+## 移除檔案
 
 `$ rm file`  
 移除檔案
 
-### sed
-
-`$ sed s/keyword/replace/g path/to/file > path/to/newFile`  
-尋找位於 path/to/file 檔案的 keyword 內容並取代成 replace  
-然後另存為  path/to/newFile  
-keyword 為正規表示式  
-s/keyword/replace/g 的 s 為取代  
-s/keyword/replace/g 的 g 為全域搜尋  
-如果沒有 g 則只取代搜尋到的第一個  
-如果 g 改成數字 n，則指定取代搜尋到的第 n 個
-
-### touch
+## 建立檔案
 
 `$ touch fileName`  
 建立新檔
