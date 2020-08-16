@@ -78,3 +78,11 @@ path/to/file 檔案位置
 -number 指定行數，例如 -20  
 path/to/file 檔案位置
 
+`$ tail -n +2 path/to/file`  
+從第2行開始顯示檔案  
+-n +2 指定由上往下第幾行開始  
+path/to/file 檔案位置  
+也可以重新導向到這裡  
+例如：  
+`$ cat path/to/file | tail -n +2` 
+
