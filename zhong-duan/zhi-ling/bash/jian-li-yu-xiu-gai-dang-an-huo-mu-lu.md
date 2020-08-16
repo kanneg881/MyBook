@@ -4,8 +4,7 @@
 
 ### awk
 
-`$ awk '$1 == "string" {command}' fileName`
-
+`$ awk '$1 == "string" {command}' fileName`  
 awk 會迭代 fileName 的每一行內容  
 迭代的每一行如果第一個字是 string 就執行 command 指令  
 $0 代表整行  
@@ -14,10 +13,13 @@ $2 第2個字
 以此類推  
 預設是以空格來區隔每個字
 
-`$ awk ' /regular/ {command}'`
-
+`$ awk ' /regular/ {command}'`  
 同上，不過 // 之間為正規表達式  
 只要符合就執行 command
+
+`$ awk -F "," '{command}' fileName`  
+同上，迭代 fileName 的每一行內容  
+-F 指定分隔符號，這裡為 ,
 
 ### sed
 
