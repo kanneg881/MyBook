@@ -43,8 +43,7 @@ expression 表達式
 
 ## grep
 
-`$ grep [-i][-n][-r][-w] path [-e] keyword`
-
+`$ grep [-i][-n][-r][-w] path [-e] keyword`  
 過濾輸出或者檔案內容  
 -i 不分大小寫  
 -n 顯示行數  
@@ -58,7 +57,17 @@ egrep 等同於 grep -e
 
 `$ grep -o 'regular expression' fileName`  
 用只有符合正規表示式的值才會回傳  
-而不會回傳整行資料
+而不會回傳整行資料  
+-o 代表只有符合正規表示式的值才會回傳  
+fileName 檔案名稱
+
+`$ grep -Pzo '(?s)regular expression' fileName`  
+功能如上  
+-z 換行字元也會列入比較  
+-P Perl 的樣式比對修正符，後面接\(?s\)  
+意思為 . 特殊字元也會比對換行字元
+
+
 
 ### 例如
 
