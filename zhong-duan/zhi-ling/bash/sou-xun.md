@@ -43,7 +43,7 @@ expression 表達式
 
 ## grep
 
-`grep [-i][-n][-r][-w] path [-e] keyword`
+`$ grep [-i][-n][-r][-w] path [-e] keyword`
 
 過濾輸出或者檔案內容  
 -i 不分大小寫  
@@ -55,6 +55,10 @@ path 搜尋路徑
 keyword 搜尋字串
 
 egrep 等同於 grep -e
+
+`$ grep -o 'regular expression' fileName`  
+用只有符合正規表示式的值才會回傳  
+而不會回傳整行資料
 
 ### 例如
 
