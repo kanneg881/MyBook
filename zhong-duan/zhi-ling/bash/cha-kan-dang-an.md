@@ -72,13 +72,6 @@ path/to/file 檔案位置
 顯示檔案內容，並顯示行號  
 -ba 行數包含空白，預設不包含
 
-## sort
-
-`$ sort [-n][-r]`  
-將資料排序，可以用 \| 管線傳遞  
--n 依照數字風格排序  
--r 由大到小排序
-
 ## tail
 
 `$ tail [-number] path/to/file`  
@@ -94,11 +87,51 @@ path/to/file 檔案位置
 例如：  
 `$ cat path/to/file | tail -n +2` 
 
+## uniq
+
+`$ uniq [-c][-f Number][-i] fileName.txt`  
+消除重複的行數，需要先做排序  
+-c 印出重複的次數  
+-f 忽略前 Number 個欄位，預設以空格做排序  
+-i 忽略大小寫
+
+### 範例
+
+{% tabs %}
+{% tab title="fileName.txt" %}
+```text
+2020/08/21 10:30 Friday
+2019/06/01 09:09 Saturday
+2019/06/01 09:09 Saturday
+```
+{% endtab %}
+
+{% tab title="fileName2.txt" %}
+```
+2020/08/21 10:30 Friday
+2019/06/01 09:09 Saturday
+2019/06/02 09:09 Saturday
+```
+{% endtab %}
+{% endtabs %}
+
+`$ uniq -c fileName.txt`  
+排序並印出重複次數  
+結果：  
+1 2020/08/21 10:30 Friday  
+2 2019/06/01 09:09 Saturday
+
+`$ uniq -c -f 1 fileName.txt`  
+忽略前1個欄位後做排序，並印出重複次數  
+結果：  
+1 2020/08/21 10:30 Friday  
+2 2019/06/01 09:09 Saturday
+
 ## 排序
 
 ### sort
 
-sort \[-f\]\[-k\]\[-n\]\[-o\]\[-r\]  
+`$ sort [-f][-k][-n][-o][-r][-t] fileName.txt`  
 將檔案做排序  
 -f 忽略大小寫  
 -k 使用行中的一部份資料做排序，欄位以空白區隔  
@@ -108,7 +141,8 @@ sort \[-f\]\[-k\]\[-n\]\[-o\]\[-r\]
 例如：10 會在 2 之前  
   
 -o 將輸出寫至檔案  
--r 以降冪排序
+-r 以降冪排序  
+-t 指定區隔字元
 
 #### 舉例
 
@@ -133,6 +167,4 @@ sort \[-f\]\[-k\]\[-n\]\[-o\]\[-r\]
 結果：  
 2019/06/01 09:09 Saturday  
 2020/08/21 10:30 Friday
-
-
 
