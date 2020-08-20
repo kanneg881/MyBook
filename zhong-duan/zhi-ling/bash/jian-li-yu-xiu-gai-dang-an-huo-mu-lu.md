@@ -73,6 +73,87 @@ Linux 使用如上的指令即可
 不能都不指定  
 -p 保留檔案本身的存取模式、所有權、時間戳記
 
+## 排序
+
+### sort
+
+`$ sort [-f][-k][-n][-o][-r][-t] fileName.txt`  
+將檔案做排序  
+-f 忽略大小寫  
+-k 使用行中的一部份資料做排序，欄位以空白區隔  
+  
+-n 使用數字排序  
+否則會使用字元排序  
+例如：10 會在 2 之前  
+  
+-o 將輸出寫至檔案  
+-r 以降冪排序  
+-t 指定區隔字元
+
+#### 舉例
+
+使用以下檔案做示範
+
+{% code title="fileName.txt" %}
+```text
+2020/08/21 10:30 Friday
+2019/06/01 09:09 Saturday
+```
+{% endcode %}
+
+`$ sort -k 2 fileName.txt`  
+使用第2個欄位做排序  
+結果：  
+2019/06/01 09:09 Saturday  
+2020/08/21 10:30 Friday
+
+`$ sort -k 1.6,1.7 fileName.txt`   
+使用第1個欄位的第6 ~ 7 的字元做排序  
+也就是月份的 08 和 06  
+結果：  
+2019/06/01 09:09 Saturday  
+2020/08/21 10:30 Friday
+
+## 消除重複
+
+`$ uniq [-c][-f Number][-i] fileName.txt`  
+消除重複的行數，需要先做排序  
+-c 印出重複的次數  
+-f 忽略前 Number 個欄位，預設以空格做排序  
+-i 忽略大小寫
+
+### 範例
+
+{% tabs %}
+{% tab title="fileName.txt" %}
+```text
+2020/08/21 10:30 Friday
+2019/06/01 09:09 Saturday
+2019/06/01 09:09 Saturday
+```
+{% endtab %}
+
+{% tab title="fileName2.txt" %}
+```
+2020/08/21 10:30 Friday
+2019/06/01 09:09 Saturday
+2019/06/02 09:09 Saturday
+```
+{% endtab %}
+{% endtabs %}
+
+`$ uniq -c fileName.txt`  
+排序並印出重複次數  
+結果：  
+1 2020/08/21 10:30 Friday  
+2 2019/06/01 09:09 Saturday
+
+`$ uniq -c -f 1 fileName.txt`  
+忽略前1個欄位後做排序，並印出重複次數  
+結果：  
+1 2020/08/21 10:30 Friday  
+2 2019/06/01 09:09 Saturday
+
 ## 合併檔案
 
 `$ join -1 2 -2 1 -t, students.txt grades.txt`  
