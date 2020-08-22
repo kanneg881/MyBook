@@ -9,6 +9,12 @@ command 在 subshell 執行
 例如：  
 `VAR=$(ls)`
 
+`declare -A variable`  
+宣告名為 variable 的關聯式陣列  
+關聯式陣列的索引可以是字串或數字  
+如果要取出所有不重複的索引鍵值  
+使用 `${!variable[@]}`
+
 ## 預設值
 
 `VAR=${1:- default value}`  
