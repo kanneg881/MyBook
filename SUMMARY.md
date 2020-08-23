@@ -80,7 +80,6 @@
 
 * [序](zhong-duan/xu.md)
 * [bash 腳本](zhong-duan/bash-jiao-ben/README.md)
-  * [更新 bash](zhong-duan/bash-jiao-ben/geng-xin-bash.md)
   * [基礎](zhong-duan/bash-jiao-ben/ji-chu.md)
   * [正規表示式](zhong-duan/bash-jiao-ben/zheng-gui-biao-shi-shi.md)
   * [參數](zhong-duan/bash-jiao-ben/can-shu.md)
@@ -89,6 +88,7 @@
   * [迴圈](zhong-duan/bash-jiao-ben/hui-quan.md)
   * [函式](zhong-duan/bash-jiao-ben/han-shi.md)
   * [Windows 上使用 bash](zhong-duan/bash-jiao-ben/windows-shang-shi-yong-bash.md)
+  * [更新 bash](zhong-duan/bash-jiao-ben/geng-xin-bash.md)
 * [指令](zhong-duan/zhi-ling/README.md)
   * [bash](zhong-duan/zhi-ling/bash/README.md)
     * [程序](zhong-duan/zhi-ling/bash/bei-jing-zhi-hang.md)
