@@ -80,6 +80,7 @@
 
 * [序](zhong-duan/xu.md)
 * [bash 腳本](zhong-duan/bash-jiao-ben/README.md)
+  * [更新 bash](zhong-duan/bash-jiao-ben/geng-xin-bash.md)
   * [基礎](zhong-duan/bash-jiao-ben/ji-chu.md)
   * [正規表示式](zhong-duan/bash-jiao-ben/zheng-gui-biao-shi-shi.md)
   * [參數](zhong-duan/bash-jiao-ben/can-shu.md)
