@@ -21,6 +21,12 @@ $2 第2個字
 同上，迭代 fileName 的每一行內容  
 -F 指定分隔符號，這裡為 ,
 
+`$ awk '  
+{command}  
+END {command}' fileName`  
+當 awk 迭代 fileName 的每一行內容後  
+最後再執行 END 裡面的 command
+
 ### sed
 
 `$ sed s/keyword/replace/g path/to/file > path/to/newFile`  
