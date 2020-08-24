@@ -15,3 +15,15 @@ functionName
 `functionName "$VAR"`  
 函式如同指令可以在後面放引數
 
+## 變數
+
+```text
+function functionName ()
+{
+    local -i var var2
+}
+```
+
+宣告區域變數 var var2  
+-i 定義成整數
+
