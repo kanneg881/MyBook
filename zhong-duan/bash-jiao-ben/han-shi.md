@@ -15,7 +15,7 @@ functionName
 `functionName "$VAR"`  
 函式如同指令可以在後面放引數
 
-## 變數
+## 區域變數
 
 ```text
 function functionName ()
