@@ -20,7 +20,9 @@ command 在 subshell 執行
 假設預設值 $1 參數不存在  
 則 VAR=default value
 
-## 關聯陣列
+## 宣告
+
+### 關聯陣列
 
 `declare -A variable`  
 宣告名為 variable 的關聯式陣列  
@@ -33,4 +35,15 @@ command 在 subshell 執行
 `variable[$key]++`  
 遞增  
 $key 陣列索引
+
+### 陣列
+
+`declare -a variable`  
+宣告名為 variable 的陣列  
+索引為數字
+
+### 數值
+
+`declare -i variable`  
+宣告名為 variable 的數值變數
 
