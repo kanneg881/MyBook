@@ -13,6 +13,11 @@ $2 第2個字
 以此類推  
 預設是以空格來區隔每個字
 
+`$ awk '$1 ~ "string" {command}' fileName`   
+同上  
+~ 代表是否匹配字串 "string"  
+~~~~
+
 `$ awk ' /regular/ {command}'`  
 同上，不過 // 之間為正規表達式  
 只要符合就執行 command
