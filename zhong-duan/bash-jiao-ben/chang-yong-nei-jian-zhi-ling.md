@@ -36,6 +36,12 @@ ${number} 為第二個變數，對應 %10d
 剩下的會寫入最後一個變數  
 如果字數不夠，則沒被寫入的變數會是 null 字串
 
+`readarray -t ARRAY < "fileName"`  
+讀取 fileName 的每一行資料，並將它存到 ARRAY 變數裡  
+-t 為移除每一行的換行符號  
+ARRAY 陣列變數  
+"fileName" 檔案名稱
+
 `unset $VAR`  
 解除設置的變數
 
