@@ -91,6 +91,9 @@ path/to/file 檔案位置
 持續讀取檔案  
 並在新增資料行時立即顯示到標準輸出
 
+`$ tail -f path/to/file | command`  
+同上，並進一步管線到其他指令
+
 ## uniq
 
 `$ uniq [-c][-f Number][-i] fileName.txt`  
