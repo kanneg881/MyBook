@@ -87,6 +87,10 @@ path/to/file 檔案位置
 例如：  
 `$ cat path/to/file | tail -n +2` 
 
+`$ tail -f path/to/file`  
+持續讀取檔案  
+並在新增資料行時立即顯示到標準輸出
+
 ## uniq
 
 `$ uniq [-c][-f Number][-i] fileName.txt`  
