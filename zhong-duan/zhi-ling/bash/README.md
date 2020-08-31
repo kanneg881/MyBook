@@ -11,8 +11,6 @@ description: 適用於 bash 指令
 切換終端預設的 shell  
 例如：bash、fish、zsh
 
-
-
 `$ compgen [-b][-c][-k]`  
 顯示有哪些指令、內建功能、關鍵字  
 -b 內建功能  
