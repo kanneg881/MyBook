@@ -7,7 +7,7 @@
 
 例如：  
 `trap date SIGINT`  
-捕捉到 SIGINT 訊號，就執行 date
+捕捉到後 SIGINT 訊號，就執行 date
 
 ## 訊號
 
