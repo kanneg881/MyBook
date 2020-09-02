@@ -74,6 +74,13 @@ path/to/file 檔案位置
 
 ## tail
 
+`$ tail -f path/to/file`  
+持續讀取檔案  
+並在新增資料行時立即顯示到標準輸出
+
+`$ tail -f path/to/file | command`  
+同上，並進一步管線到其他指令
+
 `$ tail [-number] path/to/file`  
 顯示檔案尾部 10 行  
 -number 指定行數，例如 -20  
@@ -87,12 +94,10 @@ path/to/file 檔案位置
 例如：  
 `$ cat path/to/file | tail -n +2` 
 
-`$ tail -f path/to/file`  
-持續讀取檔案  
-並在新增資料行時立即顯示到標準輸出
-
-`$ tail -f path/to/file | command`  
-同上，並進一步管線到其他指令
+`$ tail --pid=$$ path/to/file`  
+--pid 追蹤上游的程序  
+$$ 腳本的程序識別碼  
+path/to/file 檔案位置
 
 ## uniq
 
