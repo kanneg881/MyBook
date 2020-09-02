@@ -85,6 +85,7 @@
   * [參數](zhong-duan/bash-jiao-ben/can-shu.md)
   * [常用內建指令](zhong-duan/bash-jiao-ben/chang-yong-nei-jian-zhi-ling/README.md)
     * [捕捉中斷](zhong-duan/bash-jiao-ben/chang-yong-nei-jian-zhi-ling/bu-zhuo-zhong-duan.md)
+    * [shell 選項](zhong-duan/bash-jiao-ben/chang-yong-nei-jian-zhi-ling/shell-xuan-xiang.md)
   * [條件判斷](zhong-duan/bash-jiao-ben/tiao-jian-pan-duan.md)
   * [迴圈](zhong-duan/bash-jiao-ben/hui-quan.md)
   * [函式](zhong-duan/bash-jiao-ben/han-shi.md)

@@ -11,13 +11,13 @@
 
 ## 訊號
 
-SIGINT  
+`SIGINT`  
 中斷正在執行的程序
 
-SIGUSR1  
+`SIGUSR1`  
 使用者可以自己呼叫的訊號
 
-SIGUSR2  
+`SIGUSR2`  
 使用者可以自己呼叫的訊號
 
 
