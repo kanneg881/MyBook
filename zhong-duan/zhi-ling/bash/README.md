@@ -143,7 +143,7 @@ mount /dev/sdb1 /mnt
 
 控制系統的背景服務，指令如下
 
-service servicename start \| stop \| restart  
+`$ service servicename start | stop | restart`  
 控制系統的背景服務  
 servicename 服務名稱  
 start \| stop \| restart 開啟 \| 終止 \| 重啟\(選一個\)
