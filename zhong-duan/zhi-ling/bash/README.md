@@ -17,6 +17,18 @@ description: 適用於 bash 指令
 -c 指令  
 -k 關鍵字
 
+`$ date ['+format']`  
+回傳時間戳記  
++ 格式化顯示時間  
+例如：  
++%y%m%d %H%M%S  
+%y 年，兩位數，例如：2019年 19  
+%m 月，兩位數，例如：9月 09  
+%d 日， 兩位數，例如：9日 09  
+%H 24小時制，兩位數，例如：19點 19  
+%M 分，兩位數，例如：9分 09  
+%S 秒，兩位數，例如：9秒 09
+
 `$ dig domainName mx`  
 檢視 domain name server 資訊  
 mx mail exchange server 郵件交換伺服器
