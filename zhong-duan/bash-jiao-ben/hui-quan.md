@@ -21,6 +21,12 @@ for (value in array) {
 while command; do
   do something
 done
+
+# 將 while 裡面的輸出，都送至標準錯誤
+while command
+do
+  do something
+done >&2
 ```
 {% endtab %}
 {% endtabs %}
