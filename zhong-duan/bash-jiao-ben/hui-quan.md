@@ -13,6 +13,12 @@ done
 for (value in array) {
   do something
 }
+
+# 第3種方法
+for (value=0;value<10;value++)
+do
+  do something
+done
 ```
 {% endtab %}
 
