@@ -84,6 +84,7 @@
   * [正規表示式](zhong-duan/bash-jiao-ben/zheng-gui-biao-shi-shi.md)
   * [參數](zhong-duan/bash-jiao-ben/can-shu.md)
   * [常用內建指令](zhong-duan/bash-jiao-ben/chang-yong-nei-jian-zhi-ling/README.md)
+    * [輸出](zhong-duan/bash-jiao-ben/chang-yong-nei-jian-zhi-ling/shu-chu.md)
     * [捕捉中斷](zhong-duan/bash-jiao-ben/chang-yong-nei-jian-zhi-ling/bu-zhuo-zhong-duan.md)
     * [shell 選項](zhong-duan/bash-jiao-ben/chang-yong-nei-jian-zhi-ling/shell-xuan-xiang.md)
   * [條件判斷](zhong-duan/bash-jiao-ben/tiao-jian-pan-duan.md)
