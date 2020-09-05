@@ -1,7 +1,8 @@
 # 常用內建指令
 
 `echo "$VAR"`  
-輸出 VAR 變數到螢幕上
+輸出 VAR 變數到螢幕上  
+如果只打 echo 等同於換行
 
 `getopts 'c:irR' opt;`  
 不斷地取得選項  
