@@ -104,6 +104,8 @@
       * [jq JSON 剖析器](zhong-duan/zhi-ling/bash/ling-wai-an-zhuang-de-zhi-ling/jq-json-pou-xi-qi.md)
   * [zsh](zhong-duan/zhi-ling/zsh/README.md)
     * [alias](zhong-duan/zhi-ling/zsh/alias.md)
+  * [Linux](zhong-duan/zhi-ling/linux/README.md)
+    * [排程](zhong-duan/zhi-ling/linux/pai-cheng.md)
   * [目錄路徑](zhong-duan/zhi-ling/mu-lu-lu-jing.md)
   * [萬用字元](zhong-duan/zhi-ling/wan-yong-zi-yuan.md)
 * [插件推薦](zhong-duan/cha-jian-tui-jian/README.md)
