@@ -51,6 +51,10 @@ path 指定目錄
 `$ lsmod`  
 列出安裝在核心的模組
 
+`$ man command`  
+查看 command 指令的文件  
+例如：`$ man ls`
+
 `$ modinfo moduleName`  
 moduleName 模組名稱  
 取得核心模組資訊
