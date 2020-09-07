@@ -46,7 +46,7 @@ $key 陣列索引
 宣告名為 variable 的陣列  
 索引為數字
 
-arrayVariable=\( ${variable} \)  
+`arrayVariable=( ${variable} )`  
 使用括號，將變數轉變成陣列  
 例如：  
 '1 2 3 4 5' 字串會轉變為  
