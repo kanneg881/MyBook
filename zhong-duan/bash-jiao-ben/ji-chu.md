@@ -57,3 +57,10 @@ $key 陣列索引
 `declare -i variable`  
 宣告名為 variable 的數值變數
 
+## 暫時的變數
+
+`variable=$a command`  
+variable 被賦予變數 a 的值，立即接 command 指令  
+variable 只有在 command 指令執行時有效  
+command 指令結束後，variable 就變回原本的值
+
