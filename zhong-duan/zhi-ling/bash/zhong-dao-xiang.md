@@ -2,7 +2,7 @@
 
 將指令的輸入輸出導向到其它地方去，例如：檔案。
 
-`command < inputData > outputData 2> error.log`  
+`command < inputData > outputData 2> error.log`   
 將輸入導向到 inputData  
 輸出導向到 outData  
 錯誤導向到 error.log  
