@@ -81,6 +81,7 @@
 * [序](zhong-duan/xu.md)
 * [bash 腳本](zhong-duan/bash-jiao-ben/README.md)
   * [基礎](zhong-duan/bash-jiao-ben/ji-chu.md)
+  * [環境變數](zhong-duan/bash-jiao-ben/huan-jing-bian-shu.md)
   * [正規表示式](zhong-duan/bash-jiao-ben/zheng-gui-biao-shi-shi.md)
   * [參數](zhong-duan/bash-jiao-ben/can-shu.md)
   * [常用內建指令](zhong-duan/bash-jiao-ben/chang-yong-nei-jian-zhi-ling/README.md)
