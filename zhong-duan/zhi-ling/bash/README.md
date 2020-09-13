@@ -62,6 +62,9 @@ moduleName 模組名稱
 `$ printf "something\n"`  
 格式化輸出內容到螢幕上
 
+`$ sudo command`  
+使用超級使用者權限執行 command 指令
+
 `$ sysctl -a | less`  
 列出顯示核心選項
 
