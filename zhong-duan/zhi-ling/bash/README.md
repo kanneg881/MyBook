@@ -63,7 +63,11 @@ moduleName 模組名稱
 格式化輸出內容到螢幕上
 
 `$ sudo command`  
-使用超級使用者權限執行 command 指令
+使用超級使用者權限執行 command 指令  
+例如：  
+`$ sudo vim file`  
+如果編輯檔案發現只能唯讀，代表權限不足  
+就可以使用 sudo 獲得更高權限
 
 `$ sysctl -a | less`  
 列出顯示核心選項
