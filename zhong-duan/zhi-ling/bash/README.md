@@ -62,6 +62,10 @@ moduleName 模組名稱
 `$ printf "something\n"`  
 格式化輸出內容到螢幕上
 
+`$ sha1sum fileName`  
+輸出 fileName 的訊息摘要  
+也就是此檔案的雜湊值
+
 `$ sudo command`  
 使用超級使用者權限執行 command 指令  
 例如：  
