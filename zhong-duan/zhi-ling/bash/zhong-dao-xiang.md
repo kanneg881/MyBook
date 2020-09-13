@@ -28,3 +28,18 @@
 將輸出導向到 outputData 並顯示在螢幕上  
 -a 以覆加檔案的方式
 
+## xargs
+
+`$ command1 | xargs [-d] '\n' command2`  
+xargs 為將 command1 的輸出導向給 xargs  
+做為標準輸入，並分割後做為 command2 的參數  
+-d 指定分割符號，預設為空白和換行，\n 為換行
+
+### 舉例
+
+`$ ls . | xargs cat`  
+將當前資料夾的所有檔名導向給 xargs 做為標準輸入  
+並分割後做為 cat 的參數  
+所以這裡會標準輸出此資料夾下的所有檔案  
+
+
