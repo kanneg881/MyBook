@@ -33,7 +33,7 @@
 `$ command1 | xargs [-d] '\n' command2`  
 xargs 為將 command1 的輸出導向給 xargs  
 做為標準輸入，並分割後做為 command2 的參數  
--d 指定分割符號，預設為空白和換行，\n 為換行
+-d 指定分割符號，預設為空白和換行，\n 為換行\(mac 沒有此指令\)
 
 ### 舉例
 
