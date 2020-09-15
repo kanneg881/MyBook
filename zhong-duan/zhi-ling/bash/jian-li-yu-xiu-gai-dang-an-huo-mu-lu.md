@@ -167,13 +167,6 @@ Linux 使用如上的指令即可
 
 ## 合併檔案
 
-`$ join -1 2 -2 1 -t, students.txt grades.txt`  
-合併檔案 students.txt 和 grades.txt  
--1 2 代表指定第1個檔案的第2個欄位  
--2 1 代表指定第2個檔案的第1個欄位  
-用此兩個欄位將資料合併  
--t, 代表用 , 做區隔
-
 {% tabs %}
 {% tab title="students.txt" %}
 ```text
@@ -192,11 +185,55 @@ student3,3
 {% endtab %}
 {% endtabs %}
 
+檔案範例
+
+`$ join -1 2 -2 1 -t, students.txt grades.txt`  
+合併檔案 students.txt 和 grades.txt  
+-1 2 代表指定第1個檔案的第2個欄位  
+-2 1 代表指定第2個檔案的第1個欄位  
+用此兩個欄位將資料合併  
+-t, 代表用 , 做區隔
+
 合併後
 
 1,student1,80  
 2,student2,90  
 3,student3,100
+
+{% tabs %}
+{% tab title="newFilePath.txt" %}
+```text
+a.txt
+b.txt
+c.txt
+d.txt
+```
+{% endtab %}
+
+{% tab title="oldFilePath.txt" %}
+```
+1 a.txt
+2 b.txt
+3 c.txt
+```
+{% endtab %}
+{% endtabs %}
+
+`$ join -1 1 -2 2 -a 1 newFilePath.txt oldFilePath.txt`  
+合併檔案 newFilePath.txt 和 oldFilePath.txt  
+-1 1 代表指定第1個檔案的第1個欄位  
+-2 2 代表指定第2個檔案的第2個欄位  
+用此兩個欄位將資料合併  
+-a 1 代表顯示第一個檔案中，比對不符合的欄位
+
+合併後
+
+a.txt 1  
+b.txt 2  
+c.txt 3  
+d.txt
+
+d.txt 代表不符合的檔案
 
 ## 移動或重新命名檔案
 
