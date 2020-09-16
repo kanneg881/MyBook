@@ -72,6 +72,24 @@ path/to/file 檔案位置
 顯示檔案內容，並顯示行號  
 -ba 行數包含空白，預設不包含
 
+## sdiff
+
+
+
+`$ sdiff [-i][-s][-w] file1 file2`  
+比對 file1 和 file2 檔案內容差異
+
+-i 不區分大小寫  
+-s 不輸出相同行數  
+-w 輸出每一行字元數上限
+
+### 舉例
+
+`$ sdiff -i -s -w100 file1 file2`
+
+`$ cat file1 | sdiff - file2`  
+- 代表比對標準輸入的內容
+
 ## tail
 
 `$ tail -f path/to/file`  
