@@ -27,3 +27,14 @@ function functionName ()
 宣告區域變數 var var2  
 -i 定義成整數
 
+## 重導向
+
+```text
+function functionName ()
+{
+  echo 'error'
+} >&2
+```
+
+函式可以把錯誤訊息導向到標準錯誤輸出
+
