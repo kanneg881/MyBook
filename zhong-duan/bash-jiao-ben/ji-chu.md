@@ -36,6 +36,10 @@ command 在 subshell 執行
 `${#variable[@]}`  
 取得陣列長度
 
+`${variable[*]}`  
+一次取出陣列所有元素  
+用空白間隔，當作一個字串
+
 `variable[$key]++`  
 遞增  
 $key 陣列索引
