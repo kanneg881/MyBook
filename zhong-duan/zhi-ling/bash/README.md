@@ -17,6 +17,17 @@ description: 適用於 bash 指令
 -c 指令  
 -k 關鍵字
 
+`$ curl [-A][-G][-I][-L][-d][-s] URL`  
+取得 URL 資料  
+URL 網址  
+-G 以 HTTP GET 傳送  
+-I 取得協定\(HTTP、FTP\)標頭  
+-L 可重導向  
+-d 以 HTTP POST 傳送  
+-s 不顯示錯誤訊息或進度列
+
+
+
 `$ date ['+format']`  
 回傳時間戳記  
 + 格式化顯示時間  
