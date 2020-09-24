@@ -74,6 +74,10 @@
 `:w[rite] [++opt]`  
 將整個緩衝區寫入當前文件
 
+`:w fileName`  
+寫入到 fileName 裡面  
+fileName 檔案名稱
+
 `:wq`  
 先執行 :w 再執行 :q  
 儲存後離開
