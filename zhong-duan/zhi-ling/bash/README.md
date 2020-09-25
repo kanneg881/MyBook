@@ -46,9 +46,6 @@ mx mail exchange server 郵件交換伺服器
 檢視 domain name server 資訊  
 ns nameserver 伺服器名稱
 
-`$ echo "something"`  
-輸出內容到螢幕上，會自動換行
-
 `$ ls [-a][-l][-s][-R] [path]`  
 列出當前目錄中的檔案與子目錄  
 a 顯示隱藏檔案  
@@ -67,9 +64,6 @@ path 指定目錄
 `$ modinfo moduleName`  
 moduleName 模組名稱  
 取得核心模組資訊
-
-`$ printf "something\n"`  
-格式化輸出內容到螢幕上
 
 `$ sha1sum [-c][--quiet] fileName`  
 輸出 fileName 的訊息摘要  
@@ -221,5 +215,23 @@ server 為主機 IP
 遠端執行本地端的 /path/to/file.sh  
 輸出會重新導向到本地端
 
+## 輸出
 
+### echo
+
+`$ echo "something"`  
+輸出內容到螢幕上，會自動換行
+
+### printf
+
+`$ printf "something\n"`  
+格式化輸出內容到螢幕上
+
+`$ printf "%d" number`  
+輸出變數 number  
+%d 十進制
+
+`$ printf "%x" number`  
+輸出變數 number  
+%x 十六進制
 
