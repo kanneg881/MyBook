@@ -43,9 +43,10 @@ expression 表達式
 
 ## grep
 
-`$ grep [--line-buffered][-i][-n][-r][-w] path [-e] keyword`  
+`$ grep [--line-buffered][-a][-i][-n][-r][-w] path [-e] keyword`  
 過濾輸出或者檔案內容  
 --line-buffered 每換行就將結果送至標準輸出，否則會等緩衝區滿才送  
+-a 二進位可執行檔視為文字檔  
 -i 不分大小寫  
 -n 顯示行數  
 -r 遞迴搜尋  
