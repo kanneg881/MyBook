@@ -1,5 +1,12 @@
 # 查看檔案
 
+## base64
+
+`$ base64 [-d] fileName`  
+把檔案編碼成 base64 編碼  
+fileName 檔案名稱  
+-d 解碼 base64
+
 ## cat
 
 `$ cat fileName`  
@@ -162,6 +169,21 @@ path/to/file 檔案位置
 結果：  
 1 2020/08/21 10:30 Friday  
 2 2019/06/01 09:09 Saturday
+
+## xxd
+
+`$ xxd [-b][-l][r][-s]`  
+以二進制或十六進制顯示檔案內容  
+-b 以二進制顯示，預設為十六進制  
+-l 指定印出位元組長度  
+-r 十六進制轉 ASCII 碼  
+-s 指定從第 n 個位元組開始輸出
+
+### 舉例
+
+`$ xxd -s 5 -l 10 fileName`   
+以十六進制輸出 fileName 檔案內容  
+從第5個位元組開始，印出10個位元組
 
 
 

@@ -75,26 +75,6 @@ Linux 使用如上的指令即可
 並將結果輸出到 outputFile.txt  
 -d 為指定要刪除的字元
 
-`$ base64 [-d] fileName`  
-把檔案編碼成 base64 編碼  
-fileName 檔案名稱  
--d 解碼 base64
-
-### xxd
-
-`$ xxd [-b][-l][r][-s]`  
-以二進制或十六進制顯示檔案內容  
--b 以二進制顯示，預設為十六進制  
--l 指定印出位元組長度  
--r 十六進制轉 ASCII 碼  
--s 指定從第 n 個位元組開始輸出
-
-#### 舉例
-
-`$ xxd -s 5 -l 10 fileName`   
-以十六進制輸出 fileName 檔案內容  
-從第5個位元組開始，印出10個位元組
-
 ## 複製檔案
 
 `$ cp [-p] file path/to/copyFile`  
