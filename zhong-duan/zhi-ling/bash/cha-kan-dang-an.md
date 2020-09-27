@@ -74,8 +74,6 @@ path/to/file 檔案位置
 
 ## sdiff
 
-
-
 `$ sdiff [-i][-s][-w] file1 file2`  
 比對 file1 和 file2 檔案內容差異
 
@@ -89,6 +87,14 @@ path/to/file 檔案位置
 
 `$ cat file1 | sdiff - file2`  
 - 代表比對標準輸入的內容
+
+## sha1sum
+
+`$ sha1sum [-c][--quiet] fileName`  
+輸出 fileName 的訊息摘要  
+也就是此檔案的雜湊值  
+-c 檢查 fileName 已經產生雜湊訊息的檔案路徑內容  
+--quiet 只輸出比對失敗的檔案
 
 ## tail
 

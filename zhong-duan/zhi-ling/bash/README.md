@@ -65,12 +65,6 @@ path 指定目錄
 moduleName 模組名稱  
 取得核心模組資訊
 
-`$ sha1sum [-c][--quiet] fileName`  
-輸出 fileName 的訊息摘要  
-也就是此檔案的雜湊值  
--c 檢查 fileName 已經產生雜湊訊息的檔案路徑內容  
---quiet 只輸出比對失敗的檔案
-
 `$ sudo command`  
 使用超級使用者權限執行 command 指令  
 例如：  
