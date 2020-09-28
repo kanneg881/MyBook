@@ -66,14 +66,21 @@ fileName 檔案名稱
 `$ grep -Pzo '(?s)regular expression' fileName`  
 功能如上  
 -z 換行字元也會列入比較  
--P Perl 的樣式比對修正符，後面接\(?s\)  
-意思為 . 特殊字元也會比對換行字元  
+-P Perl 的樣式比對修正符  
 注意!不是所有版本都有 -P 選項
 
 ### 特殊正規表示式
 
 `[:print:]`  
 可顯示字元 A-Z a-z 0-9 等等，不包含控制字元
+
+### Perl 正規表示式
+
+`(?s)`  
+意思為 . 特殊字元也會比對換行字元
+
+`.*?`  
+比對盡可能少的字元
 
 ### 例如
 
@@ -85,6 +92,17 @@ fileName 檔案名稱
 
 `$ grep -i -r ./ -e 'keyword'`  
 不區分大小寫的遞迴搜尋當前目錄下 keyword 字串
+
+`$  echo 'a,b,c,d,e' | grep -P '.*?,'`  
+輸出如下  
+a,  
+b,  
+c,  
+d,
+
+`$  echo 'a,b,c,d,e' | grep -P '.*,'`  
+輸出如下  
+a,b,c,d,
 
 ## locate
 
