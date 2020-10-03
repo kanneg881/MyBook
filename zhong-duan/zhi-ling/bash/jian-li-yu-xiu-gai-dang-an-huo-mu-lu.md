@@ -34,7 +34,7 @@ END {command}' fileName`
 
 ### sed
 
-`$ sed s/keyword/replace/g path/to/file > path/to/newFile`  
+`$ sed 's/keyword/replace/g' path/to/file > path/to/newFile`  
 尋找位於 path/to/file 檔案的 keyword 內容並取代成 replace  
 然後另存為  path/to/newFile  
 keyword 為正規表示式  
@@ -43,7 +43,7 @@ s/keyword/replace/g 的 g 為全域搜尋
 如果沒有 g 則只取代搜尋到的第一個  
 如果 g 改成數字 n，則指定取代搜尋到的第 n 個
 
-`$ sed -i 's/\\/\//g fileName.txt`  
+`$ sed -i 's/\\/\//g' fileName.txt`  
 把 fileName.txt 的所有 \ 取代成 /  
 因為 \ 是特殊字元，所以要加 \ 轉逸  
 變成 \\，而 / 也是特殊字元，也需要轉逸  
@@ -51,13 +51,16 @@ s/keyword/replace/g 的 g 為全域搜尋
 replace 就是 \/  
 -i 代表會把結果寫回輸入的檔案 fileName.txt 裡
 
-`$ sed -i '_bk' 's/\\/\//g fileName.txt`  
+`$ sed -i '_bk' 's/\\/\//g' fileName.txt`  
 如果是 mac os 系統，需要加上後綴字做備份  
 Linux 使用如上的指令即可  
 此指令和上一個一樣，但會把原始檔備份到 fileName.txt\_bk  
 '\_bk' 代表備份檔的後綴字  
 不想要備份檔可以在 -i 後輸入 ''  
-`$ sed -i '' 's/\\/\//g fileName.txt`
+`$ sed -i '' 's/\\/\//g' fileName.txt`
+
+`$ sed -e 's/keyword/replace/' -e 's/keyword/replace/'`  
+-e 連接多個 sed 指令
 
 ### tr
 
