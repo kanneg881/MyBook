@@ -35,6 +35,10 @@ END {command}' fileName`
 輸出每一行的欄位數  
 NF 欄位數
 
+`gsub(search, replace, variable)`  
+awk command 的函式  
+將變數 variable 中出現 search 字樣取代成 replace
+
 ### sed
 
 `$ sed 's/keyword/replace/g' path/to/file > path/to/newFile`  
