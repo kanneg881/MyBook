@@ -15,8 +15,7 @@ $2 第2個字
 
 `$ awk '$1 ~ "string" {command}' fileName`   
 同上  
-~ 代表是否匹配字串 "string"  
-~~~~
+~ 代表是否匹配字串 "string"
 
 `$ awk ' /regular/ {command}'`  
 同上，不過 // 之間為正規表達式  
@@ -31,6 +30,10 @@ $2 第2個字
 END {command}' fileName`  
 當 awk 迭代 fileName 的每一行內容後  
 最後再執行 END 裡面的 command
+
+`$ awk '{print NF}' fileName`  
+輸出每一行的欄位數  
+NF 欄位數
 
 ### sed
 
