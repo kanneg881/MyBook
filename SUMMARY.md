@@ -103,6 +103,7 @@
     * [備份](zhong-duan/zhi-ling/bash/bei-fen.md)
     * [重導向](zhong-duan/zhi-ling/bash/zhong-dao-xiang.md)
     * [寄信](zhong-duan/zhi-ling/bash/ji-xin.md)
+    * [操作終端機](zhong-duan/zhi-ling/bash/cao-zuo-zhong-duan-ji.md)
     * [另外安裝的指令](zhong-duan/zhi-ling/bash/ling-wai-an-zhuang-de-zhi-ling/README.md)
       * [jq JSON 剖析器](zhong-duan/zhi-ling/bash/ling-wai-an-zhuang-de-zhi-ling/jq-json-pou-xi-qi.md)
   * [zsh](zhong-duan/zhi-ling/zsh/README.md)
