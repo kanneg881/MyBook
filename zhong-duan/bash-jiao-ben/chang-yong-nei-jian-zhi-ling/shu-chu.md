@@ -18,6 +18,10 @@ ${text} 為第一個變數，對應 %-10s
 變數加雙引號是怕有空白，導致程式判斷錯誤  
 ${number} 為第二個變數，對應 %10d
 
+`printf '%*s' $number $string`  
+\* 代表字串長度為 $number  
+s 代表字串
+
 `printf -v VAR 'string'`  
 將輸出的內容，儲存至 VAR 變數裡
 
