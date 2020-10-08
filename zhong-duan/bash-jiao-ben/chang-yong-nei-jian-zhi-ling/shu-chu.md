@@ -20,7 +20,7 @@ ${number} 為第二個變數，對應 %10d
 
 `printf '%*s' $number $string`  
 \* 代表字串長度為 $number  
-s 代表字串
+s 代表字串為 $string
 
 `printf -v VAR 'string'`  
 將輸出的內容，儲存至 VAR 變數裡
