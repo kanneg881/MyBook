@@ -116,8 +116,10 @@ moduleName 模組名稱
 wlan0 代表第0個  
 用 iwconfig 先查看無線網路裝置
 
-`$ netstat -a`  
-顯示網路連線
+`$ netstat [-a][-n]`  
+顯示網路連線  
+-a 顯示所有連線以及接聽連接埠  
+-n 以數字形式顯示位址與連接埠號
 
 `$ ping ip`  
 測試網路連線  
