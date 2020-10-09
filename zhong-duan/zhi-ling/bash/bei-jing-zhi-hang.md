@@ -17,6 +17,9 @@ x 顯示所有程序，不以終端機來區分
 PID 為 process ID  
 可以用 ps 查看 PID
 
+`$ kill PID`  
+終止程序
+
 `$ jobs`  
 列出正在背景執行的工作
 
