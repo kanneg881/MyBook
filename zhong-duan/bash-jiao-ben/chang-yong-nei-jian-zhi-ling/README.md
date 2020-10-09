@@ -30,9 +30,6 @@
 ARRAY 陣列變數  
 "fileName" 檔案名稱
 
-`tempfile`  
-建立獨特的檔案名稱，確保檔案不在使用中
-
 `unset $VAR`  
 解除設置的變數
 
