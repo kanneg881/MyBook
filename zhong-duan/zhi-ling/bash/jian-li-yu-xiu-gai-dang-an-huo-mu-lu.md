@@ -293,6 +293,10 @@ mv 是搬移指令，搬移目錄或檔案
 `$ rmdir directory`  
 刪除空目錄
 
+`$ rm -f fileName`  
+強制刪除檔案  
+fileName 檔案名稱
+
 `$ rm -r directory`  
 刪除目錄和目錄底下所有檔案  
 **注意 : 使用此指令一定要確認好路徑位置**  
