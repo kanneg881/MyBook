@@ -60,3 +60,6 @@ do
 done 4< ${file1} 5< ${file2}
 ```
 
+`command 3<>fileName`  
+將檔案描述符3與 fileName 連接，進行讀寫
+
