@@ -57,3 +57,21 @@ script 要執行的腳本
 
 上面的欄位代表第幾個星號要取代的位置
 
+## 連線
+
+`exec FILE_DESCRIPTOR<>/dev/PROTOCOL/HOST/PORT`
+
+FILE\_DESCRIPTOR 檔案描述符  
+詳情可以參考[這裡](../../bash-jiao-ben/can-shu.md#dang-an-miao-shu-fu)
+
+PROTOCOL 通訊協定，例如：TCP、UDP
+
+HOST 主機 IP
+
+PORT 通訊埠號
+
+### 舉例
+
+`exec 3<>/dev/tcp/192.168.10.1/25`  
+內部指令連接 SMTP 伺服器，並存入在檔案描述符3
+
