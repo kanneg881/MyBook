@@ -22,6 +22,9 @@ ${text} 為第一個變數，對應 %-10s
 變數加雙引號是怕有空白，導致程式判斷錯誤  
 ${number} 為第二個變數，對應 %10d
 
+`printf "%02x" $variable`  
+輸出2位數16進制的數值，前面不足補0
+
 `printf '%*s' $number $string`  
 \* 代表字串長度為 $number  
 s 代表字串為 $string
