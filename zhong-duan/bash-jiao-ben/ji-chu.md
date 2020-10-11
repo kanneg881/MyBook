@@ -8,6 +8,9 @@
 `${variable}`  
 ${} 大括號裡面可以對變數 variable 進行操作
 
+`${#variable}`  
+取得變數 variable 字元數量
+
 `$(command)`  
 command 在 subshell 執行  
 並且可以把回傳值賦予變數中  
