@@ -283,6 +283,16 @@ fileName 檔案名稱
 -n number 覆寫 number 次  
 /path/to/file 檔案位置
 
+## 加密、解密檔案
+
+`$ openssl aes-256-cbc -base64 -in fileName -out encryptedFile -pass pass:mysecret`  
+使用 AES 256位元版本加密
+
+-base64 使用 base64 編碼  
+-in 需要加密的檔案  
+-out 輸出已加密的檔案  
+-pass 加密密鑰
+
 ## 目錄
 
 `$ cd -`  
