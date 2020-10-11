@@ -11,6 +11,11 @@ ${} 大括號裡面可以對變數 variable 進行操作
 `${#variable}`  
 取得變數 variable 字元數量
 
+`${variable:from:length}`  
+取得變數 variable 從 from 開始 length 個字元  
+例如：`${variable:0:1}`  
+variable 從第0個起取1個字元
+
 `$(command)`  
 command 在 subshell 執行  
 並且可以把回傳值賦予變數中  
