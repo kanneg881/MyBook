@@ -17,7 +17,7 @@ description: 適用於 bash 指令
 -c 指令  
 -k 關鍵字
 
-`$ curl [-A][-G][-I][-L][-d][-s][-o] outputFile URL`  
+`$ curl [-A][-G][-I][-L][-d][-s][-o] outputFile URL`   
 取得 URL 資料  
 URL 網址  
 -G 以 HTTP GET 傳送  
