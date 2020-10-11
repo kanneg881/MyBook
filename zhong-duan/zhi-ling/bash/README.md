@@ -48,6 +48,15 @@ mx mail exchange server 郵件交換伺服器
 檢視 domain name server 資訊  
 ns nameserver 伺服器名稱
 
+`$ eval $command $argument`   
+動態執行指令  
+$command 指令變數  
+$argument 參數  
+例如：  
+`$ eval ls -l`  
+$command 為 ls  
+$argument 為 -l
+
 `$ ls [-a][-l][-s][-R] [path]`  
 列出當前目錄中的檔案與子目錄  
 a 顯示隱藏檔案  
