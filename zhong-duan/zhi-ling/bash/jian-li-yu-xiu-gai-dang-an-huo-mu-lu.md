@@ -291,7 +291,7 @@ fileName 檔案名稱
 -base64 使用 base64 編碼  
 -in 需要加密的檔案  
 -out 輸出已加密的檔案  
--pass 加密密鑰
+-pass pass:後面為加密密鑰
 
 ## 目錄
 
