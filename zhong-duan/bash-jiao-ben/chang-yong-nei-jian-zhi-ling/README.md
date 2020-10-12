@@ -25,8 +25,9 @@ ARRAY 陣列變數
 
 ## read
 
-`read [-s] VAR`  
+`read [-r][-s] VAR`  
 讀取使用者輸入的內容並存入 VAR 變數  
+-r 關閉反斜線特殊字元轉譯  
 -s 隱藏畫面上輸入的內容
 
 `read VAR VAR2`  
