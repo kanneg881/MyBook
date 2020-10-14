@@ -67,6 +67,9 @@ $key 陣列索引
 '1 2 3 4 5' 字串會轉變為  
 \[1, 2, 3, 4, 5\] 陣列
 
+`arrayVariable+=( "$variable" )`   
+將變數字串附加到陣列裡
+
 ### 數值
 
 `declare -i variable`  
