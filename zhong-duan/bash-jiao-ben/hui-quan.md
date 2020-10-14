@@ -19,6 +19,13 @@ for (value=0;value<10;value++)
 do
   do something
 done
+
+# 第4種方法
+for (value=0; $#; value++)
+do
+  do something
+  shift
+done
 ```
 {% endtab %}
 
@@ -49,6 +56,9 @@ for 會跑 $ARRAY 迴圈
 取得 array 陣列的鍵值  
 並存入到 value 變數裡  
 寫法比較簡潔
+
+第4種方法迭代參數的數量  
+shift 會一直遞減參數，直到沒有參數為止
 
 ## while
 
