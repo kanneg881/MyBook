@@ -4,7 +4,7 @@
 
 `$ command < inputData > outputData 2> error.log`   
 將輸入導向到 inputData  
-輸出導向到 outData  
+輸出導向到 outputData  
 錯誤導向到 error.log  
 輸出會覆蓋檔案
 
@@ -17,6 +17,11 @@
 `$ command < inputData > outputData 2>&1`  
 把錯誤訊息和正常輸出導向一起  
 &1 的意思為，和1\(正常輸出\)一樣位置
+
+`$ command 2>&1 > outputData`  
+把標準錯誤導向到標準輸出  
+再把標準輸出導向到 outputData  
+與上述順序不同，此標準輸出已變成錯誤訊息
 
 `$ command < inputData &> outputData`  
 同上，更為精簡的寫
