@@ -67,7 +67,7 @@ server 為主機 IP
 
 ## nc
 
-netcat 網路檢測工具
+nc 全名為 netcat 網路檢測工具
 
 選項
 
@@ -80,5 +80,13 @@ netcat 網路檢測工具
 `nc -v www.oreilly.com 80`  
 監聽 oreilly 80 port 網站是否能連線
 
+### 兩台電腦連線傳送檔案
 
+```text
+# 接收檔案寫到 receiverData
+nc -l 5000 > receiverData
+
+# 傳送檔案到接收端
+nc 網域或IP 5000 < senderData
+```
 
