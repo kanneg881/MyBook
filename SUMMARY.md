@@ -96,6 +96,7 @@
 * [指令](zhong-duan/zhi-ling/README.md)
   * [bash](zhong-duan/zhi-ling/bash/README.md)
     * [程序](zhong-duan/zhi-ling/bash/bei-jing-zhi-hang.md)
+    * [分析網路，檢測並與網路介面卡進行互動](zhong-duan/zhi-ling/bash/fen-xi-wang-lu-jian-ce-bing-yu-wang-lu-jie-mian-ka-jin-hang-hu-dong.md)
     * [查看檔案](zhong-duan/zhi-ling/bash/cha-kan-dang-an.md)
     * [建立與修改檔案或目錄](zhong-duan/zhi-ling/bash/jian-li-yu-xiu-gai-dang-an-huo-mu-lu.md)
     * [搜尋](zhong-duan/zhi-ling/bash/sou-xun.md)
