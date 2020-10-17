@@ -11,6 +11,9 @@
 特殊字元將進行轉義  
 例如 \n 將轉換成換行
 
+`echo -n 'string'`  
+去除換行字元
+
 ## printf
 
 `printf "%-10s %10d\n" "${text}" "${number}"`  
