@@ -3,6 +3,9 @@
 `$ chown {user} fileName`  
 更改檔案持有的使用者
 
+`$ chown :{group} fileNmae`   
+更改檔案持有群組
+
 `$ groups {user}`   
 查看 user 隸屬哪些群組
 
