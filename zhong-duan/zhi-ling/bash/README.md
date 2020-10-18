@@ -76,6 +76,10 @@ path 指定目錄
 moduleName 模組名稱  
 取得核心模組資訊
 
+`$ passwd {user}`   
+更改使用者密碼  
+user 使用者名稱
+
 `$ sudo command`  
 使用超級使用者權限執行 command 指令  
 例如：  
