@@ -40,14 +40,6 @@ outputFile -o 選項導向的檔案名稱
 %M 分，兩位數，例如：9分 09  
 %S 秒，兩位數，例如：9秒 09
 
-`$ dig domainName mx`  
-檢視 domain name server 資訊  
-mx mail exchange server 郵件交換伺服器
-
-`$ dig domainName ns`  
-檢視 domain name server 資訊  
-ns nameserver 伺服器名稱
-
 `$ eval $command $argument`   
 動態執行指令  
 $command 指令變數  
@@ -56,14 +48,6 @@ $argument 參數
 `$ eval ls -l`  
 $command 為 ls  
 $argument 為 -l
-
-`$ ls [-a][-l][-s][-R] [path]`  
-列出當前目錄中的檔案與子目錄  
-a 顯示隱藏檔案  
-l \(long listing\)詳細資料  
-s 顯示檔案大小，單位為區塊  
-R 找遍指定目錄的所有子目錄  
-path 指定目錄
 
 `$ lsmod`  
 列出安裝在核心的模組
@@ -75,10 +59,6 @@ path 指定目錄
 `$ modinfo moduleName`  
 moduleName 模組名稱  
 取得核心模組資訊
-
-`$ passwd {user}`   
-更改使用者密碼  
-user 使用者名稱
 
 `$ sudo command`  
 使用超級使用者權限執行 command 指令  
@@ -145,19 +125,6 @@ mount /dev/sdb1 /mnt
 `$ umount /name`  
 手動卸載裝置  
 /name 裝置名稱
-
-## 背景服務
-
-控制系統的背景服務，指令如下
-
-`$ service servicename start | stop | restart`  
-控制系統的背景服務  
-servicename 服務名稱  
-start \| stop \| restart 開啟 \| 終止 \| 重啟\(選一個\)
-
-例如  
-`$ service rsyslog stop`  
-終止日誌服務
 
 ## 輸出
 

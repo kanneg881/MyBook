@@ -26,6 +26,19 @@ PID 為 process ID
 `$ jobs`  
 列出正在背景執行的工作
 
+## 背景服務
+
+控制系統的背景服務，指令如下
+
+`$ service servicename start | stop | restart`  
+控制系統的背景服務  
+servicename 服務名稱  
+start \| stop \| restart 開啟 \| 終止 \| 重啟\(選一個\)
+
+例如  
+`$ service rsyslog stop`  
+終止日誌服務
+
 ## 排程
 
 `$ crontab [-e][-l]`  
