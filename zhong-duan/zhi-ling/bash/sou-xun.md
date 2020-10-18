@@ -38,6 +38,9 @@ expression 表達式
 `$ find ./ -type f -exec file '{}' \; | egrep 'PNG' | cut -d' ' -f1`  
 遞迴搜尋此目錄下的檔案，類型為 PNG，並只輸出檔案路徑
 
+`find . -type f -user {userName}`  
+搜尋持有者為 userName 的檔案
+
 `$ finde /home -size +5G`  
 搜尋 /home 目錄，大於 5G 的檔案
 
