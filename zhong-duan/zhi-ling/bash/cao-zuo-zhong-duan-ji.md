@@ -23,6 +23,12 @@
 `rmul`  
 結束底線模式
 
+setaf {number}  
+使用 ANSI escape code 設定前景\(字型\)顏色  
+number 帶入數字  
+0 紅色  
+7 白色
+
 `sgr0`  
 選擇圖形渲染  
 0 代表取消所有效果，重新設定
