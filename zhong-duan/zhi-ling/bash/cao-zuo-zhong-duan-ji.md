@@ -23,8 +23,8 @@
 `rmul`  
 結束底線模式
 
-setaf {number}  
-使用 ANSI escape code 設定前景\(字型\)顏色  
+`setaf {number}`  
+使用 ANSI escape code 設定前景字型顏色  
 number 數字  
 0 紅色  
 7 白色
