@@ -76,6 +76,7 @@ moduleName 模組名稱
 
 `$ type -t {word}`  
 辨識 word 是關鍵字、內建功能、指令...  
+-t 輸出維持在一個字  
 例如 : $ type -t pwd 為內建功能
 
 `$ uname [-a][-n]`  
