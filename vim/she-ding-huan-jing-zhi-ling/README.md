@@ -43,6 +43,9 @@ vim 剪貼板跟系統剪貼板共用
 `set encoding=utf8`  
 設定檔案編碼，解決中文亂碼問題
 
+`set expandtab`  
+tab 以空格取代
+
 `set filetype=myfiletype`  
 如果檔案沒有識別或識別錯誤，可以手動設定 filetype
 
