@@ -23,6 +23,9 @@ vim 可以設定很多環境，通常都是寫在 [vimrc](../shen-me-shi-vimrc/)
 `filetype plugin indent on`  
 檔案類型 檢測 插件 縮排 打開
 
+`set autoindent`  
+換行時自動縮進
+
 `set backup`  
 需要備份文件
 
