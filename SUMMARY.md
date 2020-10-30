@@ -36,6 +36,7 @@
 * [搜尋模式指令](vim/sou-xun-mo-shi-zhi-ling/README.md)
   * [{pattern}](vim/sou-xun-mo-shi-zhi-ling/pattern.md)
 * [環境設定](vim/she-ding-huan-jing-zhi-ling/README.md)
+  * [環境變數](vim/she-ding-huan-jing-zhi-ling/huan-jing-bian-shu.md)
   * [快捷鍵](vim/she-ding-huan-jing-zhi-ling/kuai-jie-jian.md)
   * [try catch](vim/she-ding-huan-jing-zhi-ling/try-catch.md)
   * [autocmd](vim/she-ding-huan-jing-zhi-ling/autocmd.md)
