@@ -40,6 +40,9 @@ vim 剪貼板跟系統剪貼板共用
 例如 `yy` 複製一行，可以到外部貼上 `<command>V`  
 外部複製的內容也可以在 vim 用 `p` 貼上
 
+`set directory=$HOME/.vim/swap//`  
+交換文件統一存放目錄 
+
 `set encoding=utf8`  
 設定檔案編碼，解決中文亂碼問題
 
