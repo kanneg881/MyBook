@@ -1,6 +1,6 @@
 # 緩衝區
 
-## 顯示所有緩衝區
+顯示所有緩衝區
 
 `:files[!] [flags]  
 :buffers[!] [flags]  

@@ -55,12 +55,6 @@
 `:pw[d]`  
 顯示當前目錄
 
-`:qa[ll]`  
-退出 Vim，除非存在修改過的緩衝區。
-
-`:q[uit]`  
-退出當前視窗。如果是最後的一個，退出 Vim。
-
 `:[range]ret[ab][!] [new_tabstop]`  
 把所有包含 &lt;Tab&gt; 的空白序列替代成由新的製表位  
 \[new\_tabstop\] 確定的空白序列。如果你不指定新的製表位，  
@@ -85,10 +79,6 @@
 `:w fileName`  
 寫入到 fileName 裡面  
 fileName 檔案名稱
-
-`:wq`  
-先執行 :w 再執行 :q  
-儲存後離開
 
 `:[range]y[ank] [x]`  
 抽出 `[range]` 所指定的行到暫存器 `[x]`
