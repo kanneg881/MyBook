@@ -26,8 +26,10 @@
 | :--- | :--- |
 | `:res[ize] +N` | 當前視窗的高度增加 N 行 |
 | `:res[ize] -N` | 當前視窗的高度減少 N 行 |
+| `:res[ize] N` | 當前視窗的高度設為 N 行 |
 | `:vert[ical] res[ize] +N` | 當前視窗的寬度增加 N 行 |
 | `:vert[ical] res[ize] -N` | 當前視窗的寬度減少 N 行 |
+| `:vert[ical] res[ize] N` | 當前視窗的寬度設為 N 行 |
 
 ## 標籤頁
 
