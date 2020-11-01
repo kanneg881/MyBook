@@ -24,10 +24,10 @@
 
 | 命令 | 用途 |
 | :--- | :--- |
-| `:res[ize] +{number}` | 當前視窗的高度增加 number 行 |
-| `:res[ize] -{number}` | 當前視窗的高度減少 number 行 |
-| `:vert[ical] res[ize] +{number}` | 當前視窗的寬度增加 number 行 |
-| `:vert[ical] res[ize] -{number}` | 當前視窗的寬度減少 number 行 |
+| `:res[ize] +N` | 當前視窗的高度增加 N 行 |
+| `:res[ize] -N` | 當前視窗的高度減少 N 行 |
+| `:vert[ical] res[ize] +N` | 當前視窗的寬度增加 N 行 |
+| `:vert[ical] res[ize] -N` | 當前視窗的寬度減少 N 行 |
 
 ## 標籤頁
 
