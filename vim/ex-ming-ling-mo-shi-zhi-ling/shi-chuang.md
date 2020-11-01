@@ -62,6 +62,13 @@
       <td style="text-align:left">&#x95DC;&#x9589;&#x6240;&#x6709;&#x5176;&#x5B83;&#x7684;&#x6A19;&#x7C64;&#x9801;</td>
     </tr>
     <tr>
+      <td style="text-align:left"><code>:tabnew {file}</code>
+      </td>
+      <td style="text-align:left">&#x5728;&#x4E00;&#x500B;&#x65B0;&#x7684;&#x6A19;&#x7C64;&#x9801;&#x4E2D;&#x6253;&#x958B;
+        {file}
+        <br />&#x6C92;&#x5BEB; {file} &#x5247;&#x6253;&#x958B;&#x4E00;&#x500B;&#x7A7A;&#x7684;&#x7DE9;&#x885D;&#x5340;</td>
+    </tr>
+    <tr>
       <td style="text-align:left"><code>:tabn[ext] {count}</code>
       </td>
       <td style="text-align:left">&#x8F49;&#x5230;&#x7B2C; <code>{count}</code> &#x500B;&#x6A19;&#x7C64;&#x9801;
