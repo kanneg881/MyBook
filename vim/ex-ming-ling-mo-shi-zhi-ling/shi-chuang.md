@@ -20,6 +20,15 @@
 | `:wq` | 先執行 :w 再執行 :q 儲存後離開 |
 | `:wqa[ll]` | 先保存所有打開的檔案 再關閉所有視窗，並退出 vim |
 
+### 調整視窗
+
+| 命令 | 用途 |
+| :--- | :--- |
+| `:res[ize] +{number}` | 當前視窗的高度增加 number 行 |
+| `:res[ize] -{number}` | 當前視窗的高度減少 number 行 |
+| `:vert[ical] res[ize] +{number}` | 當前視窗的寬度增加 number 行 |
+| `:vert[ical] res[ize] -{number}` | 當前視窗的寬度減少 number 行 |
+
 ## 標籤頁
 
 <table>
