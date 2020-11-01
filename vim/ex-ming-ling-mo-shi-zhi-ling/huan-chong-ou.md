@@ -22,8 +22,9 @@ a 活動狀態，已被載入並可看見
 `:[range]bufdo[!] {cmd}`  
 在緩衝區列表的每一個緩衝區裡執行 `{cmd}`
 
-`:b{number}`  
-切換到第 number 緩衝區
+`:b {number}`  
+切換到第 number 緩衝區  
+中間空白可以省略
 
 `:b {file}`  
 切換到 file 緩衝區
