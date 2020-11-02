@@ -15,3 +15,22 @@
 | `:Vex` | 左右分割方式打開文件管理器 |
 | `:edit .` | 探索當前工作目錄 |
 
+## wildmenu
+
+此功能為產生自動補全的文件名菜單
+
+### 環境設定
+
+`set wildmenu`  
+需要先在 .vimrc 做[環境設定](../she-ding-huan-jing-zhi-ling/#huan-jing-zhi-ling)
+
+### 指令
+
+`:e <Tab>`  
+正向遍歷文件
+
+`:e <Shift-Tab>`  
+反向遍歷文件
+
+遍歷文件時可以用左右方向鍵移動
+

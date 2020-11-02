@@ -24,3 +24,20 @@
 `R`  
 重新命名一個文件或目錄
 
+## wildmenu
+
+此功能為產生自動補全的文件名菜單
+
+### 環境設定
+
+`set wildmenu`  
+需要先在 .vimrc 做[環境設定](../she-ding-huan-jing-zhi-ling/#huan-jing-zhi-ling)
+
+### 指令
+
+`<Down>`  
+方向鍵向下，進入游標中的目錄
+
+`<Up>`  
+方向鍵向上，回上一層目錄
+
