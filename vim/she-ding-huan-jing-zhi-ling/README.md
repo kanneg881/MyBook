@@ -171,6 +171,10 @@ et exandtab 為插入空白
 `set wildmenu`  
 增強 Tab 自動補全，產生文件清單
 
+`set wildmode=list:longest,full`  
+list:longest 補全符合的最長字串  
+full 打開 wildmenu
+
 `set wrap`  
 超出視窗寬度的文字行都會被迴繞顯示 
 
