@@ -11,6 +11,9 @@
 `$ vim file`  
 打開 file，沒有寫 file 則打開空白檔案
 
+`$ vim file +N`  
+打開 file 並移動到第 N 行
+
 `$ vim -o file1 file2 ...`  
 水平分割打開 file1 file2 等等
 
