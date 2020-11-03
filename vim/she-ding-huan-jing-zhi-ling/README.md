@@ -32,13 +32,13 @@ vim 可以設定很多環境，通常都是寫在 [vimrc](../shen-me-shi-vimrc/)
 `set cindent`  
 使用 C/C++ 語言的自動縮排方式
 
-`set cursorline`  
-高亮光標所在的螢幕行
-
 `set clipboard=unnamed`  
 vim 剪貼板跟系統剪貼板共用  
 例如 `yy` 複製一行，可以到外部貼上 `<command>V`  
 外部複製的內容也可以在 vim 用 `p` 貼上
+
+`set cursorline`  
+高亮光標所在的螢幕行
 
 `set directory=$HOME/.vim/swap//`  
 交換文件統一存放目錄 
@@ -58,7 +58,7 @@ gui 版 vim 字型
 舉例：  
 `set guifont=MesloLGL\ Nerd\ Font:h18`
 
-`set  guioptions=egmrLtT`  
+`set guioptions=egmrLtT`  
 gui 版 vim 使用的部件和選項  
 每一個字母都代表一個選項  
 如果不想要某個選項把那個字母刪掉即可  
@@ -100,6 +100,9 @@ number 為距離
 `set nobackup`  
 不需要備份文件
 
+`set nonumber`  
+不顯示行號
+
 `set noswapfile`  
 緩衝區不建立交換文件  
 此為當檔案尚未存檔時，保留在相同目錄的暫存檔  
@@ -110,9 +113,6 @@ number 為距離
 
 `set number`  
 顯示行號
-
-`set nonumber`  
-不顯示行號
 
 `set relativenumber`  
 顯示相對行號  
@@ -134,9 +134,6 @@ number 為距離
 游標上下兩側最少保留的螢幕行數  
 number 為數字
 
-`set smartcase`  
-智能的大小寫敏感
-
 `set showcmd`  
 在螢幕最後一行顯示（部分的）命令  
 關閉則改成 noshowcmd
@@ -154,14 +151,17 @@ number 為數字
 在插入，替換和可視模式裡，在最後一行提供消息  
 關閉則改成 `noshowmode`
 
+`set signcolumn=yes`  
+是否繪製標誌列
+
+`set smartcase`  
+智能的大小寫敏感
+
 `set splitbelow`  
 如果打開，視窗的分割會把新視窗放到當前視窗之下
 
 `set splitright`  
 如果打開，視窗的分割會把新視窗放到當前視窗之右
-
-`set signcolumn=yes`  
-是否繪製標誌列
 
 `set transparency={number}`  
 設定背景透明度 0-100  
