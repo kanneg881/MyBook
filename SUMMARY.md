@@ -21,6 +21,7 @@
 * [安裝](vim/an-zhuang.md)
 * [普通模式指令](vim/pu-tong-mo-shi-zhi-ling/README.md)
   * [移動](vim/pu-tong-mo-shi-zhi-ling/yi-dong.md)
+  * [搜尋](vim/pu-tong-mo-shi-zhi-ling/sou-xun.md)
   * [{motion}](vim/pu-tong-mo-shi-zhi-ling/motion.md)
   * [視窗、標籤頁、緩衝區](vim/pu-tong-mo-shi-zhi-ling/shi-chuang.md)
   * [拼寫檢查器](vim/pu-tong-mo-shi-zhi-ling/pin-xie-jian-cha-qi.md)
