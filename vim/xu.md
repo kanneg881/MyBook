@@ -32,5 +32,5 @@ $ vimtutor
 
 如果作者有寫錯的地方，您可以上 GitHub 協助修改  
 或者寄信告知  
-信箱 : enjoygamecompany@gmail.com
+信箱 : veryenjoysoftware@gmail.com
 
