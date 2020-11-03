@@ -97,7 +97,7 @@ very nomagic 搜尋模式，消除特殊字元含義例如 `.?*`
 vim 內部的 grep  
 可以打開 [quickfix](../ex-ming-ling-mo-shi-zhi-ling/quickfix.md) 查看查詢結果
 
-`:vimgrep /{pattern}/[g][j] {files}`  
+`:vimgrep /{pattern}/[g][j] {path/to/file}`  
 把找到的匹配放到 quickfix 列表
 
 `[g]`  
@@ -105,6 +105,19 @@ vim 內部的 grep
 
 `[j]`  
 只更新 quickfix 列表
+
+### 檔案路徑萬用字元
+
+`**`  
+對目錄遞迴搜尋
+
+`*`  
+通用檔名
+
+### 舉例
+
+`**/*.txt`  
+遞迴搜尋副檔名為 txt 的所有檔案
 
 ## grep
 
