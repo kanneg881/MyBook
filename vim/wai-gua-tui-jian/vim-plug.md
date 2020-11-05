@@ -21,7 +21,28 @@
 
 ### 使用方式
 
-到官網 Usage 的 Example 查看範例
+到官網 Usage 的 Example 查看完整說明
+
+以下簡單說明使用方式  
+編輯 .vimrc 文件
+
+{% code title=".vimrc" %}
+```text
+" 使用前先執行此程式
+call plug#begin('~/.vim/plugged')
+
+" 確定你使用單引號
+
+" 所有有效的 git 網址
+Plug 'https://github.com/junegunn/vim-github-dashboard.git'
+
+" 簡寫; 取得 https://github.com/junegunn/vim-easy-align
+Plug 'junegunn/vim-easy-align'
+
+" 結束安裝插件呼叫此程式
+call plug#end()
+```
+{% endcode %}
 
 ### 指令
 
