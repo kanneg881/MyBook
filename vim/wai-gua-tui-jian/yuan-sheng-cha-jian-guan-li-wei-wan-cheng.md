@@ -34,11 +34,13 @@ autocmd filetype type :packadd <目錄名> | {插件指令}
 ```
 {% endcode %}
 
-### start
+## start
 
-#### 目錄位置
+### 目錄位置
 
 .vim/pack/&lt;你的目錄&gt;/start/插件
+
+### 說明
 
 此目錄底下的插件，始終載入
 
