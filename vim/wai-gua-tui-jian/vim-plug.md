@@ -50,6 +50,11 @@ call plug#end()
 ```
 {% endcode %}
 
+### 說明文件
+
+`Plug 'junegunn/vim-plug'`  
+vim-plug 在 vim 的幫助文件
+
 ### 指令
 
 | 指令 | 描述 |
