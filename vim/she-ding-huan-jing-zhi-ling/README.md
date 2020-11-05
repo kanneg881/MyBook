@@ -32,8 +32,13 @@ vim 可以設定很多環境，通常都是寫在 [vimrc](../shen-me-shi-vimrc/)
 `set cindent`  
 使用 C/C++ 語言的自動縮排方式
 
-`set clipboard=unnamed`  
-vim 剪貼板跟系統剪貼板共用  
+`set clipboard={option}`  
+預設使用 option 暫存器  
+option 有以下選項  
+unnamed \* 暫存器  
+unnamedplus + 暫存器  
+unnamed,unnamedplus 同時使用 \* 和 + 暫存器  
+\* 和 + 暫存器跟系統剪貼板共用  
 例如 `yy` 複製一行，可以到外部貼上 `<command>V`  
 外部複製的內容也可以在 vim 用 `p` 貼上
 
