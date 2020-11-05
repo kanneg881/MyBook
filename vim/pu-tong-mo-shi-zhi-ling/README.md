@@ -173,8 +173,7 @@ a-z {register} 可以自己使用
 `"{register}y[motion]`  
 覆寫或附加暫存器的內容  
 a-z {register} 會覆寫暫存器的內容  
-A-Z {register} 會附加暫存器的內容  
-
+A-Z {register} 會附加暫存器的內容
 
 ### 特殊暫存器
 
