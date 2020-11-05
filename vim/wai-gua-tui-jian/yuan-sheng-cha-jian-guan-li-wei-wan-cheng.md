@@ -26,10 +26,10 @@ vim 會在 .vim/pack 目錄下搜尋插件目錄
 
 {% code title=".vimrc" %}
 ```text
-" 當執行 :cmd 指令時才載入並執行 <目錄名> 插件
+" 當執行 :cmd 指令時才載入 <目錄名> 插件，並執行 :cmd
 commannd ! -nargs=* cmd :packadd <目錄名> | cmd <f-args>
 
-# 當文件類型為 type 時才載入並執行 <目錄名> 插件
+# 當文件類型為 type 時才載入 <目錄名> 插件，並執行插件指令
 autocmd filetype type :packadd <目錄名> | {插件指令}
 ```
 {% endcode %}
