@@ -38,7 +38,7 @@ option 有以下選項
 unnamed \* 暫存器  
 unnamedplus + 暫存器  
 unnamed,unnamedplus 同時使用 \* 和 + 暫存器  
-\* 和 + 暫存器跟系統剪貼板共用  
+在 mac 系統中 \* 和 + 暫存器跟系統剪貼板共用  
 例如 `yy` 複製一行，可以到外部貼上 `<command>V`  
 外部複製的內容也可以在 vim 用 `p` 貼上
 
