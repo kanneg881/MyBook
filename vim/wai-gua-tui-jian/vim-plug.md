@@ -48,6 +48,7 @@ Plug 'junegunn/vim-easy-align'
 
 " 當有執行 :NERDTreeToggle 指令時再載入
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+
 " 只對特定文件類型載入
 " 例如以下只對文件類型為 clojure 才載入
 Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
