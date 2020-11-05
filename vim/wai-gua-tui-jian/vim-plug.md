@@ -52,6 +52,9 @@ call plug#end()
 
 ### 說明文件
 
+ 安裝 junegunn/vim-plug 插件  
+可在 vim 用 `:help vim-plug` 查看幫助文件
+
 `Plug 'junegunn/vim-plug'`  
 vim-plug 在 vim 的幫助文件
 
