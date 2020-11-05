@@ -28,6 +28,13 @@
 
 {% code title=".vimrc" %}
 ```text
+" 如果還沒安裝 vim-plug，則下載安裝它(限 Unix)
+if empty(glob('~/.vim/autoload/plug.vim'))
+    silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs 
+                \ https://raw.github.com/junegunn/vim-plug/master/plug.vim
+    autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+
 " 使用前先執行此程式
 call plug#begin('~/.vim/plugged')
 
