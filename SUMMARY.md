@@ -76,7 +76,7 @@
   * [Auto Pairs](vim/wai-gua-tui-jian/auto-pairs.md)
   * [vim-plug](vim/wai-gua-tui-jian/vim-plug.md)
   * [Vundle](vim/wai-gua-tui-jian/vundle.md)
-  * [原生插件管理\(未完成\)](vim/wai-gua-tui-jian/yuan-sheng-cha-jian-guan-li-wei-wan-cheng.md)
+  * [原生插件管理\(](vim/wai-gua-tui-jian/yuan-sheng-cha-jian-guan-li-wei-wan-cheng.md)
   * [visual-star-search](vim/wai-gua-tui-jian/visual-star-search.md)
 * [什麼是 vimrc](vim/shen-me-shi-vimrc/README.md)
   * [設定檔案配置](vim/shen-me-shi-vimrc/she-ding-dang-an-pei-zhi.md)

@@ -1,4 +1,4 @@
-# 原生插件管理\(未完成\)
+# 原生插件管理\(
 
 ## 目錄
 
@@ -26,11 +26,11 @@ vim 會在 .vim/pack 目錄下搜尋插件目錄
 
 {% code title=".vimrc" %}
 ```text
-" 當執行 :cmd 指令時才載入 <目錄名> 插件，並執行 :cmd
-commannd ! -nargs=* cmd :packadd <目錄名> | cmd <f-args>
+" 當執行 :cmd 指令時才載入 <目錄名稱> 插件，並執行 :cmd
+commannd ! -nargs=* cmd :packadd <目錄名稱> | cmd <f-args>
 
-# 當文件類型為 type 時才載入 <目錄名> 插件，並執行插件指令
-autocmd filetype type :packadd <目錄名> | {插件指令}
+# 當文件類型為 type 時才載入 <目錄名稱> 插件，並執行插件指令
+autocmd filetype type :packadd <目錄名稱> | {插件指令}
 ```
 {% endcode %}
 
@@ -69,7 +69,24 @@ $ git init
 ### 新增插件
 
 ```text
-$ git submodule add https://github.com/{插件網址} pack/<目錄名>/start/{插件名稱}
-$ git commit -am "add: {插件名稱}"
+$ git submodule add https://github.com/{插件網址} pack/<你的目錄>/start/<目錄名稱>
+$ git commit -am "add: <目錄名稱>"
 ```
+
+### 更新插件
+
+```text
+$ git submodule update --recursive
+$ git commit -am "mod: update plugins"
+```
+
+### 刪除插件
+
+```text
+$ git submodule deinit -f --pack/<目錄名稱>
+$ rm -rf .git/modules/pack/<你的目錄>/start/<目錄名稱>
+$ git rm -f pack/<你的目錄>/start/<目錄名稱>
+```
+
+
 
