@@ -147,12 +147,15 @@ fileName 檔案名稱
 `:!{cmd}`  
 在 vim 執行 shell 命令
 
+`:[range]r[ead] [++opt] !{cmd}`  
+執行 `{cmd}` 並把它的標準輸出插入到遊標下方
+
 `:shell`  
 開啟 shell 互動式窗  
 `exit` 命令離開 shell 返回 vim
 
-`:[range]r[ead] [++opt] !{cmd}`  
-執行 `{cmd}` 並把它的標準輸出插入到遊標下方
+`:term[inal]`  
+在 vim 開啟命令行系統
 
 ## :global
 
