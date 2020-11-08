@@ -255,3 +255,15 @@ set nospell
 `set spell&`  
 將該設定設定成預設值
 
+## silent
+
+此為忽略指令的回傳訊息
+
+`silent!`  
+忽略錯誤訊息和回傳訊息
+
+### 舉例
+
+`silent {command}`  
+執行 command 並忽略回傳訊息
+

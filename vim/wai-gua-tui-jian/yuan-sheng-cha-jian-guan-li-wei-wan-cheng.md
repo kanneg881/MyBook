@@ -44,5 +44,32 @@ autocmd filetype type :packadd <目錄名> | {插件指令}
 
 此目錄底下的插件，始終載入
 
+## 設定
 
+{% code title=".vimrc" %}
+```text
+" 載入 start 目錄中所有的插件
+" 預設會在載入 .vimrc 之後自動執行
+packloadall
+
+" 載入所有插件的幫助文件
+silent! helptags ALL
+```
+{% endcode %}
+
+## 使用 git 管理插件
+
+### 初始化 git 倉庫
+
+```text
+$ cd ~/.vim
+$ git init
+```
+
+### 新增插件
+
+```text
+$ git submodule add https://github.com/{插件網址} pack/<目錄名>/start/{插件名稱}
+$ git commit -am "add: {插件名稱}"
+```
 
