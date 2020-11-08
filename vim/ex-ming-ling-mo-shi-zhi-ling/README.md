@@ -23,8 +23,6 @@
 按 &lt;Ctrl-c&gt; 回到命令列並寫入游標的內容  
 `:help cmdline-editing` 查看更多命令行編輯
 
-
-
 `<Ctrl-Left>` 或 `<Shift-Left>`  
 向左移動一個單字
 
