@@ -76,6 +76,7 @@
     * [vim-plug](vim/wai-gua-tui-jian/cha-jian-guan-li-qi/vim-plug.md)
     * [原生插件管理](vim/wai-gua-tui-jian/cha-jian-guan-li-qi/yuan-sheng-cha-jian-guan-li-wei-wan-cheng.md)
     * [Vundle](vim/wai-gua-tui-jian/cha-jian-guan-li-qi/vundle.md)
+  * [分析插件](vim/wai-gua-tui-jian/fen-xi-cha-jian.md)
   * [surround](vim/wai-gua-tui-jian/surround.md)
   * [Auto Pairs](vim/wai-gua-tui-jian/auto-pairs.md)
   * [visual-star-search](vim/wai-gua-tui-jian/visual-star-search.md)
