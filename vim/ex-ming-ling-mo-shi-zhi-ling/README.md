@@ -20,7 +20,10 @@
 打開可編輯的命令列視窗  
 其中顯示的是之前執行過的命令的歷史紀錄  
 按 &lt;Enter&gt; 執行游標所在的那一行  
-按 &lt;Ctrl-c&gt; 回到命令列並寫入游標的內容
+按 &lt;Ctrl-c&gt; 回到命令列並寫入游標的內容  
+`:help cmdline-editing` 查看更多命令行編輯
+
+
 
 `<Ctrl-Left>` 或 `<Shift-Left>`  
 向左移動一個單字
