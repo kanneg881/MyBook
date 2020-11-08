@@ -13,7 +13,7 @@ snipMate & UltiSnip 語法片段，這個插件包含很多種語言的語法片
 安裝完 [coc](coc/) 和 [coc-snippets](coc/coc-snippets.md) 後  
 再安裝 vim-snippets 就可以用語法片段補全了
 
-官網裡面沒有提到用 [vim-plug](../vim-plug.md) 安裝  
+官網裡面沒有提到用 [vim-plug](../cha-jian-guan-li-qi/vim-plug.md) 安裝  
 不過仍可以用 vim-plug 安裝  
 `Plug 'honza/vim-snippets'`
 
