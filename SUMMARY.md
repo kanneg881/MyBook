@@ -26,6 +26,7 @@
   * [視窗、標籤頁、緩衝區](vim/pu-tong-mo-shi-zhi-ling/shi-chuang.md)
   * [拼寫檢查器](vim/pu-tong-mo-shi-zhi-ling/pin-xie-jian-cha-qi.md)
   * [文件管理器](vim/pu-tong-mo-shi-zhi-ling/wen-jian-guan-li-qi.md)
+* [可視模式](vim/ke-shi-mo-shi.md)
 * [插入模式指令](vim/cha-ru-mo-shi-zhi-ling.md)
 * [Ex命令模式指令](vim/ex-ming-ling-mo-shi-zhi-ling/README.md)
   * [自動補齊](vim/ex-ming-ling-mo-shi-zhi-ling/zi-dong-bu-qi.md)
