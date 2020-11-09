@@ -135,6 +135,8 @@ noremap, nnoremap, vnoremap...
 
 ## 刪除映射語法
 
+### 刪除一個映射
+
 {cmd} {lhs}
 
 前面指定模式英文加上 unmap  
@@ -144,6 +146,11 @@ unmap, nunmap ,vunmap...
 
 `:unnmap gq`  
 刪除 gq 映射
+
+### 刪除所有映射
+
+`:mapclear`  
+清除所有映射
 
 ## 常用指令
 
