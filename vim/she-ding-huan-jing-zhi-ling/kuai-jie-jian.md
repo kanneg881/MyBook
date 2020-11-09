@@ -175,6 +175,7 @@ unmap, nunmap ,vunmap...
 | &lt;f1&gt; ~ &lt;f12&gt; | F1 ~ F12 鍵 |
 | &lt;home&gt; | Home 鍵 |
 | &lt;insert&gt; | Insert 鍵 |
+| &lt;nop&gt; | 無操作 |
 | &lt;pagedown&gt; | 下翻鍵 |
 | &lt;pageup&gt; | 上翻鍵 |
 | &lt;right&gt; | 箭頭右 |
