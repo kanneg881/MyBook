@@ -7,7 +7,7 @@
 `:help index`  
 查看內建按鍵綁定列表
 
-:map {command}  
+`:map {command}`  
 查看 :map 指令 command 開頭的映射  
 例如：  
 `:map g`  
