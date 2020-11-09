@@ -160,5 +160,27 @@ unmap, nunmap ,vunmap...
 `:h key-notation`  
 查看按鍵英文名稱
 
+## 特殊按鍵
+
+特殊按鍵的符號表
+
+| 符號 | 按鍵 |
+| :--- | :--- |
+| &lt;bs&gt; | 退隔鍵 |
+| &lt;cr&gt; 或 &lt;enter&gt; | Enter 鍵 |
+| &lt;del&gt; | Delete 鍵 |
+| &lt;down&gt; | 箭頭下 |
+| &lt;end&gt; | End 鍵 |
+| &lt;esc&gt; | Esc 鍵 |
+| &lt;f1&gt; ~ &lt;f12&gt; | F1 ~ F12 鍵 |
+| &lt;home&gt; | Home 鍵 |
+| &lt;insert&gt; | Insert 鍵 |
+| &lt;pagedown&gt; | 下翻鍵 |
+| &lt;pageup&gt; | 上翻鍵 |
+| &lt;right&gt; | 箭頭右 |
+| &lt;space&gt; | 空白鍵 |
+| &lt;tab&gt; | Tab 鍵 |
+| &lt;up&gt; | 箭頭下 |
+
 
 
