@@ -42,3 +42,12 @@ $ ctags -R .
 
 從當前的工作目錄開始，遍歷所有的子目錄，並為其中的每一個文件建立索引。最終，再把這個標籤文件保存到當前工作目錄中。
 
+### 配置 .vimrc
+
+{% code title=".vimrc" %}
+```text
+" 保存 python 檔案時，自動更新標籤
+autocmd BufWritePost *.py silent! !ctags -R &
+```
+{% endcode %}
+
