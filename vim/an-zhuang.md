@@ -23,6 +23,9 @@
 `$ vim -p file1 file2 ...`  
 標籤頁方式打開 file1 file2 等等
 
+`$ vim -t {tag}`  
+跳轉到 tag 標籤上
+
 ### MacVim
 
 把 vim 改成 mvim
