@@ -1,5 +1,10 @@
 # 原生插件管理
 
+## 說明
+
+vim8 內建的插件管理器  
+在 vim8 版本以前，請改用 [vim-plug](vim-plug.md)
+
 ## 目錄
 
 vim 會在 .vim/pack 目錄下搜尋插件目錄
