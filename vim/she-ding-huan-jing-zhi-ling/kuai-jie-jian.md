@@ -80,7 +80,8 @@
 
 預設 leader 為 \
 
-你可以更改 Leader 變數  
+### 更改 leader
+
 `:let mapleader = ","`
 
 如上 Leader 變成 ,
@@ -91,6 +92,18 @@
 輸入 \a 會變成 i   
 假如 Leader 變數為 \  
 i 為插入模式
+
+若要加在 .vimrc 需在頂部新增  
+因為此設定只在定義後有效
+
+若要設定為特殊字元，需要轉義
+
+{% code title=".vimrc" %}
+```text
+" 將 leader 設定為空白鍵
+let mapleader = "\<space>"
+```
+{% endcode %}
 
 ## 設定遞迴映射語法
 
