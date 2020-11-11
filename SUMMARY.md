@@ -66,6 +66,7 @@
     * [NERD Comment](vim/wai-gua-tui-jian/dai-ma/untitled.md)
     * [ctags](vim/wai-gua-tui-jian/dai-ma/ctags-jian-yi-shui-ming.md)
   * [外觀](vim/wai-gua-tui-jian/wai-guan/README.md)
+    * [vim-mundo](vim/wai-gua-tui-jian/wai-guan/vim-mundo.md)
     * [css color](vim/wai-gua-tui-jian/wai-guan/css-color.md)
     * [coc-explorer](vim/wai-gua-tui-jian/wai-guan/coc-explorer.md)
     * [purity](vim/wai-gua-tui-jian/wai-guan/purity.md)
