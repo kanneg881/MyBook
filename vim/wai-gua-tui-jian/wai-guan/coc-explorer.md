@@ -22,7 +22,8 @@
 
 ## 簡易說明
 
-安裝方式到 coc-explorer 官網查看
+安裝方式到 coc-explorer 官網查看  
+Wiki -&gt; Quickstart -&gt; Install
 
 `:CocCommand explorer`  
 打開檔案瀏覽器，下面有教學配置快捷鍵
