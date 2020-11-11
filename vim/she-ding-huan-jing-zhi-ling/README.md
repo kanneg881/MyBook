@@ -182,6 +182,12 @@ sts softtabstop 把 &lt;Tab&gt; 算作空隔的數目
 sw shiftwidth 為縮排所需的 Space 個數  
 et exandtab 為插入空白
 
+`set undodir=~/.vim/undo`  
+撤銷檔案共用區路徑
+
+`set undofile`  
+儲存撤銷檔案在共用區
+
 `set updatetime=4000`  
 如果過了這麼多毫秒數以後還沒有任何輸入，把交換文件寫入磁盤
 
