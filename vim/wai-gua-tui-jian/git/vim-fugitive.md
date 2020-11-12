@@ -26,15 +26,41 @@ Plug 'tpope/vim-fugitive'
 
 ## 常用指令
 
+`:Gblame`  
+同 git blame
+
 `:Glog`  
-同 git log  
-會打開一個 [Quickfix](../../ex-ming-ling-mo-shi-zhi-ling/quickfix.md) 視窗  
-可以此視窗指令操作 Quickfix 指令
+同 git log
 
 `:Gstatus`  
 同 git status
 
-### 在 status 中的操作
+### 在 :Gblame 中的操作
+
+`<Enter>`  
+打開檔案差異
+
+`A`  
+調整 blame 視窗大小，可看見提交、作者
+
+`C`  
+調整 blame 視窗大小，可看見提交
+
+`D`  
+調整 blame 視窗大小，可看見提交、作者、日期
+
+`g?`  
+幫助說明
+
+`o`  
+在分割視窗中打開選擇的檔案差異
+
+### 在 :Glog 中的操作
+
+會打開一個 [Quickfix](../../ex-ming-ling-mo-shi-zhi-ling/quickfix.md) 視窗  
+可以此視窗指令操作 Quickfix 指令
+
+### 在 :Gstatus 中的操作
 
 支援大部分[普通模式的移動](../../pu-tong-mo-shi-zhi-ling/yi-dong.md)方式
 
