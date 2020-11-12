@@ -81,13 +81,3 @@ Plug 'tpope/vim-fugitive'
 
 ## 配置 .vimrc
 
-{% code title=".vimrc" %}
-```text
-" 儲存撤銷檔案在共用區
-set undofile
-" 撤銷檔案共用區路徑
-set undodir=~/.vim/undo
-
-```
-{% endcode %}
-
