@@ -88,5 +88,3 @@ Plug 'tpope/vim-fugitive'
 `gq`  
 離開 status
 
-## 配置 .vimrc
-

@@ -80,6 +80,7 @@
     * [Vundle](vim/wai-gua-tui-jian/cha-jian-guan-li-qi/vundle.md)
   * [Git](vim/wai-gua-tui-jian/git/README.md)
     * [vim-fugitive](vim/wai-gua-tui-jian/git/vim-fugitive.md)
+    * [gv.vim](vim/wai-gua-tui-jian/git/gv.vim.md)
   * [分析插件](vim/wai-gua-tui-jian/fen-xi-cha-jian.md)
   * [surround](vim/wai-gua-tui-jian/surround.md)
   * [Auto Pairs](vim/wai-gua-tui-jian/auto-pairs.md)
