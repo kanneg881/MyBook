@@ -29,6 +29,9 @@ Plug 'tpope/vim-fugitive'
 `:Gblame`  
 同 git blame
 
+`:Gdelete`  
+同 git remove
+
 `:Glog`  
 同 git log
 
