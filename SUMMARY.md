@@ -47,6 +47,7 @@
   * [編輯器高亮顏色](vim/she-ding-huan-jing-zhi-ling/bei-jing-yan-se.md)
 * [設定 help 文件中文版](vim/she-ding-help-wen-jian-zhong-wen-ban.md)
 * [交換文件](vim/jiao-huan-wen-jian.md)
+* [比較檔案](vim/bi-jiao-dang-an.md)
 * [函數庫](vim/han-shu-ku.md)
 * [插件推薦](vim/wai-gua-tui-jian/README.md)
   * [代碼](vim/wai-gua-tui-jian/dai-ma/README.md)
