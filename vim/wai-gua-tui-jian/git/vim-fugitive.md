@@ -32,6 +32,9 @@ Plug 'tpope/vim-fugitive'
 `:Glog`  
 同 git log
 
+`:Gmove path/to/file`  
+移動當前檔案到 path/to/file
+
 `:Gstatus`  
 同 git status
 
@@ -66,6 +69,9 @@ Plug 'tpope/vim-fugitive'
 
 `-`  
 移入或移出 stage 區
+
+`X`  
+復原檔案
 
 `dd`  
 在底下使用水平分割顯示檔案差異
