@@ -37,6 +37,14 @@ S- shift
 分離會話，類似斷線  
 會提示 \[detached \(from session sessionName\)\]
 
+## 改變當前會話
+
+`C-b )`  
+向後移動會話
+
+`C-b (`  
+向前移動會話
+
 ## 改變當前窗口
 
 `C-b number`  
