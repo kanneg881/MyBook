@@ -1,35 +1,38 @@
 # 常用指令
 
-`git add <檔案>`  
+`$ git add <檔案>`  
 將檔案加入追蹤
 
-`git commit [-a -m "訊息"]`  
+`$ git checkout -b <branch>`  
+新增分支，並切換此分支
+
+`$ git commit [-a -m "訊息"]`  
 提交追蹤的檔案  
 -a add 追蹤  
 -m 快速寫提交訊息  
 沒有打 -m 會跳到編輯視窗用來輸入提交訊息
 
-`git diff`  
+`$ git diff`  
 顯示和前一個 commit 之間的差異，即修改哪些檔案
 
-`git reset <參照> <檔案>`   
+`$ git reset <參照> <檔案>`   
 命令將檔案的狀態重設成未追蹤。
 
 ```text
 $ git reset HEAD NewFile.txt
 ```
 
-`git rm --cached fileName`  
+`$ git rm --cached fileName`  
 將 fileName 檔案取消追蹤
 
-`git status`  
+`$ git status`  
 顯示目前工作環境狀態
 
 
 
 ## 配置
 
-`git config <key>`  
+`$ git config <key>`  
 檢視某個設定目前的值
 
 ```text
@@ -37,7 +40,7 @@ $ git config user.name
 Enjoy
 ```
 
-`git config [--level] --list`  
+`$ git config [--level] --list`  
 列出所有 Git 在目前位置能找到的設定值  
 --level 有三個層級
 
@@ -57,7 +60,7 @@ user.email=enjoy@example.com
 ...
 ```
 
-`git config [--level] <key> <value>`  
+`$ git config [--level] <key> <value>`  
 設定 git 環境  
 --level 層級  
 &lt;key&gt; 環境參數  
