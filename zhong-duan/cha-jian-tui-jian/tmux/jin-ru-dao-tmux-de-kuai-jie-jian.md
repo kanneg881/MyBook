@@ -12,7 +12,7 @@ S- shift
 
 #### 在 mac os 使用 Meta 需要在終端打開 option
 
-![](../../../../.gitbook/assets/jie-tu-20200427-xia-wu-7.15.48.png)
+![](../../../.gitbook/assets/jie-tu-20200427-xia-wu-7.15.48.png)
 
 ## 一般快捷鍵
 
@@ -229,7 +229,7 @@ tmux 有自己的複製和貼上系統，複製的內容會在貼上緩衝區
 在 mac os  的快捷鍵中 `C-Space` 已經是開啟 Spotlight  
 如果沒有使可以把此快捷鍵關閉，否則會無法選取複製
 
-![](../../../../.gitbook/assets/jie-tu-20200429-shang-wu-1.15.06.png)
+![](../../../.gitbook/assets/jie-tu-20200429-shang-wu-1.15.06.png)
 
 | 快捷鍵 | 動作 |
 | :--- | :--- |

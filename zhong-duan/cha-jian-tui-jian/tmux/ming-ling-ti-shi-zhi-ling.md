@@ -3,7 +3,7 @@
 ## 說明
 
 在 tmux 裡面的命令提示指令，但並不是在 tmux 裡的終端指令  
-而是類似 Vim 的 [Ex命令模式指令](../../../../vim/ex-ming-ling-mo-shi-zhi-ling/)
+而是類似 Vim 的 [Ex命令模式指令](../../../vim/ex-ming-ling-mo-shi-zhi-ling/)
 
 此指令是會在狀態欄中出現 : 冒號提示輸入指令  
 這時候輸入的指令才是  tmux 的命令提示指令
@@ -13,7 +13,7 @@
 `C-b :`  
 切換命令提示，狀態欄會變成冒號 :
 
-![](../../../../.gitbook/assets/tmux_command_prompt.png)
+![](../../../.gitbook/assets/tmux_command_prompt.png)
 
 多個指令，可以用分號 ; 區隔
 
