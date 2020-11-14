@@ -87,6 +87,7 @@
   * [surround](vim/wai-gua-tui-jian/surround.md)
   * [Auto Pairs](vim/wai-gua-tui-jian/auto-pairs.md)
   * [visual-star-search](vim/wai-gua-tui-jian/visual-star-search.md)
+  * [vim-tmux-navigator](vim/wai-gua-tui-jian/vim-tmux-navigator.md)
 * [什麼是 vimrc](vim/shen-me-shi-vimrc/README.md)
   * [設定檔案配置](vim/shen-me-shi-vimrc/she-ding-dang-an-pei-zhi.md)
   * [ftplugin](vim/shen-me-shi-vimrc/ftplugin.md)
