@@ -1,5 +1,8 @@
 # 進入到 tmux 指令
 
+`$ exit`  
+離開 tmux
+
 `$ tmux detach-client -a`  
 分離連接此客戶端以外的所有客戶端
 
