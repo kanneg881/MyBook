@@ -19,6 +19,8 @@ Plug 'christoomey/vim-tmux-navigator'
 ```
 {% endcode %}
 
+[安裝 tmux 插件](../../zhong-duan/tmux/cha-jian-tui-jian/vim-tmux-navigator.md)
+
 ## 指令
 
 `<ctrl-h>`  
