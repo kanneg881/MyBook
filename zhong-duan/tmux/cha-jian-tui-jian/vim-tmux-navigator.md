@@ -14,3 +14,20 @@ set -g @plugin 'christoomey/vim-tmux-navigator'
 
 輸入 `prefix` + I 安裝
 
+## 指令
+
+`<ctrl-h>`  
+向左移動
+
+`<ctrl-j>`  
+向下移動
+
+`<ctrl-k>`  
+向上移動
+
+`<ctrl-l>`  
+向右移動
+
+`<ctrl-\>`  
+移動到上一個分割
+
