@@ -4,7 +4,13 @@
 
 此插件為讓 vim 和 tmux 窗口移動保持一致的指令
 
+## 官網
+
+{% embed url="https://github.com/christoomey/vim-tmux-navigator" %}
+
 ## 安裝
+
+使用插件管理器安裝
 
 {% code title=".tmux.conf" %}
 ```text
