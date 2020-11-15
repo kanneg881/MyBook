@@ -37,6 +37,7 @@
   * [Quickfix](vim/ex-ming-ling-mo-shi-zhi-ling/quickfix.md)
   * [tags](vim/ex-ming-ling-mo-shi-zhi-ling/tags.md)
   * [文件管理器](vim/ex-ming-ling-mo-shi-zhi-ling/wen-jian-guan-li-qi.md)
+* [終端模式](vim/zhong-duan-mo-shi.md)
 * [搜尋模式指令](vim/sou-xun-mo-shi-zhi-ling/README.md)
   * [{pattern}](vim/sou-xun-mo-shi-zhi-ling/pattern.md)
 * [環境設定](vim/she-ding-huan-jing-zhi-ling/README.md)

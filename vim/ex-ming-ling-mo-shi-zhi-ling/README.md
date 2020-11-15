@@ -154,11 +154,6 @@ fileName 檔案名稱
 開啟 shell 互動式窗  
 `exit` 命令離開 shell 返回 vim
 
-`:term[inal] [{command}]`  
-在 vim 新的視窗中，開啟命令行系統  
-如果後面有帶 command 則會執行此指令  
-並將輸出顯示在新的視窗
-
 ## :global
 
 `:[range]g[lobal]/{pattern}/[cmd]`  
