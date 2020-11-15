@@ -121,10 +121,13 @@ vim 內部的 grep
 
 ## grep
 
-外部的 grep，就像系統的 grep 指令  
+外部的 grep，就像系統的 grep 指令
+
+`:gr[ep][!] [arguments]`  
 搜尋結果會存放在 [quickfix](../ex-ming-ling-mo-shi-zhi-ling/quickfix.md) 列表
 
-`:gr[ep][!] [arguments]`
+`:lgr[ep][!] [arguments]`  
+搜尋結果會存放在當前視窗的位置列表
 
 ### 參數
 
