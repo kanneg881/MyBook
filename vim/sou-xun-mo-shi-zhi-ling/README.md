@@ -121,13 +121,19 @@ vim 內部的 grep
 
 ## grep
 
-外部的 grep，就像系統的 grep 指令
+外部的 grep，就像系統的 grep 指令  
+搜尋結果會存放在 [quickfix](../ex-ming-ling-mo-shi-zhi-ling/quickfix.md) 列表
 
 `:gr[ep][!] [arguments]`
 
 ### 參數
 
 -i 不區分大小寫
+
+### 舉例
+
+`:grep -r --include="*.txt" keyword path`  
+遞迴搜尋 path 的所有 txt 檔，包含 keyword 的內容
 
 ## 尋找檔案
 
