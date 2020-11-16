@@ -31,6 +31,10 @@
 `?{pattern}?`  
 反向匹配 pattern 的行
 
+### 幫助文件
+
+`:help cmdline-ranges`
+
 ## 範圍組合
 
 `開始;結尾`  
