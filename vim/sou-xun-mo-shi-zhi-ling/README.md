@@ -98,6 +98,11 @@ very nomagic 搜尋模式，消除特殊字元含義例如 `.?*`
 `n`  
 報告匹配的次數，並不實際進行替代
 
+### 舉例
+
+`:%s/jack/vick/g`  
+將當前文件中所有的 jack 改成 vick
+
 ## vimgrep
 
 vim 內部的 grep  
