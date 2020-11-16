@@ -50,25 +50,31 @@ very nomagic 搜尋模式，消除特殊字元含義例如 `.?*`
 
 ## 替代
 
-搜尋一段文字，再用另一段文字將其替換  
-`:[range]s[ubstitute]/{pattern}/{string}/[flags]`
+`:[range]s[ubstitute]/{pattern}/{string}/[flags]`  
+搜尋一段文字，再用另一段文字將其替換
 
+`:[range]&[&][flags] [count]`  
 使用最後一次 `:substitute` 相同的模式和替代字串  
-第二個 & 為使用最後一次的旗標  
-`:[range]&[&][flags] [count]`
+第二個 & 為使用最後一次的旗標
 
 `{pattern}` 和 `{string}` 都適用正規表達式
 
 執行 `{Vim Script}` 表達式，並將返回的結果作為替換 `{string}`  
 `\={Vim Script}`
 
-使用上一個調用 `:substitute` 時的 `{string}`  
-`~`
+`~`  
+使用上一個調用 `:substitute` 時的 `{string}`
 
 ### flags
 
-確認或拒絕每一處的修改  
-`c`
+`&`  
+重用上一次 substitute 命令所用過的旗標
+
+`I`  
+區分大小寫
+
+`c`  
+確認或拒絕每一處的修改
 
 | 提示 | 說明 |
 | :--- | :--- |
@@ -80,17 +86,17 @@ very nomagic 搜尋模式，消除特殊字元含義例如 `.?*`
 | ^E &lt;Ctrl-e&gt; | 向上滾動視窗 |
 | ^Y &lt;Ctrl-y&gt; | 向下滾動視窗 |
 
-屏蔽沒有匹配到該模式的錯誤提示訊息 "E486: 找不到模式"  
-`e`
+`e`  
+屏蔽沒有匹配到該模式的錯誤提示訊息 "E486: 找不到模式"
 
-對行內所有的匹配進行替代  
-`g`
+`g`  
+對行內所有的匹配進行替代
 
-報告匹配的次數，並不實際進行替代  
-`n`
+`i`  
+忽略大小寫
 
-重用上一次 substitute 命令所用過的旗標  
-`&`
+`n`  
+報告匹配的次數，並不實際進行替代
 
 ## vimgrep
 
