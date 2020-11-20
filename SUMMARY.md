@@ -40,6 +40,7 @@
 * [終端模式](vim/zhong-duan-mo-shi.md)
 * [搜尋模式指令](vim/sou-xun-mo-shi-zhi-ling/README.md)
   * [{pattern}](vim/sou-xun-mo-shi-zhi-ling/pattern.md)
+  * [magic](vim/sou-xun-mo-shi-zhi-ling/magic.md)
 * [環境設定](vim/she-ding-huan-jing-zhi-ling/README.md)
   * [環境變數](vim/she-ding-huan-jing-zhi-ling/huan-jing-bian-shu.md)
   * [映射](vim/she-ding-huan-jing-zhi-ling/kuai-jie-jian.md)

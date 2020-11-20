@@ -102,8 +102,17 @@ number 為距離
 顯示 tab 尾部空白、換行符號  
 不顯示則改成 nolist
 
+`set magic`  
+設定[魔法模式](../sou-xun-mo-shi-zhi-ling/magic.md#ji-ben-mo-fa)  
+此為預設模式
+
 `set nobackup`  
 不需要備份文件
+
+`set nomagic`  
+設定[無魔法模式](../sou-xun-mo-shi-zhi-ling/magic.md#wu-mo-fa)  
+**注意！**這可能會造成插件出現錯誤  
+如果插件使用魔法模式的話
 
 `set nonumber`  
 不顯示行號
