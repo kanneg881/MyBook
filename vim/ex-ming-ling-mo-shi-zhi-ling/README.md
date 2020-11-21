@@ -2,6 +2,12 @@
 
 ## 快捷鍵
 
+`<Ctrl-Left>` 或 `<Shift-Left>`  
+向左移動一個單字
+
+`<Ctrl-Right>` 或 `<Shift-Right>`  
+向右移動一個單字
+
 `<Ctrl-b>`  
 移動到命令開頭
 
@@ -23,17 +29,16 @@
 按 &lt;Ctrl-c&gt; 回到命令列並寫入游標的內容  
 `:help cmdline-editing` 查看更多命令行編輯
 
-`<Ctrl-Left>` 或 `<Shift-Left>`  
-向左移動一個單字
-
 `<Ctrl-n>` 或 `<Down>`  
 瀏覽下個命令的歷史紀錄
 
 `<Ctrl-p>` 或 `<Up>`  
 瀏覽上個命令的歷史紀錄
 
-`<Ctrl-Right>` 或 `<Shift-Right>`  
-向右移動一個單字
+`<Ctrl-r><Ctrl-w>`  
+插入游標下的單詞
+
+
 
 ## 幫助
 
