@@ -33,6 +33,7 @@
   * [\[range\] {address}](vim/ex-ming-ling-mo-shi-zhi-ling/range.md)
   * [視窗、標籤頁](vim/ex-ming-ling-mo-shi-zhi-ling/shi-chuang.md)
   * [緩衝區](vim/ex-ming-ling-mo-shi-zhi-ling/huan-chong-ou.md)
+  * [暫存器](vim/ex-ming-ling-mo-shi-zhi-ling/zan-cun-qi.md)
   * [ex-flags](vim/ex-ming-ling-mo-shi-zhi-ling/ex-flags.md)
   * [Quickfix](vim/ex-ming-ling-mo-shi-zhi-ling/quickfix.md)
   * [tags](vim/ex-ming-ling-mo-shi-zhi-ling/tags.md)
