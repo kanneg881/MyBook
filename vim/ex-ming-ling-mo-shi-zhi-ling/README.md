@@ -142,6 +142,17 @@ fileName 檔案名稱
 開啟 shell 互動式窗  
 `exit` 命令離開 shell 返回 vim
 
+## :execute
+
+`:exe[cute] {expr1} ..`  
+計算 {expr1}，返回的字串作為 Ex 命令執行。
+
+### 舉例
+
+`:execute "normal w"`  
+執行 normal 模式的 w  
+也就是移動到下一個單詞
+
 ## :global
 
 `:[range]g[lobal]/{pattern}/[cmd]`  
