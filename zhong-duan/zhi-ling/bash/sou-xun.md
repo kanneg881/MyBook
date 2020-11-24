@@ -96,14 +96,14 @@ fileName 檔案名稱
 `$ grep -i -r ./ -e 'keyword'`  
 不區分大小寫的遞迴搜尋當前目錄下 keyword 字串
 
-`$  echo 'a,b,c,d,e' | grep -Po '.*?,'`  
+`$ echo 'a,b,c,d,e' | grep -Po '.*?,'`  
 輸出如下  
 a,  
 b,  
 c,  
 d,
 
-`$  echo 'a,b,c,d,e' | grep -Po '.*,'`  
+`$ echo 'a,b,c,d,e' | grep -Po '.*,'`   
 輸出如下  
 a,b,c,d,
 
