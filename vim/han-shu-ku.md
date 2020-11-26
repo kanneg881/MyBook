@@ -1,6 +1,6 @@
 # 函數庫
 
-`escape({string}, {chars})`  
+`escape({string}, {chars})`   
 轉義 string，chars 為要被轉義的字元
 
 `executable({expr})`  
