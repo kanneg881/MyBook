@@ -62,6 +62,7 @@
       * [coc-json](vim/wai-gua-tui-jian/dai-ma/coc/coc-json.md)
       * [ccls](vim/wai-gua-tui-jian/dai-ma/coc/ccls.md)
       * [VimScript Language Server](vim/wai-gua-tui-jian/dai-ma/coc/vimscript-language-server.md)
+      * [coc-prettier](vim/wai-gua-tui-jian/dai-ma/coc/coc-prettier.md)
     * [deoplete](vim/wai-gua-tui-jian/dai-ma/deoplete.md)
     * [ale](vim/wai-gua-tui-jian/dai-ma/ale/README.md)
       * [C](vim/wai-gua-tui-jian/dai-ma/ale/c.md)
