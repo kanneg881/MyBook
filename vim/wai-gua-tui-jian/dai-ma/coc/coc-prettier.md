@@ -8,5 +8,9 @@
 
 {% embed url="https://github.com/neoclide/coc-prettier" %}
 
+{% embed url="https://github.com/sbdchd/neoformat" caption="也許更棒" %}
+
+
+
 
 
