@@ -19,7 +19,8 @@ PHP 是後端程式語言
 {% code title="/usr/local/etc/httpd/httpd.conf" %}
 ```text
 # 載入 PHP 模組，請放到 LoadModule 最後面
-LoadModule php7_module /usr/local/opt/php/lib/httpd/modules/libphp7.so
+# 請依照實際路徑設定，以下為作者開發時的路徑
+LoadModule php_module /usr/local/opt/php/lib/httpd/modules/libphp.so
 
 # 尋找此標籤，並修改成如下，預設讀取 index.php
 <IfModule dir_module>
